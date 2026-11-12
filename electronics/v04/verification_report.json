@@ -1,0 +1,80 @@
+{
+  "revision": "0.4",
+  "components": 16,
+  "supplier_bound": true,
+  "unique_ids_matched": true,
+  "electrical_audit": {
+    "parts": 16,
+    "pins": 40,
+    "errors": []
+  },
+  "pcb_drc": {
+    "passed": true,
+    "details": []
+  },
+  "schematic_erc": [],
+  "board_mm": [
+    60,
+    40,
+    1.6
+  ],
+  "assumed_board_thickness_mm": 1.6,
+  "mount_holes_mm": [
+    [
+      4,
+      4,
+      3.2
+    ],
+    [
+      56,
+      4,
+      3.2
+    ],
+    [
+      56,
+      36,
+      3.2
+    ],
+    [
+      4,
+      36,
+      3.2
+    ]
+  ],
+  "copper_widths_mm": {
+    "VIN5": 0.8001,
+    "V5_SERVO": 0.8001,
+    "GND": 0.8001,
+    "signals": 0.3048
+  },
+  "routing_clearance_mm": 0.254,
+  "route_segments": 69,
+  "via_count": 0,
+  "mechanical_limits": [
+    "Component 3D models are library approximations; C1 shows a 16mm generic body, while EEUFR1E471 body is 12.5mm.",
+    "F1 3D library name is H8.5, while RUEF110 maximum height is 14.2mm. Check with datasheet envelope.",
+    "Untrimmed through-hole lead geometry extends below board; trim after soldering before installing.",
+    "External MCU model, wiring plug height, cable bend and load-current measurements remain unverified."
+  ],
+  "not_verified": [
+    "Physical servo torque and switch snap force",
+    "Printed mechanism dynamics",
+    "Power supply droop and servo stall current"
+  ],
+  "not_ordered": true,
+  "plated_holes_count": 40,
+  "mount_holes_count": 4,
+  "plated_drills_mm": [
+    0.70002,
+    0.8,
+    1.0,
+    1.02001,
+    1.10002,
+    1.2
+  ],
+  "gerber_sha256": "8d1075b1a230ec485907dc68bdbb4885a83b55f785e1460c744ea491bdbe13a4",
+  "native_drc_minimum_track_mm": 0.3,
+  "native_drc_copper_clearance_mm": 0.25,
+  "routing_target_clearance_mm": 0.254,
+  "actual_trace_widths_verified": true
+}

@@ -1,0 +1,120 @@
+{
+  "passed": true,
+  "backend": "localhost TCP process exercised with actual sockets",
+  "physical_hardware_connected": false,
+  "requests": [
+    {
+      "request": {
+        "type": "command",
+        "value": "INVALID"
+      },
+      "response": {
+        "accepted": false,
+        "physical_state_confirmed": false
+      }
+    },
+    {
+      "request": {
+        "type": "pwm",
+        "microseconds": 99999
+      },
+      "response": {
+        "accepted": false
+      }
+    },
+    {
+      "request": {
+        "type": "command",
+        "value": "ON"
+      },
+      "response": {
+        "accepted": true,
+        "physical_state_confirmed": false
+      }
+    },
+    {
+      "request": {
+        "type": "state"
+      },
+      "response": {
+        "mode": "SIMULATION_ONLY",
+        "time_s": 1.6088749999997882,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.4007233808230479,
+        "rocker_deg": -3.4999999999999987,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.3425685893291795e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0,
+        "feedback_source": "MuJoCo model, not a real sensor"
+      }
+    },
+    {
+      "request": {
+        "type": "command",
+        "value": "OFF"
+      },
+      "response": {
+        "accepted": true,
+        "physical_state_confirmed": false
+      }
+    },
+    {
+      "request": {
+        "type": "state"
+      },
+      "response": {
+        "mode": "SIMULATION_ONLY",
+        "time_s": 3.2112500000010518,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": 0.3491835801865417,
+        "rocker_deg": 3.4999999999999987,
+        "target_deg": 0.0,
+        "servo_torque_nm": 2.9299105916990936e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0,
+        "feedback_source": "MuJoCo model, not a real sensor"
+      }
+    },
+    {
+      "request": {
+        "type": "pwm",
+        "microseconds": 1550
+      },
+      "response": {
+        "accepted": true
+      }
+    },
+    {
+      "request": {
+        "type": "state"
+      },
+      "response": {
+        "mode": "SIMULATION_ONLY",
+        "time_s": 3.6186250000015496,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": 0.39488839516459034,
+        "rocker_deg": 3.4999999999999987,
+        "target_deg": 4.5,
+        "servo_torque_nm": 2.9298954117379033e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0,
+        "feedback_source": "MuJoCo model, not a real sensor"
+      }
+    },
+    {
+      "request": {
+        "type": "shutdown"
+      },
+      "response": {
+        "accepted": true
+      }
+    }
+  ],
+  "invalid_pwm_cases": 7,
+  "burst_commands": 1000,
+  "finite_queue_latest_wins": true
+}

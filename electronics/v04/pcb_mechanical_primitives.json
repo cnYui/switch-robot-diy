@@ -1,0 +1,140 @@
+{
+  "outline": {
+    "async": true,
+    "primitiveType": "Polyline",
+    "net": "",
+    "layer": 11,
+    "polygon": {
+      "polygon": [
+        0,
+        0,
+        "L",
+        2362.2047244094488,
+        0,
+        2362.2047244094488,
+        1574.8031496062993,
+        0,
+        1574.8031496062993,
+        0,
+        0
+      ]
+    },
+    "lineWidth": 7.874015748031497,
+    "primitiveLock": true,
+    "primitiveId": "bb5241b1f5046a49"
+  },
+  "holes": [
+    {
+      "async": true,
+      "primitiveType": "Pad",
+      "layer": 12,
+      "padNumber": "",
+      "x": 157.48031496062993,
+      "y": 157.48031496062993,
+      "rotation": 0,
+      "pad": [
+        "ELLIPSE",
+        125.98425196850395,
+        125.98425196850395
+      ],
+      "net": "",
+      "hole": [
+        "ROUND",
+        125.98425196850395
+      ],
+      "holeOffsetX": 0,
+      "holeOffsetY": 0,
+      "holeRotation": 0,
+      "metallization": false,
+      "padType": 0,
+      "solderMaskAndPasteMaskExpansion": null,
+      "heatWelding": null,
+      "primitiveLock": true,
+      "primitiveId": "6c9ebf34937c1b18"
+    },
+    {
+      "async": true,
+      "primitiveType": "Pad",
+      "layer": 12,
+      "padNumber": "",
+      "x": 2204.724409448819,
+      "y": 157.48031496062993,
+      "rotation": 0,
+      "pad": [
+        "ELLIPSE",
+        125.98425196850395,
+        125.98425196850395
+      ],
+      "net": "",
+      "hole": [
+        "ROUND",
+        125.98425196850395
+      ],
+      "holeOffsetX": 0,
+      "holeOffsetY": 0,
+      "holeRotation": 0,
+      "metallization": false,
+      "padType": 0,
+      "solderMaskAndPasteMaskExpansion": null,
+      "heatWelding": null,
+      "primitiveLock": true,
+      "primitiveId": "420953f3208680c3"
+    },
+    {
+      "async": true,
+      "primitiveType": "Pad",
+      "layer": 12,
+      "padNumber": "",
+      "x": 2204.724409448819,
+      "y": 1417.3228346456694,
+      "rotation": 0,
+      "pad": [
+        "ELLIPSE",
+        125.98425196850395,
+        125.98425196850395
+      ],
+      "net": "",
+      "hole": [
+        "ROUND",
+        125.98425196850395
+      ],
+      "holeOffsetX": 0,
+      "holeOffsetY": 0,
+      "holeRotation": 0,
+      "metallization": false,
+      "padType": 0,
+      "solderMaskAndPasteMaskExpansion": null,
+      "heatWelding": null,
+      "primitiveLock": true,
+      "primitiveId": "2481429c2c8708c0"
+    },
+    {
+      "async": true,
+      "primitiveType": "Pad",
+      "layer": 12,
+      "padNumber": "",
+      "x": 157.48031496062993,
+      "y": 1417.3228346456694,
+      "rotation": 0,
+      "pad": [
+        "ELLIPSE",
+        125.98425196850395,
+        125.98425196850395
+      ],
+      "net": "",
+      "hole": [
+        "ROUND",
+        125.98425196850395
+      ],
+      "holeOffsetX": 0,
+      "holeOffsetY": 0,
+      "holeRotation": 0,
+      "metallization": false,
+      "padType": 0,
+      "solderMaskAndPasteMaskExpansion": null,
+      "heatWelding": null,
+      "primitiveLock": true,
+      "primitiveId": "42cc9d0b4996b883"
+    }
+  ]
+}

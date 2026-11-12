@@ -1,0 +1,68 @@
+{
+  "method": "Actual PCB export vertex-in-watertight-case test; not a full triangle intersection or tolerance proof",
+  "raw_vertices_inside_case": 10,
+  "raw_penetrating_vertex_examples_mm": [
+    [
+      102.54831519366265,
+      -24.999981999964,
+      6.655002852550824
+    ],
+    [
+      102.77197424041012,
+      -24.84268950895742,
+      6.655002852550824
+    ],
+    [
+      102.70560780387852,
+      -25.22364101690914,
+      6.655002852550824
+    ],
+    [
+      102.39102282186536,
+      -24.776322983018858,
+      6.655002852550824
+    ],
+    [
+      102.32465614691517,
+      -25.157274490970572,
+      6.655002852550824
+    ],
+    [
+      97.44831510196319,
+      -24.999981999964,
+      6.655002852550824
+    ],
+    [
+      97.22465605521572,
+      -25.157274490970572,
+      6.655002852550824
+    ],
+    [
+      97.29102249174733,
+      -24.776322983018858,
+      6.655002852550824
+    ]
+  ],
+  "trimmed_vertices_inside_case": 0,
+  "trimmed_vertices_inside_lid": 0,
+  "lead_trim_assumption_mm_below_board": 1.5,
+  "native_pcb_origin_global_mm": 13.655028252601625,
+  "native_pcb_underside_local_mm": -1.7500282526016235,
+  "standoff_support_plane_mm": 11.9,
+  "alignment_epsilon_mm": 0.005,
+  "case_inner_floor_mm": 7,
+  "lid_inside_mm": 35,
+  "raw_lowest_z_mm": 6.655002852550824,
+  "trimmed_lowest_z_mm": 10.405000000000001,
+  "model_highest_z_mm": 29.56504290870889,
+  "lid_clearance_from_library_model_mm": 5.4349570912911105,
+  "library_model_approximations": [
+    "C1 generic H16 vs part H12.5",
+    "F1 library H8.5 vs max part H14.2"
+  ],
+  "unverified": [
+    "wire/plug bend space",
+    "actual MCU board",
+    "board and print tolerances"
+  ]
+}

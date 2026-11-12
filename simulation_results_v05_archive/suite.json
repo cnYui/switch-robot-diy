@@ -1,0 +1,4877 @@
+{
+  "mujoco_version": "3.17.0",
+  "calibration_status": "ASSUMED_NOT_MEASURED",
+  "cases": [
+    {
+      "name": "v01_existing_stl",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v01",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ],
+        [
+          1.9,
+          "OFF"
+        ]
+      ],
+      "duration_s": 3.5,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 3.5000000000014047,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": 0.4391948268953134,
+        "rocker_deg": 3.483858129085633,
+        "target_deg": 0.0,
+        "servo_torque_nm": -0.0018110692588955638,
+        "contact_n": 0.06255107337842543,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 2,
+      "initial_penetration_mm": 0.21588726652731424,
+      "transitions": [
+        {
+          "time_s": 0.45862499999996337,
+          "state": "ON"
+        },
+        {
+          "time_s": 1.9586249999995944,
+          "state": "OFF"
+        }
+      ],
+      "metrics": {
+        "peak_contact_force_n": 10.371697439177137,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.21588726652731424,
+        "peak_torque_nm": 0.1765,
+        "saturation_time_s": 1.0358750000001058,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [
+        "INITIAL_PRELOAD",
+        "ARM_NOT_RETRACTED",
+        "CONTACT_WHILE_IDLE",
+        "EXCEEDS_ASSUMED_6N_TEST_LIMIT"
+      ],
+      "expected_state": "OFF",
+      "mechanical_check_passed": false,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 3.060000000000867,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.10130865802810163,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": false,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": -0.42285513574361305,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v02_animation_geometry",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v02",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ],
+        [
+          1.9,
+          "OFF"
+        ]
+      ],
+      "duration_s": 3.5,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 3.5000000000014047,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": 0.3416010666509756,
+        "rocker_deg": 3.499999999999999,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.322706102190795e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [],
+      "metrics": {
+        "peak_contact_force_n": 4.697588271798531,
+        "peak_forbidden_force_n": 10.823122918432782,
+        "peak_penetration_mm": 0.058803250834628513,
+        "peak_torque_nm": 0.1765,
+        "saturation_time_s": 1.1232500000000574,
+        "forbidden_contact_time_s": 1.2691249999999765
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [
+        "FRAME_OR_CRADLE_COLLISION"
+      ],
+      "expected_state": "OFF",
+      "mechanical_check_passed": false,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 3.060000000000867,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [
+        [
+          "arm_collision_2",
+          "cradle_collision_0"
+        ],
+        [
+          "arm_collision_2",
+          "cradle_collision_1"
+        ],
+        [
+          "arm_collision_4",
+          "cradle_collision_0"
+        ],
+        [
+          "arm_collision_4",
+          "cradle_collision_4"
+        ]
+      ],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.1196814776041015,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_nominal",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ],
+        [
+          1.9,
+          "OFF"
+        ]
+      ],
+      "duration_s": 3.5,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 3.5000000000014047,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": 0.34858739476383555,
+        "rocker_deg": 3.4999999999999987,
+        "target_deg": 0.0,
+        "servo_torque_nm": 2.929910777392151e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [
+        {
+          "time_s": 0.49399999999995947,
+          "state": "ON"
+        },
+        {
+          "time_s": 1.9939999999995748,
+          "state": "OFF"
+        }
+      ],
+      "metrics": {
+        "peak_contact_force_n": 4.640468898659892,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.05920867617322574,
+        "peak_torque_nm": 0.17004308550069608,
+        "saturation_time_s": 0,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [],
+      "expected_state": "OFF",
+      "mechanical_check_passed": true,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 3.060000000000867,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.116381297516193,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_on_then_hold",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ]
+      ],
+      "duration_s": 3,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 3.0000000000007936,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.4007233808230479,
+        "rocker_deg": -3.4999999999999987,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.3425685893291795e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [
+        {
+          "time_s": 0.49399999999995947,
+          "state": "ON"
+        }
+      ],
+      "metrics": {
+        "peak_contact_force_n": 4.640468898659892,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.059163710214888865,
+        "peak_torque_nm": 0.17001851188309036,
+        "saturation_time_s": 0,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [],
+      "expected_state": "ON",
+      "mechanical_check_passed": true,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.091760436591446,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_off_then_hold",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "OFF"
+        ]
+      ],
+      "duration_s": 3,
+      "initial_state": "ON",
+      "final": {
+        "time_s": 3.0000000000007936,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": 0.28045168524218606,
+        "rocker_deg": 3.4999999999999987,
+        "target_deg": 0.0,
+        "servo_torque_nm": 2.929929909687477e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [
+        {
+          "time_s": 0.49399999999995947,
+          "state": "OFF"
+        }
+      ],
+      "metrics": {
+        "peak_contact_force_n": 4.63989022688544,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.059208552679196814,
+        "peak_torque_nm": 0.17004335364979975,
+        "saturation_time_s": 0,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [],
+      "expected_state": "OFF",
+      "mechanical_check_passed": true,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.1485764496045328,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_repeated_command",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ],
+        [
+          1.8,
+          "ON"
+        ],
+        [
+          3.2,
+          "OFF"
+        ]
+      ],
+      "duration_s": 4.7,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 4.700000000000384,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": 0.3554009401862818,
+        "rocker_deg": 3.4999999999999987,
+        "target_deg": 0.0,
+        "servo_torque_nm": 2.9299086362822935e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [
+        {
+          "time_s": 0.49399999999995947,
+          "state": "ON"
+        },
+        {
+          "time_s": 3.294000000001153,
+          "state": "OFF"
+        }
+      ],
+      "metrics": {
+        "peak_contact_force_n": 4.640468898659892,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.05920867617322574,
+        "peak_torque_nm": 0.17004308550069608,
+        "saturation_time_s": 0,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [],
+      "expected_state": "OFF",
+      "mechanical_check_passed": true,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 2.9600000000007447,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 4.38000000000113,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.1131629486486645,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_fast_reversal",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ],
+        [
+          0.48,
+          "OFF"
+        ],
+        [
+          0.52,
+          "ON"
+        ],
+        [
+          0.56,
+          "OFF"
+        ]
+      ],
+      "duration_s": 3,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 3.0000000000007936,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": 0.362214480581553,
+        "rocker_deg": 3.4999999999999987,
+        "target_deg": 0.0,
+        "servo_torque_nm": 2.929906453740228e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [
+        {
+          "time_s": 0.49399999999995947,
+          "state": "ON"
+        },
+        {
+          "time_s": 1.693999999999741,
+          "state": "OFF"
+        }
+      ],
+      "metrics": {
+        "peak_contact_force_n": 4.640468898659892,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.05920867617322574,
+        "peak_torque_nm": 0.17004308550069608,
+        "saturation_time_s": 0,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [],
+      "expected_state": "OFF",
+      "mechanical_check_passed": true,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 2.7600000000005003,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.109944812205569,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_stop_mid_press",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ],
+        [
+          0.52,
+          "STOP"
+        ]
+      ],
+      "duration_s": 2,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 1.9999999999995715,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.4007233808230479,
+        "rocker_deg": -3.4999999999999996,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.34256858932918e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [
+        {
+          "time_s": 0.49399999999995947,
+          "state": "ON"
+        }
+      ],
+      "metrics": {
+        "peak_contact_force_n": 4.640468898659892,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.059163710214888865,
+        "peak_torque_nm": 0.17001851188309036,
+        "saturation_time_s": 0,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [],
+      "expected_state": null,
+      "mechanical_check_passed": true,
+      "controller_completed": [],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.091760436591446,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_pwm_dropout",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ]
+      ],
+      "duration_s": 2,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 1.9999999999995715,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.4007233808230479,
+        "rocker_deg": -3.4999999999999996,
+        "target_deg": -11.43,
+        "servo_torque_nm": 3.3425685893291795e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [
+        {
+          "time_s": 0.49399999999995947,
+          "state": "ON"
+        }
+      ],
+      "metrics": {
+        "peak_contact_force_n": 4.640468898659892,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.059163710214888865,
+        "peak_torque_nm": 0.1765,
+        "saturation_time_s": 0.000125,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [],
+      "expected_state": null,
+      "mechanical_check_passed": true,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.091760436591446,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_power_loss",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ]
+      ],
+      "duration_s": 2,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 1.9999999999995715,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -8.526955771587179,
+        "rocker_deg": -3.4999999999999987,
+        "target_deg": 0.0,
+        "servo_torque_nm": 0.0,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [
+        {
+          "time_s": 0.49399999999995947,
+          "state": "ON"
+        }
+      ],
+      "metrics": {
+        "peak_contact_force_n": 4.640468898659892,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.059163710214888865,
+        "peak_torque_nm": 0.17001851188309036,
+        "saturation_time_s": 0,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [
+        "NO_RETRACTION_WITHOUT_POWER"
+      ],
+      "expected_state": null,
+      "mechanical_check_passed": false,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": false,
+        "servo_power_at_end": false,
+        "rest_clearance_both_rocker_states_mm": -2.582632098222262,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_weak_servo",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.025,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ]
+      ],
+      "duration_s": 2,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 1.9999999999995715,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": -0.4051070658628965,
+        "rocker_deg": 3.5,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.3425667908911805e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [],
+      "metrics": {
+        "peak_contact_force_n": 0.9655044012979485,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.013448849376800447,
+        "peak_torque_nm": 0.024999992495307655,
+        "saturation_time_s": 0.6361250000000043,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [
+        "TARGET_NOT_REACHED"
+      ],
+      "expected_state": "ON",
+      "mechanical_check_passed": false,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.0896908325108874,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_stiff_switch",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 9.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ]
+      ],
+      "duration_s": 2,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 1.9999999999995715,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": -0.4007233808230479,
+        "rocker_deg": 3.5,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.3425685893291795e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [],
+      "metrics": {
+        "peak_contact_force_n": 6.537662993758539,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.10255643218214541,
+        "peak_torque_nm": 0.1765,
+        "saturation_time_s": 0.6184999999999984,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [
+        "TARGET_NOT_REACHED",
+        "EXCEEDS_ASSUMED_6N_TEST_LIMIT"
+      ],
+      "expected_state": "ON",
+      "mechanical_check_passed": false,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.091760436591446,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_insufficient_stroke",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 6,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ]
+      ],
+      "duration_s": 2,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 1.9999999999995715,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": -0.4007233808230479,
+        "rocker_deg": 3.499999999999999,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.3425685893291795e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [],
+      "metrics": {
+        "peak_contact_force_n": 3.0122613789897383,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.04752342879489498,
+        "peak_torque_nm": 0.0983289606143738,
+        "saturation_time_s": 0,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [
+        "TARGET_NOT_REACHED"
+      ],
+      "expected_state": "ON",
+      "mechanical_check_passed": false,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.091760436591446,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_excessive_stroke",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 22,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ]
+      ],
+      "duration_s": 2,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 1.9999999999995715,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.4007233808230479,
+        "rocker_deg": -3.5000000000000004,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.3425685893291795e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [
+        {
+          "time_s": 0.49399999999995947,
+          "state": "ON"
+        }
+      ],
+      "metrics": {
+        "peak_contact_force_n": 11.00780572663872,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.0807560985795262,
+        "peak_torque_nm": 0.1765,
+        "saturation_time_s": 0.5656249999999807,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [
+        "EXCEEDS_ASSUMED_6N_TEST_LIMIT"
+      ],
+      "expected_state": "ON",
+      "mechanical_check_passed": false,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.091760436591446,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_large_mount_offset",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 15,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ]
+      ],
+      "duration_s": 2,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 1.9999999999995715,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": -0.4007233808230479,
+        "rocker_deg": 3.5,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.3425685893291795e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [],
+      "metrics": {
+        "peak_contact_force_n": 0,
+        "peak_forbidden_force_n": 8.015535025552133,
+        "peak_penetration_mm": 0.03763466871103103,
+        "peak_torque_nm": 0.131657360144382,
+        "saturation_time_s": 0,
+        "forbidden_contact_time_s": 0.5679999999999815
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [
+        "FRAME_OR_CRADLE_COLLISION",
+        "TARGET_NOT_REACHED"
+      ],
+      "expected_state": "ON",
+      "mechanical_check_passed": false,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [
+        [
+          "arm_collision_4",
+          "frame_collision_1"
+        ]
+      ],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 6.871465411137492,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_large_height_offset",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 3,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ]
+      ],
+      "duration_s": 2,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 1.9999999999995715,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": -0.4007233808230479,
+        "rocker_deg": 3.5000000000000013,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.3425685893291795e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [],
+      "metrics": {
+        "peak_contact_force_n": 1.690563061511958,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.02169505923645615,
+        "peak_torque_nm": 0.08311724793502807,
+        "saturation_time_s": 0,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [
+        "TARGET_NOT_REACHED"
+      ],
+      "expected_state": "ON",
+      "mechanical_check_passed": false,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 4.086164831857047,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_narrow_rocker_missed",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 20,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ]
+      ],
+      "duration_s": 2,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 1.9999999999995715,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": -0.4007233808230479,
+        "rocker_deg": 3.5,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.34256858932918e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [],
+      "metrics": {
+        "peak_contact_force_n": 0,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0,
+        "peak_torque_nm": 0.08313554863657738,
+        "saturation_time_s": 0,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [
+        "TARGET_NOT_REACHED"
+      ],
+      "expected_state": "ON",
+      "mechanical_check_passed": false,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 11.676756501644737,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_three_gang_right",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 20,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 24,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ],
+        [
+          1.9,
+          "OFF"
+        ]
+      ],
+      "duration_s": 3.5,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 3.5000000000014047,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": 0.34858739476383555,
+        "rocker_deg": 3.4999999999999987,
+        "target_deg": 0.0,
+        "servo_torque_nm": 2.929910777392151e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [
+        {
+          "time_s": 0.49399999999995947,
+          "state": "ON"
+        },
+        {
+          "time_s": 1.9939999999995748,
+          "state": "OFF"
+        }
+      ],
+      "metrics": {
+        "peak_contact_force_n": 4.64046889865989,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.059208676173210135,
+        "peak_torque_nm": 0.170043085500698,
+        "saturation_time_s": 0,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [],
+      "expected_state": "OFF",
+      "mechanical_check_passed": true,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 3.060000000000867,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.1163812975161929,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_twenty_cycles",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ],
+        [
+          1.75,
+          "OFF"
+        ],
+        [
+          3.1,
+          "ON"
+        ],
+        [
+          4.450000000000001,
+          "OFF"
+        ],
+        [
+          5.800000000000001,
+          "ON"
+        ],
+        [
+          7.15,
+          "OFF"
+        ],
+        [
+          8.500000000000002,
+          "ON"
+        ],
+        [
+          9.850000000000001,
+          "OFF"
+        ],
+        [
+          11.200000000000001,
+          "ON"
+        ],
+        [
+          12.55,
+          "OFF"
+        ],
+        [
+          13.9,
+          "ON"
+        ],
+        [
+          15.250000000000002,
+          "OFF"
+        ],
+        [
+          16.6,
+          "ON"
+        ],
+        [
+          17.95,
+          "OFF"
+        ],
+        [
+          19.3,
+          "ON"
+        ],
+        [
+          20.65,
+          "OFF"
+        ],
+        [
+          22.0,
+          "ON"
+        ],
+        [
+          23.35,
+          "OFF"
+        ],
+        [
+          24.7,
+          "ON"
+        ],
+        [
+          26.05,
+          "OFF"
+        ]
+      ],
+      "duration_s": 27.7,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 27.700000000086757,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": 0.34586197520883066,
+        "rocker_deg": 3.4999999999999987,
+        "target_deg": 0.0,
+        "servo_torque_nm": 2.9299116222350437e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [
+        {
+          "time_s": 0.49399999999995947,
+          "state": "ON"
+        },
+        {
+          "time_s": 1.8539999999996524,
+          "state": "OFF"
+        },
+        {
+          "time_s": 3.1940000000010307,
+          "state": "ON"
+        },
+        {
+          "time_s": 4.554000000000724,
+          "state": "OFF"
+        },
+        {
+          "time_s": 5.893999999997601,
+          "state": "ON"
+        },
+        {
+          "time_s": 7.253999999994432,
+          "state": "OFF"
+        },
+        {
+          "time_s": 8.593999999995528,
+          "state": "ON"
+        },
+        {
+          "time_s": 9.954000000002022,
+          "state": "OFF"
+        },
+        {
+          "time_s": 11.29400000000842,
+          "state": "ON"
+        },
+        {
+          "time_s": 12.654000000014914,
+          "state": "OFF"
+        },
+        {
+          "time_s": 13.994000000021313,
+          "state": "ON"
+        },
+        {
+          "time_s": 15.354000000027806,
+          "state": "OFF"
+        },
+        {
+          "time_s": 16.694000000034205,
+          "state": "ON"
+        },
+        {
+          "time_s": 18.0540000000407,
+          "state": "OFF"
+        },
+        {
+          "time_s": 19.394000000047097,
+          "state": "ON"
+        },
+        {
+          "time_s": 20.75400000005359,
+          "state": "OFF"
+        },
+        {
+          "time_s": 22.09400000005999,
+          "state": "ON"
+        },
+        {
+          "time_s": 23.454000000066483,
+          "state": "OFF"
+        },
+        {
+          "time_s": 24.79400000007288,
+          "state": "ON"
+        },
+        {
+          "time_s": 26.154000000079375,
+          "state": "OFF"
+        }
+      ],
+      "metrics": {
+        "peak_contact_force_n": 4.640493668279716,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.05920867617322574,
+        "peak_torque_nm": 0.17004308550069608,
+        "saturation_time_s": 0,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [],
+      "expected_state": "OFF",
+      "mechanical_check_passed": true,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 2.920000000000696,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 4.280000000001363,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 5.639999999998193,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 6.97999999999507,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 8.31999999999422,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 9.660000000000618,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 11.020000000007112,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 12.36000000001351,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 13.720000000020004,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 15.060000000026402,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 16.420000000032896,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 17.760000000039295,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 19.12000000004579,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 20.460000000052187,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 21.82000000005868,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 23.16000000006508,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 24.520000000071573,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 25.86000000007797,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 27.220000000084465,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.1176686965217688,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_dt_0p00025",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.00025,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ],
+        [
+          1.9,
+          "OFF"
+        ]
+      ],
+      "duration_s": 3.5,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 3.49999999999942,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": 0.3486173920432082,
+        "rocker_deg": 3.4999999999999996,
+        "target_deg": 0.0,
+        "servo_torque_nm": 2.9299107652646e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [
+        {
+          "time_s": 0.49424999999997327,
+          "state": "ON"
+        },
+        {
+          "time_s": 1.9940000000002496,
+          "state": "OFF"
+        }
+      ],
+      "metrics": {
+        "peak_contact_force_n": 5.06483817142228,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.09693972901396627,
+        "peak_torque_nm": 0.1765,
+        "saturation_time_s": 0.0005,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [],
+      "expected_state": "OFF",
+      "mechanical_check_passed": true,
+      "controller_completed": [
+        {
+          "time_s": 1.5600000000001046,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 3.079999999999653,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.1163671279700522,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_dt_6p25e-05",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 6.25e-05,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ],
+        [
+          1.9,
+          "OFF"
+        ]
+      ],
+      "duration_s": 3.5,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 3.4999999999975118,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": 0.348571751249058,
+        "rocker_deg": 3.4999999999999964,
+        "target_deg": 0.0,
+        "servo_torque_nm": 2.9299107836560958e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [
+        {
+          "time_s": 0.4940625000000609,
+          "state": "ON"
+        },
+        {
+          "time_s": 1.9940625000010006,
+          "state": "OFF"
+        }
+      ],
+      "metrics": {
+        "peak_contact_force_n": 4.694541610353679,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.026166885212761833,
+        "peak_torque_nm": 0.17147727100655527,
+        "saturation_time_s": 0,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [],
+      "expected_state": "OFF",
+      "mechanical_check_passed": true,
+      "controller_completed": [
+        {
+          "time_s": 1.5600000000004701,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 3.0799999999984906,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.1163886869047523,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_friction_0p05",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.05,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ],
+        [
+          1.9,
+          "OFF"
+        ]
+      ],
+      "duration_s": 3.5,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 3.5000000000014047,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": 0.34858739465826877,
+        "rocker_deg": 3.5,
+        "target_deg": 0.0,
+        "servo_torque_nm": 2.9299107773921852e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [
+        {
+          "time_s": 0.49074999999995983,
+          "state": "ON"
+        },
+        {
+          "time_s": 1.9907499999995766,
+          "state": "OFF"
+        }
+      ],
+      "metrics": {
+        "peak_contact_force_n": 3.903274656826781,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.04654352517395828,
+        "peak_torque_nm": 0.1444136772104683,
+        "saturation_time_s": 0,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [],
+      "expected_state": "OFF",
+      "mechanical_check_passed": true,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 3.060000000000867,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.1163812975660687,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_friction_0p9",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.9,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ],
+        [
+          1.9,
+          "OFF"
+        ]
+      ],
+      "duration_s": 3.5,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 3.5000000000014047,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": 0.348587395105736,
+        "rocker_deg": 3.4999999999999996,
+        "target_deg": 0.0,
+        "servo_torque_nm": 2.9299107773920466e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [
+        {
+          "time_s": 0.49874999999995895,
+          "state": "ON"
+        },
+        {
+          "time_s": 1.9987499999995721,
+          "state": "OFF"
+        }
+      ],
+      "metrics": {
+        "peak_contact_force_n": 5.319255408989724,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.06259703343910097,
+        "peak_torque_nm": 0.1765,
+        "saturation_time_s": 0.00025,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [],
+      "expected_state": "OFF",
+      "mechanical_check_passed": true,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 3.060000000000867,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.116381297354697,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_no_contact_negative_control",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.001,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model.",
+        "disable_contacts": true
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ]
+      ],
+      "duration_s": 2,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 1.9999999999995715,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": -0.4007233808230479,
+        "rocker_deg": 3.5,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.34256858932918e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [],
+      "metrics": {
+        "peak_contact_force_n": 0,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0,
+        "peak_torque_nm": 0.08313554863657738,
+        "saturation_time_s": 0,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [
+        "TARGET_NOT_REACHED"
+      ],
+      "expected_state": "ON",
+      "mechanical_check_passed": false,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.091760436591446,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    },
+    {
+      "name": "v05_soft_contact_sensitivity",
+      "calibration_status": "ASSUMED_NOT_MEASURED",
+      "parameters": {
+        "calibration_status": "ASSUMED_NOT_MEASURED",
+        "timestep_s": 0.000125,
+        "solver": "PGS",
+        "cone": "pyramidal",
+        "solver_iterations": 200,
+        "arm_revision": "arm_v05",
+        "press_angle_deg": 11.4,
+        "servo_stall_torque_nm": 0.1765,
+        "servo_no_load_speed_rad_s": 8.72665,
+        "servo_reflected_inertia_kg_m2": 3e-06,
+        "servo_error_gain_per_rad": 15.0,
+        "servo_velocity_gain_s_per_rad": 0.025,
+        "servo_deadband_deg": 0.15,
+        "servo_backlash_deg": 0.5,
+        "servo_joint_friction_nm": 0.0007,
+        "command_speed_deg_s": 90.0,
+        "pwm_period_s": 0.02,
+        "pwm_center_us": 1500.0,
+        "pwm_us_per_degree": 11.11111111111111,
+        "signal_timeout_s": 0.25,
+        "rocker_stable_angle_deg": 3.5,
+        "rocker_peak_force_n": 3.0,
+        "rocker_force_reference_lever_m": 0.024,
+        "rocker_mass_kg": 0.012,
+        "rocker_damping_nm_s_rad": 0.003,
+        "rocker_friction_nm": 0.0003,
+        "rocker_width_mm": 60.0,
+        "rocker_height_mm": 64.0,
+        "rocker_center_x_mm": 0.0,
+        "mount_dx_mm": 0.0,
+        "mount_dy_mm": 0.0,
+        "mount_dz_mm": 0.0,
+        "arm_yaw_deg": 0.0,
+        "friction_coefficient": 0.45,
+        "contact_time_constant_s": 0.002,
+        "test_contact_force_limit_n": 6.0,
+        "notes": "SG90-like parameters, hypothetical switch force curve, PETG effective mass; all require calibration. Positive rocker angle is OFF, negative is ON. No measured ESP32 firmware, RF, current, FEA, adhesive or wear model."
+      },
+      "events": [
+        [
+          0.4,
+          "ON"
+        ],
+        [
+          1.9,
+          "OFF"
+        ]
+      ],
+      "duration_s": 3.5,
+      "initial_state": "OFF",
+      "final": {
+        "time_s": 3.5000000000014047,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": 0.3485873947713788,
+        "rocker_deg": 3.499999999999999,
+        "target_deg": 0.0,
+        "servo_torque_nm": 2.9299107773921503e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      },
+      "initial_contact_count": 0,
+      "initial_penetration_mm": 0,
+      "transitions": [
+        {
+          "time_s": 0.49399999999995947,
+          "state": "ON"
+        },
+        {
+          "time_s": 1.9939999999995748,
+          "state": "OFF"
+        }
+      ],
+      "metrics": {
+        "peak_contact_force_n": 4.802426728622167,
+        "peak_forbidden_force_n": 0,
+        "peak_penetration_mm": 0.10040648693051349,
+        "peak_torque_nm": 0.17535669332706763,
+        "saturation_time_s": 0.00025,
+        "forbidden_contact_time_s": 0
+      },
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "runtime_warnings": {},
+      "defects": [],
+      "expected_state": "OFF",
+      "mechanical_check_passed": true,
+      "controller_completed": [
+        {
+          "time_s": 1.5799999999998042,
+          "command": "ON",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        },
+        {
+          "time_s": 3.060000000000867,
+          "command": "OFF",
+          "status": "MOTION_SEQUENCE_COMPLETE_PHYSICAL_STATE_UNCONFIRMED"
+        }
+      ],
+      "forbidden_pairs": [],
+      "idle_peak_force_n": 0.0,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.1163812975126362,
+        "rest_angle_budget_deg": 0.6000000000000001,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "peak_force_note": "Uncalibrated rigid-body contact estimate"
+    }
+  ],
+  "height_stroke_sweep": [
+    {
+      "height_offset_mm": -1,
+      "press_angle_deg": 7,
+      "pass": false,
+      "defects": [
+        "ARM_NOT_RETRACTED"
+      ],
+      "peak_force_n": 4.262305060999144,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 0.09362563816957803
+    },
+    {
+      "height_offset_mm": -1,
+      "press_angle_deg": 8,
+      "pass": false,
+      "defects": [
+        "ARM_NOT_RETRACTED"
+      ],
+      "peak_force_n": 4.411041102058157,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 0.09362563816957803
+    },
+    {
+      "height_offset_mm": -1,
+      "press_angle_deg": 9,
+      "pass": false,
+      "defects": [
+        "ARM_NOT_RETRACTED"
+      ],
+      "peak_force_n": 4.411041102058157,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 0.09362563816957803
+    },
+    {
+      "height_offset_mm": -1,
+      "press_angle_deg": 10,
+      "pass": false,
+      "defects": [
+        "ARM_NOT_RETRACTED"
+      ],
+      "peak_force_n": 4.486073094805931,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 0.09362563816957803
+    },
+    {
+      "height_offset_mm": -1,
+      "press_angle_deg": 11.4,
+      "pass": false,
+      "defects": [
+        "ARM_NOT_RETRACTED",
+        "EXCEEDS_ASSUMED_6N_TEST_LIMIT"
+      ],
+      "peak_force_n": 8.350649804857797,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 0.09362563816957803
+    },
+    {
+      "height_offset_mm": -1,
+      "press_angle_deg": 13,
+      "pass": false,
+      "defects": [
+        "ARM_NOT_RETRACTED",
+        "EXCEEDS_ASSUMED_6N_TEST_LIMIT"
+      ],
+      "peak_force_n": 10.35187023157448,
+      "saturation_time_s": 0.5167499999999644,
+      "rest_clearance_mm": 0.09362563816957803
+    },
+    {
+      "height_offset_mm": -1,
+      "press_angle_deg": 16,
+      "pass": false,
+      "defects": [
+        "ARM_NOT_RETRACTED",
+        "EXCEEDS_ASSUMED_6N_TEST_LIMIT"
+      ],
+      "peak_force_n": 10.348577472749334,
+      "saturation_time_s": 0.5557499999999774,
+      "rest_clearance_mm": 0.09362563816957803
+    },
+    {
+      "height_offset_mm": -0.5,
+      "press_angle_deg": 7,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.548805499378252,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 0.592693037380512
+    },
+    {
+      "height_offset_mm": -0.5,
+      "press_angle_deg": 8,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.726260176515477,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 0.592693037380512
+    },
+    {
+      "height_offset_mm": -0.5,
+      "press_angle_deg": 9,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.726260176515477,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 0.592693037380512
+    },
+    {
+      "height_offset_mm": -0.5,
+      "press_angle_deg": 10,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.726260176515477,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 0.592693037380512
+    },
+    {
+      "height_offset_mm": -0.5,
+      "press_angle_deg": 11.4,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 5.629679618253666,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 0.592693037380512
+    },
+    {
+      "height_offset_mm": -0.5,
+      "press_angle_deg": 13,
+      "pass": false,
+      "defects": [
+        "EXCEEDS_ASSUMED_6N_TEST_LIMIT"
+      ],
+      "peak_force_n": 9.798260540979463,
+      "saturation_time_s": 0.01325000000000001,
+      "rest_clearance_mm": 0.592693037380512
+    },
+    {
+      "height_offset_mm": -0.5,
+      "press_angle_deg": 16,
+      "pass": false,
+      "defects": [
+        "EXCEEDS_ASSUMED_6N_TEST_LIMIT"
+      ],
+      "peak_force_n": 10.632313796463468,
+      "saturation_time_s": 0.5202499999999656,
+      "rest_clearance_mm": 0.592693037380512
+    },
+    {
+      "height_offset_mm": 0,
+      "press_angle_deg": 7,
+      "pass": false,
+      "defects": [
+        "TARGET_NOT_REACHED"
+      ],
+      "peak_force_n": 3.8672408035706085,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 1.091760436591446
+    },
+    {
+      "height_offset_mm": 0,
+      "press_angle_deg": 8,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.045180742653739,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 1.091760436591446
+    },
+    {
+      "height_offset_mm": 0,
+      "press_angle_deg": 9,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.640468855030836,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 1.091760436591446
+    },
+    {
+      "height_offset_mm": 0,
+      "press_angle_deg": 10,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.640468855030836,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 1.091760436591446
+    },
+    {
+      "height_offset_mm": 0,
+      "press_angle_deg": 11.4,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.640468855030836,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 1.091760436591446
+    },
+    {
+      "height_offset_mm": 0,
+      "press_angle_deg": 13,
+      "pass": false,
+      "defects": [
+        "EXCEEDS_ASSUMED_6N_TEST_LIMIT"
+      ],
+      "peak_force_n": 7.127837481556673,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 1.091760436591446
+    },
+    {
+      "height_offset_mm": 0,
+      "press_angle_deg": 16,
+      "pass": false,
+      "defects": [
+        "EXCEEDS_ASSUMED_6N_TEST_LIMIT"
+      ],
+      "peak_force_n": 10.939232173291625,
+      "saturation_time_s": 0.48874999999996005,
+      "rest_clearance_mm": 1.091760436591446
+    },
+    {
+      "height_offset_mm": 0.5,
+      "press_angle_deg": 7,
+      "pass": false,
+      "defects": [
+        "TARGET_NOT_REACHED"
+      ],
+      "peak_force_n": 2.883829463606459,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 1.5908278358023795
+    },
+    {
+      "height_offset_mm": 0.5,
+      "press_angle_deg": 8,
+      "pass": false,
+      "defects": [
+        "TARGET_NOT_REACHED"
+      ],
+      "peak_force_n": 3.622721005764161,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 1.5908278358023795
+    },
+    {
+      "height_offset_mm": 0.5,
+      "press_angle_deg": 9,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.612339979162868,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 1.5908278358023795
+    },
+    {
+      "height_offset_mm": 0.5,
+      "press_angle_deg": 10,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.612339979162868,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 1.5908278358023795
+    },
+    {
+      "height_offset_mm": 0.5,
+      "press_angle_deg": 11.4,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.612339979162868,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 1.5908278358023795
+    },
+    {
+      "height_offset_mm": 0.5,
+      "press_angle_deg": 13,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.612339979162868,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 1.5908278358023795
+    },
+    {
+      "height_offset_mm": 0.5,
+      "press_angle_deg": 16,
+      "pass": false,
+      "defects": [
+        "EXCEEDS_ASSUMED_6N_TEST_LIMIT"
+      ],
+      "peak_force_n": 11.283683108075127,
+      "saturation_time_s": 0.48524999999996044,
+      "rest_clearance_mm": 1.5908278358023795
+    },
+    {
+      "height_offset_mm": 1,
+      "press_angle_deg": 7,
+      "pass": false,
+      "defects": [
+        "TARGET_NOT_REACHED"
+      ],
+      "peak_force_n": 1.8159922057968747,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 2.0898952350133144
+    },
+    {
+      "height_offset_mm": 1,
+      "press_angle_deg": 8,
+      "pass": false,
+      "defects": [
+        "TARGET_NOT_REACHED"
+      ],
+      "peak_force_n": 2.814716701489391,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 2.0898952350133144
+    },
+    {
+      "height_offset_mm": 1,
+      "press_angle_deg": 9,
+      "pass": false,
+      "defects": [
+        "TARGET_NOT_REACHED"
+      ],
+      "peak_force_n": 3.748772947409001,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 2.0898952350133144
+    },
+    {
+      "height_offset_mm": 1,
+      "press_angle_deg": 10,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.10046529652257,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 2.0898952350133144
+    },
+    {
+      "height_offset_mm": 1,
+      "press_angle_deg": 11.4,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.8744770945197295,
+      "saturation_time_s": 0.000125,
+      "rest_clearance_mm": 2.0898952350133144
+    },
+    {
+      "height_offset_mm": 1,
+      "press_angle_deg": 13,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.8744770945197295,
+      "saturation_time_s": 0.000125,
+      "rest_clearance_mm": 2.0898952350133144
+    },
+    {
+      "height_offset_mm": 1,
+      "press_angle_deg": 16,
+      "pass": false,
+      "defects": [
+        "EXCEEDS_ASSUMED_6N_TEST_LIMIT"
+      ],
+      "peak_force_n": 10.064471391331832,
+      "saturation_time_s": 0.000125,
+      "rest_clearance_mm": 2.0898952350133144
+    },
+    {
+      "height_offset_mm": 2,
+      "press_angle_deg": 7,
+      "pass": false,
+      "defects": [
+        "TARGET_NOT_REACHED"
+      ],
+      "peak_force_n": 0,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 3.088030033435182
+    },
+    {
+      "height_offset_mm": 2,
+      "press_angle_deg": 8,
+      "pass": false,
+      "defects": [
+        "TARGET_NOT_REACHED"
+      ],
+      "peak_force_n": 0.5101661592982034,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 3.088030033435182
+    },
+    {
+      "height_offset_mm": 2,
+      "press_angle_deg": 9,
+      "pass": false,
+      "defects": [
+        "TARGET_NOT_REACHED"
+      ],
+      "peak_force_n": 1.5558626731903877,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 3.088030033435182
+    },
+    {
+      "height_offset_mm": 2,
+      "press_angle_deg": 10,
+      "pass": false,
+      "defects": [
+        "TARGET_NOT_REACHED"
+      ],
+      "peak_force_n": 2.5389458441303914,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 3.088030033435182
+    },
+    {
+      "height_offset_mm": 2,
+      "press_angle_deg": 11.4,
+      "pass": false,
+      "defects": [
+        "TARGET_NOT_REACHED"
+      ],
+      "peak_force_n": 3.537616431796475,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 3.088030033435182
+    },
+    {
+      "height_offset_mm": 2,
+      "press_angle_deg": 13,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.705859412647588,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 3.088030033435182
+    },
+    {
+      "height_offset_mm": 2,
+      "press_angle_deg": 16,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.705859412647588,
+      "saturation_time_s": 0,
+      "rest_clearance_mm": 3.088030033435182
+    }
+  ],
+  "force_torque_sweep": [
+    {
+      "parameter": "rocker_peak_force_n",
+      "value": 1,
+      "pass": true,
+      "defects": [],
+      "peak_torque_nm": 0.11601912021818463
+    },
+    {
+      "parameter": "rocker_peak_force_n",
+      "value": 2,
+      "pass": true,
+      "defects": [],
+      "peak_torque_nm": 0.13878083327433535
+    },
+    {
+      "parameter": "rocker_peak_force_n",
+      "value": 3,
+      "pass": true,
+      "defects": [],
+      "peak_torque_nm": 0.1700185038498583
+    },
+    {
+      "parameter": "rocker_peak_force_n",
+      "value": 4,
+      "pass": true,
+      "defects": [],
+      "peak_torque_nm": 0.1765
+    },
+    {
+      "parameter": "rocker_peak_force_n",
+      "value": 5,
+      "pass": true,
+      "defects": [],
+      "peak_torque_nm": 0.1765
+    },
+    {
+      "parameter": "rocker_peak_force_n",
+      "value": 6,
+      "pass": false,
+      "defects": [
+        "TARGET_NOT_REACHED",
+        "EXCEEDS_ASSUMED_6N_TEST_LIMIT"
+      ],
+      "peak_torque_nm": 0.1765
+    },
+    {
+      "parameter": "rocker_peak_force_n",
+      "value": 7,
+      "pass": false,
+      "defects": [
+        "TARGET_NOT_REACHED",
+        "EXCEEDS_ASSUMED_6N_TEST_LIMIT"
+      ],
+      "peak_torque_nm": 0.1765
+    },
+    {
+      "parameter": "rocker_peak_force_n",
+      "value": 8,
+      "pass": false,
+      "defects": [
+        "TARGET_NOT_REACHED",
+        "EXCEEDS_ASSUMED_6N_TEST_LIMIT"
+      ],
+      "peak_torque_nm": 0.1765
+    },
+    {
+      "parameter": "rocker_peak_force_n",
+      "value": 9,
+      "pass": false,
+      "defects": [
+        "TARGET_NOT_REACHED",
+        "EXCEEDS_ASSUMED_6N_TEST_LIMIT"
+      ],
+      "peak_torque_nm": 0.1765
+    },
+    {
+      "parameter": "servo_stall_torque_nm",
+      "value": 0.025,
+      "pass": false,
+      "defects": [
+        "TARGET_NOT_REACHED"
+      ],
+      "peak_force_n": 0.9655057401249247
+    },
+    {
+      "parameter": "servo_stall_torque_nm",
+      "value": 0.04,
+      "pass": false,
+      "defects": [
+        "TARGET_NOT_REACHED"
+      ],
+      "peak_force_n": 1.3723544238247358
+    },
+    {
+      "parameter": "servo_stall_torque_nm",
+      "value": 0.06,
+      "pass": false,
+      "defects": [
+        "TARGET_NOT_REACHED"
+      ],
+      "peak_force_n": 2.0929714942073887
+    },
+    {
+      "parameter": "servo_stall_torque_nm",
+      "value": 0.08,
+      "pass": false,
+      "defects": [
+        "TARGET_NOT_REACHED"
+      ],
+      "peak_force_n": 2.7441729219876785
+    },
+    {
+      "parameter": "servo_stall_torque_nm",
+      "value": 0.1,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 3.251915870622407
+    },
+    {
+      "parameter": "servo_stall_torque_nm",
+      "value": 0.12,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 3.5719499827663532
+    },
+    {
+      "parameter": "servo_stall_torque_nm",
+      "value": 0.1569,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.365165575681511
+    },
+    {
+      "parameter": "servo_stall_torque_nm",
+      "value": 0.1765,
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.640468855030836
+    }
+  ],
+  "randomized_tolerances": [
+    {
+      "index": 0,
+      "parameters": {
+        "mount_dx_mm": -0.6622033774001246,
+        "mount_dy_mm": 0.19483775770484468,
+        "mount_dz_mm": -0.2536715184340431,
+        "rocker_peak_force_n": 3.2061661648948947,
+        "servo_stall_torque_nm": 0.1636658817039107,
+        "friction_coefficient": 0.4685732563081785,
+        "servo_backlash_deg": 0.3823572761570112,
+        "servo_deadband_deg": 0.3980024730630132,
+        "press_angle_deg": 11.637250941807263
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.3761246357164385,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 0.7374048830171099,
+        "rest_angle_budget_deg": 0.7891811111415188,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.5899611947374815,
+        "rocker_deg": -3.5000000000000018,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342473144284298e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 1,
+      "parameters": {
+        "mount_dx_mm": 0.20142975125875817,
+        "mount_dy_mm": 0.04178145749677975,
+        "mount_dz_mm": -0.11459566870579274,
+        "rocker_peak_force_n": 2.0357490045481326,
+        "servo_stall_torque_nm": 0.1512861961325098,
+        "friction_coefficient": 0.5675941453153512,
+        "servo_backlash_deg": 0.920106670946919,
+        "servo_deadband_deg": 0.26194783284999884,
+        "press_angle_deg": 11.612728161940224
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 3.6717176365834185,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 0.8229819705744919,
+        "rest_angle_budget_deg": 0.9220011683234584,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.722845063406909,
+        "rocker_deg": -3.5000000000000018,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.3423843307849105e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 2,
+      "parameters": {
+        "mount_dx_mm": 0.6994173716926289,
+        "mount_dy_mm": 0.22034106861072278,
+        "mount_dz_mm": 0.3560905556506604,
+        "rocker_peak_force_n": 3.675236901114191,
+        "servo_stall_torque_nm": 0.13897298537410954,
+        "friction_coefficient": 0.5549466945489183,
+        "servo_backlash_deg": 0.5805277117853536,
+        "servo_deadband_deg": 0.16872033579000953,
+        "press_angle_deg": 10.986607990164714
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.352027130469151,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.405803115468823,
+        "rest_angle_budget_deg": 0.6589841916826864,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.45990290062804406,
+        "rocker_deg": -3.5,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342542659622886e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 3,
+      "parameters": {
+        "mount_dx_mm": -0.21364535642128646,
+        "mount_dy_mm": 0.36885281951979754,
+        "mount_dz_mm": 0.17610881412678425,
+        "rocker_peak_force_n": 3.669136821547437,
+        "servo_stall_torque_nm": 0.1251249464391526,
+        "friction_coefficient": 0.2762412809969279,
+        "servo_backlash_deg": 0.6154888708666169,
+        "servo_deadband_deg": 0.3344683348425254,
+        "press_angle_deg": 11.702657899285814
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 3.8241089663993275,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.130661496172608,
+        "rest_angle_budget_deg": 0.8422127702758337,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.6432331246947293,
+        "rocker_deg": -3.5000000000000004,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342439698820222e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 4,
+      "parameters": {
+        "mount_dx_mm": -0.6036742034010069,
+        "mount_dy_mm": 0.45993635544084355,
+        "mount_dz_mm": -0.37625894026370876,
+        "rocker_peak_force_n": 2.273098878599299,
+        "servo_stall_torque_nm": 0.17013699689760733,
+        "friction_coefficient": 0.47524723168292626,
+        "servo_backlash_deg": 0.45537818112880024,
+        "servo_deadband_deg": 0.4771528058523675,
+        "press_angle_deg": 11.51817006858746
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.033068656334767,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 0.5443998446399138,
+        "rest_angle_budget_deg": 0.9048418964167677,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.7055922926191303,
+        "rocker_deg": -3.5,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342396877339613e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 5,
+      "parameters": {
+        "mount_dx_mm": -0.1668167974613899,
+        "mount_dy_mm": -0.6634000778200705,
+        "mount_dz_mm": -0.4225541686926386,
+        "rocker_peak_force_n": 3.495225701663129,
+        "servo_stall_torque_nm": 0.17584007364602067,
+        "friction_coefficient": 0.6499924879690918,
+        "servo_backlash_deg": 0.6392304052932136,
+        "servo_deadband_deg": 0.3711051644169151,
+        "press_angle_deg": 11.732414612956937
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 5.0298096461455115,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 0.5734284546783582,
+        "rest_angle_budget_deg": 0.890720367063522,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.6914464276139387,
+        "rocker_deg": -3.4999999999999996,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342406938379504e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 6,
+      "parameters": {
+        "mount_dx_mm": 0.4433684744913582,
+        "mount_dy_mm": -0.05541818285869249,
+        "mount_dz_mm": 0.4920799213638397,
+        "rocker_peak_force_n": 2.408906351671516,
+        "servo_stall_torque_nm": 0.14628267794667366,
+        "friction_coefficient": 0.6471174913305704,
+        "servo_backlash_deg": 0.9972519772082513,
+        "servo_deadband_deg": 0.48969162462891214,
+        "press_angle_deg": 11.19016332021834
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.074888097439554,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.3092651552409165,
+        "rest_angle_budget_deg": 1.1883176132330378,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.9891903126644951,
+        "rocker_deg": -3.5000000000000018,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342152187129658e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 7,
+      "parameters": {
+        "mount_dx_mm": 0.18700051942425255,
+        "mount_dy_mm": -0.13804337501687503,
+        "mount_dz_mm": -0.4395270148726196,
+        "rocker_peak_force_n": 2.5295473164856643,
+        "servo_stall_torque_nm": 0.12599369034769814,
+        "friction_coefficient": 0.6252396464512677,
+        "servo_backlash_deg": 1.1746313185510269,
+        "servo_deadband_deg": 0.4164834959200021,
+        "press_angle_deg": 12.019336395022872
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.581898892296234,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 0.3771070364117964,
+        "rest_angle_budget_deg": 1.2037991551955154,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -1.0048123821577484,
+        "rocker_deg": -3.500000000000001,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342136328776955e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 8,
+      "parameters": {
+        "mount_dx_mm": -0.3617275155191861,
+        "mount_dy_mm": 0.5560228059039487,
+        "mount_dz_mm": -0.011663853897075693,
+        "rocker_peak_force_n": 3.4766715586295414,
+        "servo_stall_torque_nm": 0.13248974086895332,
+        "friction_coefficient": 0.39975533159499954,
+        "servo_backlash_deg": 1.1634163241885829,
+        "servo_deadband_deg": 0.32996800825457595,
+        "press_angle_deg": 11.580236066284074
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 3.8527720244252235,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 0.8050823231655536,
+        "rest_angle_budget_deg": 1.1116761703488673,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.912639744132668,
+        "rocker_deg": -3.4999999999999996,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342226303789289e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 9,
+      "parameters": {
+        "mount_dx_mm": 0.4238274199069818,
+        "mount_dy_mm": 0.5277022542081091,
+        "mount_dz_mm": 0.3883369668783252,
+        "rocker_peak_force_n": 3.512803621039663,
+        "servo_stall_torque_nm": 0.14175093350888784,
+        "friction_coefficient": 0.29496392167214835,
+        "servo_backlash_deg": 1.044398493780688,
+        "servo_deadband_deg": 0.39709059565410687,
+        "press_angle_deg": 12.007126247663418
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 3.9947499733221843,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.2025188952967725,
+        "rest_angle_budget_deg": 1.1192898425444509,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.9201904600476177,
+        "rocker_deg": -3.4999999999999996,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.3422192583590466e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 10,
+      "parameters": {
+        "mount_dx_mm": -0.44269711380999655,
+        "mount_dy_mm": -0.7123050872163591,
+        "mount_dz_mm": 0.11051053669226574,
+        "rocker_peak_force_n": 3.6617926638658904,
+        "servo_stall_torque_nm": 0.1364046682793992,
+        "friction_coefficient": 0.391607835424453,
+        "servo_backlash_deg": 1.0317319105803568,
+        "servo_deadband_deg": 0.397710715206884,
+        "press_angle_deg": 11.775944910604323
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.188450572095214,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.003578570114935,
+        "rest_angle_budget_deg": 1.1135766704970624,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.9145125884241454,
+        "rocker_deg": -3.4999999999999996,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.3422245616868796e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 11,
+      "parameters": {
+        "mount_dx_mm": 0.7583269094470013,
+        "mount_dy_mm": -0.5610177634411223,
+        "mount_dz_mm": 0.3437718566006809,
+        "rocker_peak_force_n": 2.035881180837649,
+        "servo_stall_torque_nm": 0.12605588577549573,
+        "friction_coefficient": 0.3367403030569697,
+        "servo_backlash_deg": 0.3744532767886167,
+        "servo_deadband_deg": 0.42981067651373295,
+        "press_angle_deg": 11.390533892743964
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 3.2115404127822207,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.366642242559785,
+        "rest_angle_budget_deg": 0.8170373149080412,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.618050138775012,
+        "rocker_deg": -3.5,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.3424558694435026e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 12,
+      "parameters": {
+        "mount_dx_mm": 0.5879172047954144,
+        "mount_dy_mm": 0.06307394059735216,
+        "mount_dz_mm": 0.03968827474364367,
+        "rocker_peak_force_n": 2.564763563086845,
+        "servo_stall_torque_nm": 0.1377545406176867,
+        "friction_coefficient": 0.5501818169754569,
+        "servo_backlash_deg": 1.07402862331758,
+        "servo_deadband_deg": 0.2580515595363078,
+        "press_angle_deg": 11.535145272275601
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 3.8814197921256004,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 0.9412630238570452,
+        "rest_angle_budget_deg": 0.9950658711950977,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.7959926465745554,
+        "rocker_deg": -3.4999999999999987,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342327770148598e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 13,
+      "parameters": {
+        "mount_dx_mm": -0.134419762045075,
+        "mount_dy_mm": -0.41149214425871145,
+        "mount_dz_mm": 0.3079818786201678,
+        "rocker_peak_force_n": 2.339814753773463,
+        "servo_stall_torque_nm": 0.15672002213541686,
+        "friction_coefficient": 0.35356980650656494,
+        "servo_backlash_deg": 0.38984573005757056,
+        "servo_deadband_deg": 0.43706744282154464,
+        "press_angle_deg": 11.109593220207309
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 3.8723637349676334,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.3148396553454893,
+        "rest_angle_budget_deg": 0.8319903078503299,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.6328049583910917,
+        "rocker_deg": -3.499999999999999,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342446473336513e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 14,
+      "parameters": {
+        "mount_dx_mm": 0.41399806697279984,
+        "mount_dy_mm": -0.06660626120736723,
+        "mount_dz_mm": -0.3329582524095289,
+        "rocker_peak_force_n": 2.5818237922266967,
+        "servo_stall_torque_nm": 0.14816375367903498,
+        "friction_coefficient": 0.440041634547655,
+        "servo_backlash_deg": 0.46326187624173365,
+        "servo_deadband_deg": 0.24470160555776382,
+        "press_angle_deg": 11.36105562993975
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 3.262021847689315,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 0.7273988722481411,
+        "rest_angle_budget_deg": 0.6763325436786307,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.4771942619231438,
+        "rocker_deg": -3.499999999999999,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342534410179684e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 15,
+      "parameters": {
+        "mount_dx_mm": -0.16424608183027734,
+        "mount_dy_mm": 0.372859256544277,
+        "mount_dz_mm": -0.20060838037820583,
+        "rocker_peak_force_n": 3.2036191917109504,
+        "servo_stall_torque_nm": 0.1660982183908268,
+        "friction_coefficient": 0.34627739206443786,
+        "servo_backlash_deg": 0.4714871567028658,
+        "servo_deadband_deg": 0.22631431034596006,
+        "press_angle_deg": 11.480806689390892
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.170613991195968,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 0.8394519915971551,
+        "rest_angle_budget_deg": 0.6620578886973929,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.46282656444600345,
+        "rocker_deg": -3.5000000000000004,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.34254128617314e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 16,
+      "parameters": {
+        "mount_dx_mm": 0.5282718897683747,
+        "mount_dy_mm": 0.4180264296498897,
+        "mount_dz_mm": -0.0942162067693536,
+        "rocker_peak_force_n": 3.583062190646844,
+        "servo_stall_torque_nm": 0.1470980943781039,
+        "friction_coefficient": 0.40592491189560054,
+        "servo_backlash_deg": 0.3867413177770749,
+        "servo_deadband_deg": 0.39197526127780136,
+        "press_angle_deg": 11.823466902418929
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.319951466077265,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 0.8847034530191445,
+        "rest_angle_budget_deg": 0.7853459201663389,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.5862138658442624,
+        "rocker_deg": -3.500000000000001,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.34247538817561e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 17,
+      "parameters": {
+        "mount_dx_mm": 0.10804651683373334,
+        "mount_dy_mm": 0.6199337998045289,
+        "mount_dz_mm": -0.030061535683877816,
+        "rocker_peak_force_n": 3.31799221188238,
+        "servo_stall_torque_nm": 0.16488922237381048,
+        "friction_coefficient": 0.5432923780065004,
+        "servo_backlash_deg": 0.9753518581981311,
+        "servo_deadband_deg": 0.27402045589507423,
+        "press_angle_deg": 11.819721029173849
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.39583049144709,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 0.8534165660615608,
+        "rest_angle_budget_deg": 0.9616963849941398,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.7624706535044548,
+        "rocker_deg": -3.4999999999999996,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342354366906362e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 18,
+      "parameters": {
+        "mount_dx_mm": 0.04299208435325408,
+        "mount_dy_mm": -0.006802778582345015,
+        "mount_dz_mm": -0.07430544491633406,
+        "rocker_peak_force_n": 2.1305868609848186,
+        "servo_stall_torque_nm": 0.1301114683281779,
+        "friction_coefficient": 0.3987320061586584,
+        "servo_backlash_deg": 0.7578640877434091,
+        "servo_deadband_deg": 0.16576404288767413,
+        "press_angle_deg": 11.350587154307767
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 3.382858117900261,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 0.9496201568701316,
+        "rest_angle_budget_deg": 0.7446960867593786,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.545677353431302,
+        "rocker_deg": -3.500000000000001,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.3424987474676515e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 19,
+      "parameters": {
+        "mount_dx_mm": 0.23561064228456674,
+        "mount_dy_mm": -0.2910357666604384,
+        "mount_dz_mm": -0.1325912221333262,
+        "rocker_peak_force_n": 3.648437734269014,
+        "servo_stall_torque_nm": 0.14858192992914876,
+        "friction_coefficient": 0.370260039653174,
+        "servo_backlash_deg": 0.4182176123743311,
+        "servo_deadband_deg": 0.37921323697408715,
+        "press_angle_deg": 11.963258596557187
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.408513899574513,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 0.8882887380695288,
+        "rest_angle_budget_deg": 0.7883220431612528,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.5891813205140197,
+        "rocker_deg": -3.500000000000001,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342473612449206e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 20,
+      "parameters": {
+        "mount_dx_mm": -0.6501803746675083,
+        "mount_dy_mm": 0.6036581880325318,
+        "mount_dz_mm": -0.20740607635160335,
+        "rocker_peak_force_n": 3.7211969508776224,
+        "servo_stall_torque_nm": 0.12918482515675153,
+        "friction_coefficient": 0.47161510904143433,
+        "servo_backlash_deg": 0.8330962686667085,
+        "servo_deadband_deg": 0.2797764649619294,
+        "press_angle_deg": 12.178450996827578
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.037332150194263,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 0.7080613404351719,
+        "rest_angle_budget_deg": 0.8963245992952837,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.6973128762238721,
+        "rocker_deg": -3.4999999999999996,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342402790679727e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 21,
+      "parameters": {
+        "mount_dx_mm": 0.4955935443265518,
+        "mount_dy_mm": -0.4672363247737035,
+        "mount_dz_mm": -0.42181485914399386,
+        "rocker_peak_force_n": 2.9623304895004736,
+        "servo_stall_torque_nm": 0.17565425002121215,
+        "friction_coefficient": 0.5084764816307822,
+        "servo_backlash_deg": 0.36607090428826955,
+        "servo_deadband_deg": 0.15086820751823907,
+        "press_angle_deg": 11.303824324380383
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 5.656548158484961,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 0.7304704245988553,
+        "rest_angle_budget_deg": 0.5339036596623739,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.3346305288408305,
+        "rocker_deg": -3.5,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342593332967711e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 22,
+      "parameters": {
+        "mount_dx_mm": 0.7262306942221612,
+        "mount_dy_mm": -0.5009107907679544,
+        "mount_dz_mm": 0.36803260435518415,
+        "rocker_peak_force_n": 3.052701658511192,
+        "servo_stall_torque_nm": 0.14900794553006397,
+        "friction_coefficient": 0.6312407569163916,
+        "servo_backlash_deg": 0.6851058446648086,
+        "servo_deadband_deg": 0.18306484743563095,
+        "press_angle_deg": 11.978901451651929
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.276448635182783,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.4303520283906181,
+        "rest_angle_budget_deg": 0.7256177697680353,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.5264745995660737,
+        "rocker_deg": -3.5,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342509229106611e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 23,
+      "parameters": {
+        "mount_dx_mm": 0.059351931152687776,
+        "mount_dy_mm": 0.7081088610122586,
+        "mount_dz_mm": 0.14808570892265283,
+        "rocker_peak_force_n": 2.068611489460437,
+        "servo_stall_torque_nm": 0.12820583730272933,
+        "friction_coefficient": 0.6447369134030916,
+        "servo_backlash_deg": 0.37847194471191226,
+        "servo_deadband_deg": 0.3557198352363228,
+        "press_angle_deg": 12.06702451316608
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 3.553791927803284,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.1278228687911733,
+        "rest_angle_budget_deg": 0.7449558075922789,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.5459516596093825,
+        "rocker_deg": -3.500000000000001,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.3424985950203e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 24,
+      "parameters": {
+        "mount_dx_mm": 0.4736845853610496,
+        "mount_dy_mm": -0.2740867726924535,
+        "mount_dz_mm": 0.465412497339168,
+        "rocker_peak_force_n": 2.202481629589668,
+        "servo_stall_torque_nm": 0.14869556935119685,
+        "friction_coefficient": 0.43940225450614956,
+        "servo_backlash_deg": 1.1578913121490841,
+        "servo_deadband_deg": 0.17589053900987414,
+        "press_angle_deg": 10.987700869831096
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 3.558164374922606,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.4057330822282763,
+        "rest_angle_budget_deg": 0.9548361950844162,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.7556947864545025,
+        "rocker_deg": -3.5000000000000018,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342359603959096e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 25,
+      "parameters": {
+        "mount_dx_mm": 0.7060361362734722,
+        "mount_dy_mm": 0.2222198979458283,
+        "mount_dz_mm": 0.4942201420146316,
+        "rocker_peak_force_n": 2.825696642116644,
+        "servo_stall_torque_nm": 0.16290359760567769,
+        "friction_coefficient": 0.2688990779718013,
+        "servo_backlash_deg": 0.7939272304806924,
+        "servo_deadband_deg": 0.18860745941538737,
+        "press_angle_deg": 11.885965960301654
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.034427443245488,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.4839295282069094,
+        "rest_angle_budget_deg": 0.7855710746557336,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.5863548090477853,
+        "rocker_deg": -3.499999999999999,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342475304038016e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 26,
+      "parameters": {
+        "mount_dx_mm": -0.6021900293528815,
+        "mount_dy_mm": -0.7866487075290719,
+        "mount_dz_mm": 0.0716953208438803,
+        "rocker_peak_force_n": 3.0125754712678576,
+        "servo_stall_torque_nm": 0.17371986959014146,
+        "friction_coefficient": 0.3461627376623597,
+        "servo_backlash_deg": 1.016338207974099,
+        "servo_deadband_deg": 0.17109936102574902,
+        "press_angle_deg": 10.999486784929815
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.76760523454686,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.079667919788537,
+        "rest_angle_budget_deg": 0.8792684650127984,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.6800033886927397,
+        "rocker_deg": -3.5000000000000018,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.3424149280083944e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 27,
+      "parameters": {
+        "mount_dx_mm": -0.5679591693614848,
+        "mount_dy_mm": -0.09164969041935989,
+        "mount_dz_mm": -0.0908731721624011,
+        "rocker_peak_force_n": 3.1036018082620753,
+        "servo_stall_torque_nm": 0.14729065940105204,
+        "friction_coefficient": 0.42714831398993,
+        "servo_backlash_deg": 0.9608026693409442,
+        "servo_deadband_deg": 0.20399600638734078,
+        "press_angle_deg": 11.273179702065363
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.194862470118257,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 0.872496994318723,
+        "rest_angle_budget_deg": 0.8843973410578128,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.6852641353724527,
+        "rocker_deg": -3.4999999999999996,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342411271466381e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 28,
+      "parameters": {
+        "mount_dx_mm": -0.0887045870310772,
+        "mount_dy_mm": -0.061648454102907424,
+        "mount_dz_mm": 0.4846526685513578,
+        "rocker_peak_force_n": 3.815698247465504,
+        "servo_stall_torque_nm": 0.1616800103838227,
+        "friction_coefficient": 0.4135093905546078,
+        "servo_backlash_deg": 0.3472669576803635,
+        "servo_deadband_deg": 0.36194694276167616,
+        "press_angle_deg": 11.913152845994727
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.811284346553394,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 1.515272209843413,
+        "rest_angle_budget_deg": 0.735580421601858,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.536370094011241,
+        "rocker_deg": -3.5,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342503874633361e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 29,
+      "parameters": {
+        "mount_dx_mm": -0.7438610842730097,
+        "mount_dy_mm": 0.11181625270332507,
+        "mount_dz_mm": -0.31555383120028213,
+        "rocker_peak_force_n": 3.7495811845335227,
+        "servo_stall_torque_nm": 0.13992103635497827,
+        "friction_coefficient": 0.4767169894132015,
+        "servo_backlash_deg": 0.4788287682306009,
+        "servo_deadband_deg": 0.24308146640298828,
+        "press_angle_deg": 11.750932972160076
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.27868589070559,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 0.7309468221806841,
+        "rest_angle_budget_deg": 0.6824958505182888,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.48340833156449564,
+        "rocker_deg": -3.499999999999999,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.3425313711813186e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 30,
+      "parameters": {
+        "mount_dx_mm": -0.4658590712852812,
+        "mount_dy_mm": -0.6185739135690744,
+        "mount_dz_mm": -0.12344799996877043,
+        "rocker_peak_force_n": 2.5532916183995473,
+        "servo_stall_torque_nm": 0.1675856044086201,
+        "friction_coefficient": 0.30448727539338316,
+        "servo_backlash_deg": 0.8606881850253836,
+        "servo_deadband_deg": 0.4565203325413567,
+        "press_angle_deg": 12.153165988634612
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 4.1818511869191815,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 0.7769665567492487,
+        "rest_angle_budget_deg": 1.0868644250540485,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.8876262119452609,
+        "rocker_deg": -3.4999999999999996,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342249228796159e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    },
+    {
+      "index": 31,
+      "parameters": {
+        "mount_dx_mm": 0.61722339795938,
+        "mount_dy_mm": 0.6109614383330608,
+        "mount_dz_mm": -0.3649505604194313,
+        "rocker_peak_force_n": 3.022279125964219,
+        "servo_stall_torque_nm": 0.14316105902313697,
+        "friction_coefficient": 0.32458212632264594,
+        "servo_backlash_deg": 1.1086161638130074,
+        "servo_deadband_deg": 0.19026004057201384,
+        "press_angle_deg": 11.480999523626936
+      },
+      "pass": true,
+      "defects": [],
+      "peak_force_n": 3.7112590480012084,
+      "observations": {
+        "rocker_retained": true,
+        "arm_retracted": true,
+        "servo_power_at_end": true,
+        "rest_clearance_both_rocker_states_mm": 0.5277037463230025,
+        "rest_angle_budget_deg": 0.9445681224785176,
+        "minimum_required_rest_clearance_mm": 0.3
+      },
+      "final": {
+        "time_s": 1.7999999999996823,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.7454599085009184,
+        "rocker_deg": -3.499999999999999,
+        "target_deg": 0.0,
+        "servo_torque_nm": 3.342367425843118e-05,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0
+      }
+    }
+  ],
+  "random_seed": 20261106,
+  "wall_time_s": 109.31114340000022,
+  "physics_model_does_not_cover": [
+    "electrical current/voltage/thermal/RF",
+    "real firmware binary",
+    "plastic flex/strength/fatigue",
+    "adhesive or screw retention",
+    "unmeasured switch force curve"
+  ]
+}

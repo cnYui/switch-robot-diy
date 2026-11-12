@@ -1,0 +1,586 @@
+{
+  "arm_v01": {
+    "neutral_rocker_overlap_mm3": 2.6770709048329078,
+    "sweep": [
+      {
+        "angle_deg": -20,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -18,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -17,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -16,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -14,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -12,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -10,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -6,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -5.7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -5.5,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -5.2,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -5,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -4.9,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -4.7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -4.5,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -4,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 0,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 4,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 4.5,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 4.7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 4.9,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 5,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 5.2,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 5.5,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 5.7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 6,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 10,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 12,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 14,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 16,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 17,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 18,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 20,
+        "cradle_intersection_mm3": 0.0
+      }
+    ],
+    "maximum_cradle_overlap_mm3": 0.0
+  },
+  "arm_v02": {
+    "neutral_rocker_overlap_mm3": 0.0,
+    "sweep": [
+      {
+        "angle_deg": -20,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -18,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -17,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -16,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -14,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -12,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -10,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -6,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -5.7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -5.5,
+        "cradle_intersection_mm3": 0.000427211502853012
+      },
+      {
+        "angle_deg": -5.2,
+        "cradle_intersection_mm3": 0.002895370239094855
+      },
+      {
+        "angle_deg": -5,
+        "cradle_intersection_mm3": 0.0013698618083844748
+      },
+      {
+        "angle_deg": -4.9,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -4.7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -4.5,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -4,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 0,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 4,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 4.5,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 4.7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 4.9,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 5,
+        "cradle_intersection_mm3": 0.0013698720065345542
+      },
+      {
+        "angle_deg": 5.2,
+        "cradle_intersection_mm3": 0.002895376977558329
+      },
+      {
+        "angle_deg": 5.5,
+        "cradle_intersection_mm3": 0.00042720299443032124
+      },
+      {
+        "angle_deg": 5.7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 6,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 10,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 12,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 14,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 16,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 17,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 18,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 20,
+        "cradle_intersection_mm3": 0.0
+      }
+    ],
+    "maximum_cradle_overlap_mm3": 0.002895376977558329
+  },
+  "arm_v05": {
+    "neutral_rocker_overlap_mm3": 0.0,
+    "sweep": [
+      {
+        "angle_deg": -20,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -18,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -17,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -16,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -14,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -12,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -10,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -6,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -5.7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -5.5,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -5.2,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -5,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -4.9,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -4.7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -4.5,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -4,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 0,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 4,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 4.5,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 4.7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 4.9,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 5,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 5.2,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 5.5,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 5.7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 6,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 10,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 12,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 14,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 16,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 17,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 18,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 20,
+        "cradle_intersection_mm3": 0.0
+      }
+    ],
+    "maximum_cradle_overlap_mm3": 0.0
+  },
+  "arm_v06": {
+    "neutral_rocker_overlap_mm3": 0.0,
+    "sweep": [
+      {
+        "angle_deg": -20,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -18,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -17,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -16,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -14,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -12,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -10,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -6,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -5.7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -5.5,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -5.2,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -5,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -4.9,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -4.7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -4.5,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -4,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 0,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 4,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 4.5,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 4.7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 4.9,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 5,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 5.2,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 5.5,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 5.7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 6,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 7,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 10,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 12,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 14,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 16,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 17,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 18,
+        "cradle_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 20,
+        "cradle_intersection_mm3": 0.0
+      }
+    ],
+    "maximum_cradle_overlap_mm3": 0.0
+  }
+}

@@ -1,0 +1,300 @@
+(session "carrier_v04_routing"
+  (base_design "carrier_v04_routing")
+  (placement
+    (resolution mil 1000)
+    (component u1
+      (place u1 0 0 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 1000)
+    (parser
+      (host_cad "EasyEDA Pro")
+      (host_version "4.1.78")
+    )
+    (library_out 
+      (padstack via0
+        (shape
+          (circle TopLayer 31500 0 0)
+        )
+        (shape
+          (circle BottomLayer 31500 0 0)
+        )
+      )
+    )
+    (network_out 
+      (net "V5_SERVO"
+        (wire
+          (path BottomLayer 31500
+            1013780 708660
+            1013780 405120
+            962990 354330
+          )
+        )
+        (wire
+          (path TopLayer 31500
+            729920 354330
+            962990 354330
+          )
+        )
+        (wire
+          (path BottomLayer 31500
+            729920 354330
+            722224 354330
+            334874 741680
+            334874 889058
+            279052 944880
+            275590 944880
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path BottomLayer 31500
+            1112200 708660
+            1112200 405120
+            1162990 354330
+          )
+        )
+        (wire
+          (path TopLayer 31500
+            314960 404330
+            326363 415733
+            1101587 415733
+            1162990 354330
+          )
+        )
+        (wire
+          (path BottomLayer 31500
+            819290 905510
+            915350 905510
+            1112200 708660
+          )
+        )
+        (wire
+          (path BottomLayer 31500
+            819290 1082680
+            819290 905510
+          )
+        )
+        (wire
+          (path TopLayer 31500
+            852477 1488982
+            836222 1488982
+            744880 1397640
+          )
+        )
+        (wire
+          (path TopLayer 23624
+            1099278 1456857
+            884602 1456857
+            852477 1488982
+          )
+        )
+        (wire
+          (path TopLayer 31500
+            1144880 1397640
+            1099278 1443242
+            1099278 1456857
+          )
+        )
+        (wire
+          (path BottomLayer 31500
+            275590 844880
+            275590 443700
+            314960 404330
+          )
+        )
+        (wire
+          (path BottomLayer 31500
+            740550 1220470
+            740550 1334083
+            744880 1338413
+          )
+        )
+        (wire
+          (path BottomLayer 31500
+            819290 1082680
+            740550 1161420
+            740550 1220470
+          )
+        )
+        (wire
+          (path BottomLayer 31500
+            744880 1397640
+            744880 1338413
+          )
+        )
+        (wire
+          (path TopLayer 31500
+            1503550 461610
+            1270270 461610
+            1162990 354330
+          )
+        )
+        (wire
+          (path BottomLayer 23624
+            1564988 500428
+            1542368 500428
+            1503550 461610
+          )
+        )
+        (wire
+          (path BottomLayer 31500
+            1503550 1012790
+            1564988 951352
+            1564988 500428
+          )
+        )
+      )
+      (net VIN5
+        (wire
+          (path TopLayer 31500
+            314960 304330
+            479920 304330
+            529920 354330
+          )
+        )
+      )
+      (net "PWM_IN"
+        (wire
+          (path TopLayer 12000
+            440550 1220470
+            667710 1220470
+            844880 1397640
+          )
+        )
+        (wire
+          (path BottomLayer 12000
+            440550 1220470
+            440550 708660
+          )
+        )
+      )
+      (net KEY1
+        (wire
+          (path BottomLayer 12000
+            1141730 794880
+            944880 991730
+            944880 1397640
+          )
+        )
+        (wire
+          (path TopLayer 12000
+            519290 905510
+            629920 794880
+            1141730 794880
+          )
+        )
+      )
+      (net KEY2
+        (wire
+          (path BottomLayer 12000
+            1149210 1220470
+            1044880 1324800
+            1044880 1397640
+          )
+        )
+        (wire
+          (path TopLayer 12000
+            519290 1082680
+            573082 1136472
+            1065212 1136472
+            1149210 1220470
+          )
+        )
+      )
+      (net "SERVO_SIG"
+        (wire
+          (path TopLayer 12000
+            740550 708660
+            611810 708660
+            275590 1044880
+          )
+        )
+      )
+      (net "BTN1_A"
+        (wire
+          (path TopLayer 12000
+            1803550 562010
+            1903750 461810
+            2086610 461810
+          )
+        )
+      )
+      (net "BTN1_B"
+        (wire
+          (path BottomLayer 9000
+            1854987 517182
+            2041982 517182
+            2086610 561810
+          )
+        )
+        (wire
+          (path BottomLayer 12000
+            1803550 462010
+            1854987 513447
+            1854987 517182
+          )
+        )
+      )
+      (net "BTN2_A"
+        (wire
+          (path TopLayer 12000
+            1803550 1113190
+            1903750 1012990
+            2086610 1012990
+          )
+        )
+      )
+      (net "BTN2_B"
+        (wire
+          (path BottomLayer 9000
+            1854987 1068362
+            2041982 1068362
+            2086610 1112990
+          )
+        )
+        (wire
+          (path BottomLayer 12000
+            1803550 1013190
+            1854987 1064627
+            1854987 1068362
+          )
+        )
+      )
+      (net LED1
+        (wire
+          (path BottomLayer 12000
+            1503540 561610
+            1503540 613057
+          )
+        )
+        (wire
+          (path BottomLayer 12000
+            1503540 613057
+            1141730 974867
+            1141730 1094880
+          )
+        )
+      )
+      (net LED2
+        (wire
+          (path BottomLayer 12000
+            1503540 1112790
+            1503540 1164237
+          )
+        )
+        (wire
+          (path BottomLayer 12000
+            1503540 1164237
+            1449210 1218567
+            1449210 1220470
+          )
+        )
+      )
+    )
+  )
+)

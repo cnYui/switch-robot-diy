@@ -1,0 +1,13 @@
+{
+  "simulation_scenarios": 116,
+  "named_functional_cases": 25,
+  "expected_failures_detected": 11,
+  "routine_cases_passed": 14,
+  "consecutive_operations_passed": 20,
+  "randomized_parameter_cases_passed": 32,
+  "randomized_parameter_cases": 32,
+  "nominal_peak_contact_force_n": 4.640468898659892,
+  "nominal_rest_clearance_mm": 1.116381297516193,
+  "calibration_status": "ASSUMED_NOT_MEASURED",
+  "do_not_interpret_as_reliability_probability": true
+}

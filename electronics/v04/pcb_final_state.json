@@ -1,0 +1,1480 @@
+{
+  "passed": true,
+  "details": [],
+  "lines": [
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "V5_SERVO",
+      "layer": 2,
+      "startX": 1013.8,
+      "startY": 708.7,
+      "endX": 1013.8,
+      "endY": 405.09999999999997,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "8c13660015675793"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "V5_SERVO",
+      "layer": 2,
+      "startX": 1013.8,
+      "startY": 405.09999999999997,
+      "endX": 963,
+      "endY": 354.3,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "1e1d6a904e75b18e"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "V5_SERVO",
+      "layer": 1,
+      "startX": 729.9,
+      "startY": 354.3,
+      "endX": 963,
+      "endY": 354.3,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "7c22ecd7857975eb"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "V5_SERVO",
+      "layer": 2,
+      "startX": 729.9,
+      "startY": 354.3,
+      "endX": 722.2,
+      "endY": 354.3,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "25cb51111fc09593"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "V5_SERVO",
+      "layer": 2,
+      "startX": 722.2,
+      "startY": 354.3,
+      "endX": 334.90000000000003,
+      "endY": 741.7,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "290db3ef82a9e30e"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "V5_SERVO",
+      "layer": 2,
+      "startX": 334.90000000000003,
+      "startY": 741.7,
+      "endX": 334.90000000000003,
+      "endY": 889.0999999999999,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "78d509d493510a13"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "V5_SERVO",
+      "layer": 2,
+      "startX": 334.90000000000003,
+      "startY": 889.0999999999999,
+      "endX": 279.1,
+      "endY": 944.9,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "0e5501b7a0d468ef"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "V5_SERVO",
+      "layer": 2,
+      "startX": 279.1,
+      "startY": 944.9,
+      "endX": 275.59999999999997,
+      "endY": 944.9,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "a2d55b0b3671b238"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 2,
+      "startX": 1112.2,
+      "startY": 708.7,
+      "endX": 1112.2,
+      "endY": 405.09999999999997,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "e4edf7f0ef3a1248"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 2,
+      "startX": 1112.2,
+      "startY": 405.09999999999997,
+      "endX": 1163,
+      "endY": 354.3,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "ddeabad230f2a24d"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 1,
+      "startX": 315,
+      "startY": 404.3,
+      "endX": 326.4,
+      "endY": 415.7,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "976cafba3543d7e3"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 1,
+      "startX": 326.4,
+      "startY": 415.7,
+      "endX": 1101.6,
+      "endY": 415.7,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "e115720b9de26d7e"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 1,
+      "startX": 1101.6,
+      "startY": 415.7,
+      "endX": 1163,
+      "endY": 354.3,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "b070e239cd47ad96"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 2,
+      "startX": 819.3000000000001,
+      "startY": 905.5,
+      "endX": 915.4000000000001,
+      "endY": 905.5,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "34ebea938744d3ab"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 2,
+      "startX": 915.4000000000001,
+      "startY": 905.5,
+      "endX": 1112.2,
+      "endY": 708.7,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "8c533b6a035713f6"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 2,
+      "startX": 819.3000000000001,
+      "startY": 1082.7,
+      "endX": 819.3000000000001,
+      "endY": 905.5,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "5bc026c5a8987a65"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 1,
+      "startX": 852.5,
+      "startY": 1489,
+      "endX": 836.2,
+      "endY": 1489,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "59b6ec1656307378"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 1,
+      "startX": 836.2,
+      "startY": 1489,
+      "endX": 744.9,
+      "endY": 1397.6,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "e6e0bcd4387de757"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 1,
+      "startX": 1099.3000000000002,
+      "startY": 1456.9,
+      "endX": 884.5999999999999,
+      "endY": 1456.9,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "e594025f8c7ea0b7"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 1,
+      "startX": 884.5999999999999,
+      "startY": 1456.9,
+      "endX": 852.5,
+      "endY": 1489,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "f97271e7d4631511"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 1,
+      "startX": 1144.8999999999999,
+      "startY": 1397.6,
+      "endX": 1099.3000000000002,
+      "endY": 1443.1999999999998,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "e5ae19d766707310"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 1,
+      "startX": 1099.3000000000002,
+      "startY": 1443.1999999999998,
+      "endX": 1099.3000000000002,
+      "endY": 1456.9,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "d353fc0f6bc9a0f9"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 2,
+      "startX": 275.59999999999997,
+      "startY": 844.9,
+      "endX": 275.59999999999997,
+      "endY": 443.7,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "c80063ab7c89f1fb"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 2,
+      "startX": 275.59999999999997,
+      "startY": 443.7,
+      "endX": 315,
+      "endY": 404.3,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "d6faf98725a62240"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 2,
+      "startX": 740.6,
+      "startY": 1220.5,
+      "endX": 740.6,
+      "endY": 1334.1,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "60abd31a455c72ab"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 2,
+      "startX": 740.6,
+      "startY": 1334.1,
+      "endX": 744.9,
+      "endY": 1338.4,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "1e49ab79a4af43ce"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 2,
+      "startX": 819.3000000000001,
+      "startY": 1082.7,
+      "endX": 740.6,
+      "endY": 1161.4,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "907c8af49a0f1ff2"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 2,
+      "startX": 740.6,
+      "startY": 1161.4,
+      "endX": 740.6,
+      "endY": 1220.5,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "b2481012d14f307a"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 2,
+      "startX": 744.9,
+      "startY": 1397.6,
+      "endX": 744.9,
+      "endY": 1338.4,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "e12aeb122731c5ae"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 1,
+      "startX": 1503.6000000000001,
+      "startY": 461.59999999999997,
+      "endX": 1270.3,
+      "endY": 461.59999999999997,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "b1d9aa4e823ff53e"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 1,
+      "startX": 1270.3,
+      "startY": 461.59999999999997,
+      "endX": 1163,
+      "endY": 354.3,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "137460d1147ef3cf"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 2,
+      "startX": 1565,
+      "startY": 500.4,
+      "endX": 1542.4,
+      "endY": 500.4,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "aa87c248cdc14c9a"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 2,
+      "startX": 1542.4,
+      "startY": 500.4,
+      "endX": 1503.6000000000001,
+      "endY": 461.59999999999997,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "2e941bf0d6dc4700"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 2,
+      "startX": 1503.6000000000001,
+      "startY": 1012.8,
+      "endX": 1565,
+      "endY": 951.4,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "3167ccda542e7415"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "GND",
+      "layer": 2,
+      "startX": 1565,
+      "startY": 951.4,
+      "endX": 1565,
+      "endY": 500.4,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "969a8186835d654f"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "VIN5",
+      "layer": 1,
+      "startX": 315,
+      "startY": 304.3,
+      "endX": 479.90000000000003,
+      "endY": 304.3,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "22721b17abb17134"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "VIN5",
+      "layer": 1,
+      "startX": 479.90000000000003,
+      "startY": 304.3,
+      "endX": 529.9,
+      "endY": 354.3,
+      "lineWidth": 31.5,
+      "primitiveLock": false,
+      "primitiveId": "6d9685f07504c62a"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "PWM_IN",
+      "layer": 1,
+      "startX": 440.6,
+      "startY": 1220.5,
+      "endX": 667.6999999999999,
+      "endY": 1220.5,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "24754fa43d33e356"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "PWM_IN",
+      "layer": 1,
+      "startX": 667.6999999999999,
+      "startY": 1220.5,
+      "endX": 844.9,
+      "endY": 1397.6,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "a999d9fdd4abe9ee"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "PWM_IN",
+      "layer": 2,
+      "startX": 440.6,
+      "startY": 1220.5,
+      "endX": 440.6,
+      "endY": 708.7,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "350a656e169debde"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "KEY1",
+      "layer": 2,
+      "startX": 1141.7,
+      "startY": 794.9,
+      "endX": 944.9,
+      "endY": 991.7,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "1abcccf98a5a8912"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "KEY1",
+      "layer": 2,
+      "startX": 944.9,
+      "startY": 991.7,
+      "endX": 944.9,
+      "endY": 1397.6,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "cf79bbfc2a8a4e9c"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "KEY1",
+      "layer": 1,
+      "startX": 519.3,
+      "startY": 905.5,
+      "endX": 629.9,
+      "endY": 794.9,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "8e625da6e19246dd"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "KEY1",
+      "layer": 1,
+      "startX": 629.9,
+      "startY": 794.9,
+      "endX": 1141.7,
+      "endY": 794.9,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "c6f769345fcb20ae"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "KEY2",
+      "layer": 2,
+      "startX": 1149.2,
+      "startY": 1220.5,
+      "endX": 1044.8999999999999,
+      "endY": 1324.8,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "fc3f42b7bb4feb8b"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "KEY2",
+      "layer": 2,
+      "startX": 1044.8999999999999,
+      "startY": 1324.8,
+      "endX": 1044.8999999999999,
+      "endY": 1397.6,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "9d10bddef3a1c9f6"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "KEY2",
+      "layer": 1,
+      "startX": 519.3,
+      "startY": 1082.7,
+      "endX": 573.1,
+      "endY": 1136.5,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "2785fc1243efac53"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "KEY2",
+      "layer": 1,
+      "startX": 573.1,
+      "startY": 1136.5,
+      "endX": 1065.2,
+      "endY": 1136.5,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "d7584c6b872f81cc"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "KEY2",
+      "layer": 1,
+      "startX": 1065.2,
+      "startY": 1136.5,
+      "endX": 1149.2,
+      "endY": 1220.5,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "7c8d6e555e77f4fe"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "SERVO_SIG",
+      "layer": 1,
+      "startX": 740.6,
+      "startY": 708.7,
+      "endX": 611.8,
+      "endY": 708.7,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "8452a978aaf9ac00"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "SERVO_SIG",
+      "layer": 1,
+      "startX": 611.8,
+      "startY": 708.7,
+      "endX": 275.59999999999997,
+      "endY": 1044.8999999999999,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "c67e2a0b8fb61ed7"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "BTN1_A",
+      "layer": 1,
+      "startX": 1803.6000000000001,
+      "startY": 562,
+      "endX": 1903.8,
+      "endY": 461.8,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "d9fa68efbcdcd6cb"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "BTN1_A",
+      "layer": 1,
+      "startX": 1903.8,
+      "startY": 461.8,
+      "endX": 2086.6,
+      "endY": 461.8,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "4509d1162adca024"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "BTN1_B",
+      "layer": 2,
+      "startX": 1855,
+      "startY": 517.2,
+      "endX": 2042,
+      "endY": 517.2,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "077ba12c9bacecb5"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "BTN1_B",
+      "layer": 2,
+      "startX": 2042,
+      "startY": 517.2,
+      "endX": 2086.6,
+      "endY": 561.8,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "d0b8f07e53bdb72f"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "BTN1_B",
+      "layer": 2,
+      "startX": 1803.6000000000001,
+      "startY": 462,
+      "endX": 1855,
+      "endY": 513.4000000000001,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "a4a36c0d3bd6d0f8"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "BTN1_B",
+      "layer": 2,
+      "startX": 1855,
+      "startY": 513.4000000000001,
+      "endX": 1855,
+      "endY": 517.2,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "68db067c601950ac"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "BTN2_A",
+      "layer": 1,
+      "startX": 1803.6000000000001,
+      "startY": 1113.1999999999998,
+      "endX": 1903.8,
+      "endY": 1013,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "b0eb849d6929fe55"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "BTN2_A",
+      "layer": 1,
+      "startX": 1903.8,
+      "startY": 1013,
+      "endX": 2086.6,
+      "endY": 1013,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "981f05677d1929f3"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "BTN2_B",
+      "layer": 2,
+      "startX": 1855,
+      "startY": 1068.4,
+      "endX": 2042,
+      "endY": 1068.4,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "9b642b1921921a5d"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "BTN2_B",
+      "layer": 2,
+      "startX": 2042,
+      "startY": 1068.4,
+      "endX": 2086.6,
+      "endY": 1113,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "b24fd2286dd23978"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "BTN2_B",
+      "layer": 2,
+      "startX": 1803.6000000000001,
+      "startY": 1013.1999999999999,
+      "endX": 1855,
+      "endY": 1064.6,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "ff4d719aaa56f21e"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "BTN2_B",
+      "layer": 2,
+      "startX": 1855,
+      "startY": 1064.6,
+      "endX": 1855,
+      "endY": 1068.4,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "6953376d01847c2a"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "LED1",
+      "layer": 2,
+      "startX": 1503.5,
+      "startY": 561.5999999999999,
+      "endX": 1503.5,
+      "endY": 613.1,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "184fd8ebdf4cdb5c"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "LED1",
+      "layer": 2,
+      "startX": 1503.5,
+      "startY": 613.1,
+      "endX": 1141.7,
+      "endY": 974.9,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "ad6853b1e7c391b2"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "LED1",
+      "layer": 2,
+      "startX": 1141.7,
+      "startY": 974.9,
+      "endX": 1141.7,
+      "endY": 1094.8999999999999,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "3e85bc0404d4d4ce"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "LED2",
+      "layer": 2,
+      "startX": 1503.5,
+      "startY": 1112.8,
+      "endX": 1503.5,
+      "endY": 1164.2,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "d06ac56d4caf00d7"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "LED2",
+      "layer": 2,
+      "startX": 1503.5,
+      "startY": 1164.2,
+      "endX": 1449.1999999999998,
+      "endY": 1218.6,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "812d86d694bd810e"
+    },
+    {
+      "async": true,
+      "primitiveType": "Line",
+      "net": "LED2",
+      "layer": 2,
+      "startX": 1449.1999999999998,
+      "startY": 1218.6,
+      "endX": 1449.1999999999998,
+      "endY": 1220.5,
+      "lineWidth": 12,
+      "primitiveLock": false,
+      "primitiveId": "5a8849ad53d1342a"
+    }
+  ],
+  "rules": {
+    "config": {
+      "Spacing": {
+        "Safe Spacing": {
+          "copperThickness1oz": {
+            "editName": "copperThickness1oz",
+            "unit": "mm",
+            "isSetDefault": true,
+            "column": [
+              "Track",
+              "SMD Pad",
+              "TH Pad",
+              "SMD Test Point",
+              "TH Test Point",
+              "Via",
+              "Fill Region/Teardrop",
+              "Copper/Plane Zone",
+              "Slot Region",
+              "Line",
+              "Text/Image",
+              "Board Outline"
+            ],
+            "row": [
+              "Track",
+              "SMD Pad",
+              "TH Pad",
+              "SMD Test Point",
+              "TH Test Point",
+              "Via",
+              "Fill Region/Teardrop",
+              "Copper/Plane Zone",
+              "Slot Region",
+              "Line",
+              "Text/Image",
+              "Board Outline",
+              "Hole"
+            ],
+            "status": 0,
+            "tables": {
+              "1": {
+                "status": 1,
+                "content": [
+                  [
+                    0.24999949999999999
+                  ],
+                  [
+                    0.24999949999999999,
+                    0.24999949999999999
+                  ],
+                  [
+                    0.24999949999999999,
+                    0.24999949999999999,
+                    0.24999949999999999
+                  ],
+                  [
+                    0.24999949999999999,
+                    0.24999949999999999,
+                    0.24999949999999999,
+                    0.24999949999999999
+                  ],
+                  [
+                    0.24999949999999999,
+                    0.24999949999999999,
+                    0.24999949999999999,
+                    0.24999949999999999,
+                    0.24999949999999999
+                  ],
+                  [
+                    0.24999949999999999,
+                    0.24999949999999999,
+                    0.24999949999999999,
+                    0.24999949999999999,
+                    0.24999949999999999,
+                    0.24999949999999999
+                  ],
+                  [
+                    0.24999949999999999,
+                    0.24999949999999999,
+                    0.24999949999999999,
+                    0.24999949999999999,
+                    0.24999949999999999,
+                    0.24999949999999999,
+                    0.24999949999999999
+                  ],
+                  [
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254
+                  ],
+                  [
+                    0.29999939999999997,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.254,
+                    0.15239999999999998
+                  ],
+                  [
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.254,
+                    0.29999939999999997,
+                    0.15239999999999998
+                  ],
+                  [
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.254,
+                    0.15239999999999998,
+                    0.15239999999999998,
+                    0.15239999999999998
+                  ],
+                  [
+                    0.29972,
+                    0.29972,
+                    0.29972,
+                    0.29972,
+                    0.29972,
+                    0.29972,
+                    0.29972,
+                    0.254,
+                    0.29972,
+                    0.29972,
+                    0.29972
+                  ],
+                  [
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.254,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998
+                  ]
+                ]
+              }
+            }
+          },
+          "copperThickness2oz": {
+            "editName": "copperThickness2oz",
+            "unit": "mm",
+            "isSetDefault": false,
+            "column": [
+              "Track",
+              "SMD Pad",
+              "TH Pad",
+              "SMD Test Point",
+              "TH Test Point",
+              "Via",
+              "Fill Region/Teardrop",
+              "Copper/Plane Zone",
+              "Slot Region",
+              "Line",
+              "Text/Image",
+              "Board Outline"
+            ],
+            "row": [
+              "Track",
+              "SMD Pad",
+              "TH Pad",
+              "SMD Test Point",
+              "TH Test Point",
+              "Via",
+              "Fill Region/Teardrop",
+              "Copper/Plane Zone",
+              "Slot Region",
+              "Line",
+              "Text/Image",
+              "Board Outline",
+              "Hole"
+            ],
+            "status": 0,
+            "tables": {
+              "1": {
+                "status": 1,
+                "content": [
+                  [
+                    0.20299933999999997
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254,
+                    0.254
+                  ],
+                  [
+                    0.29999939999999997,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.254,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.254,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122,
+                    0.254,
+                    0.15200122,
+                    0.15200122,
+                    0.15200122
+                  ],
+                  [
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.254,
+                    0.29999939999999997,
+                    0.29999939999999997,
+                    0.29999939999999997
+                  ],
+                  [
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.254,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998,
+                    0.17599659999999998
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "Other Spacing": {
+          "otherClearance": {
+            "editName": "otherClearance",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "device2device": 0,
+              "thru2Smd": 0,
+              "hole2Hole": 0.29999939999999997
+            }
+          }
+        },
+        "Creepage Distance": {
+          "creepage": {
+            "editName": "creepage",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "creepageDistance": 0,
+              "ignoreLayer": true
+            }
+          }
+        }
+      },
+      "Physics": {
+        "Track": {
+          "copperThickness1oz": {
+            "editName": "copperThickness1oz",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "status": 1,
+              "data": {
+                "1": {
+                  "minValue": 0.29999939999999997,
+                  "defaultValue": 0.30479999999999996,
+                  "maxValue": 2.54
+                }
+              }
+            }
+          },
+          "copperThickness2oz": {
+            "editName": "copperThickness2oz",
+            "unit": "mm",
+            "isSetDefault": false,
+            "form": {
+              "status": 1,
+              "data": {
+                "1": {
+                  "minValue": 0.20299933999999997,
+                  "defaultValue": 0.254,
+                  "maxValue": 2.54
+                }
+              }
+            }
+          }
+        },
+        "Net Length Range": {
+          "netLength": {
+            "editName": "netLength",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "netLengthMin": 0,
+              "netLengthMax": 0
+            }
+          }
+        },
+        "Net Length Tolerance": {
+          "netLengthTolerance": {
+            "editName": "netLengthTolerance",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "netLengthTolerance": 25.4
+            }
+          }
+        },
+        "Differential Pair": {
+          "differentialPair": {
+            "editName": "differentialPair",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "strokeWidthTables": {
+                "status": 1,
+                "data": {
+                  "1": {
+                    "minValue": 0.127,
+                    "defaultValue": 0.254,
+                    "maxValue": 2.54
+                  }
+                }
+              },
+              "diffPairSpacingTables": {
+                "status": 1,
+                "data": {
+                  "1": {
+                    "minValue": 0.15239999999999998,
+                    "defaultValue": 0.15239999999999998,
+                    "maxValue": 0
+                  }
+                }
+              },
+              "toleranceUnit": "mm",
+              "differentailPairLenTolerMax": 0.254
+            }
+          }
+        },
+        "Blind/Buried Via": {
+          "blindVia": {
+            "editName": "blindVia",
+            "isSetDefault": true,
+            "table": []
+          }
+        },
+        "Via Size": {
+          "viaSize": {
+            "editName": "viaSize",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "viaOuterdiameterMin": 0.49999899999999997,
+              "viaOuterdiameterMax": 10.00000032,
+              "viaOuterdiameterDefault": 0.61000132,
+              "viaInnerdiameterMin": 0.29999939999999997,
+              "viaInnerdiameterMax": 6.2999975599999996,
+              "viaInnerdiameterDefault": 0.30499812
+            }
+          }
+        },
+        "Height": {
+          "height": {
+            "editName": "height",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "maxHeight": 0
+            }
+          }
+        }
+      },
+      "Plane": {
+        "Plane Zone": {
+          "innerPlane": {
+            "editName": "innerPlane",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "status": 1,
+              "data": {
+                "1": {
+                  "connectMode": 0,
+                  "lineClearance": 0.254,
+                  "lineWidth": 0.254,
+                  "lineAngle": 90
+                }
+              }
+            }
+          }
+        },
+        "Copper Zone": {
+          "copperRegion": {
+            "editName": "copperRegion",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "singleLayerPadModel": {
+                "status": 1,
+                "data": {
+                  "1": {
+                    "connectMode": 0,
+                    "lineClearance": 0.254,
+                    "lineWidth": 0.254,
+                    "lineAngle": 90
+                  }
+                }
+              },
+              "multiLayerPadModel": {
+                "status": 1,
+                "data": {
+                  "1": {
+                    "connectMode": 0,
+                    "lineClearance": 0.254,
+                    "lineWidth": 0.254,
+                    "lineAngle": 90
+                  }
+                }
+              },
+              "trackConnectModel": {
+                "status": 1,
+                "data": {
+                  "1": {
+                    "trackConnectMode": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Expansion": {
+        "Solder Mask Expansion": {
+          "solderMaskExpansion": {
+            "editName": "solderMaskExpansion",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "padToplayerExpansion": 0.0508,
+              "padBottomlayerExpansion": 0.0508,
+              "viaToplayerExpansion": -25.4,
+              "viaBottomlayerExpansion": -25.4,
+              "testPointToplayerExpansion": 0.0508,
+              "testPointBottomlayerExpansion": 0.0508
+            }
+          }
+        },
+        "Paste Mask Expansion": {
+          "pasteMaskExpansion": {
+            "editName": "pasteMaskExpansion",
+            "unit": "mm",
+            "isSetDefault": true,
+            "form": {
+              "padToplayerExpansion": 0,
+              "padBottomlayerExpansion": 0,
+              "testPointToplayerExpansion": -25.4,
+              "testPointBottomlayerExpansion": -25.4
+            }
+          }
+        }
+      },
+      "Copper Analysis": {
+        "Acute Angle": [],
+        "Hole Falls on Pad": [],
+        "Bare Track Ends": [],
+        "Pad Hole Ring": [],
+        "Track Neckdown": [],
+        "Short Circuit Prompt": [],
+        "Minimum Copper Width": []
+      },
+      "Drill Hole Analysis": {
+        "No Connected Vias": [],
+        "Hole Size": [],
+        "NPTH to Copper": []
+      },
+      "Silkscreen Analysis": {
+        "Silkscreen to Pad": [],
+        "Silkscreen to Hole": [],
+        "Silkscreen Line Width": []
+      },
+      "Solder Mask Analysis": {
+        "Solder Mask Bridge": [],
+        "SMask Opening Copper": [],
+        "Pad Negative Opening": []
+      }
+    },
+    "name": "\u81ea\u5b9a\u4e49\u914d\u7f6e"
+  }
+}

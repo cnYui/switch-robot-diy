@@ -1,0 +1,816 @@
+[
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "f4dd02dd78fe2338",
+        "sheet": "499184c8a34ecba3",
+        "name": "U1"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "b65c7988803d0953",
+        "sheet": "499184c8a34ecba3",
+        "name": "J2"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "fdfbd3959511c2a3",
+        "sheet": "499184c8a34ecba3",
+        "name": "R5"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "27178c509df83f36",
+        "sheet": "499184c8a34ecba3",
+        "name": "R6"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "6828773c6f0f8e28",
+        "sheet": "499184c8a34ecba3",
+        "name": "J3"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "9ead0e3a700c9575",
+        "sheet": "499184c8a34ecba3",
+        "name": "R1"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "27385582d9fbd6ce",
+        "sheet": "499184c8a34ecba3",
+        "name": "R3"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "7c09a67648c3c997",
+        "sheet": "499184c8a34ecba3",
+        "name": "J4"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "6f7a951a128efcd4",
+        "sheet": "499184c8a34ecba3",
+        "name": "R2"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "c634e54a4dceea19",
+        "sheet": "499184c8a34ecba3",
+        "name": "R4"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "63cc05fbef1caa4a",
+        "sheet": "499184c8a34ecba3",
+        "name": "U2"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "bc0a380d9698d95a",
+        "sheet": "499184c8a34ecba3",
+        "name": "J5"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "34643f371dd01235",
+        "sheet": "499184c8a34ecba3",
+        "name": "GND"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "e4c6224c8459d83a",
+        "sheet": "499184c8a34ecba3",
+        "name": "PWM_IN"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "99fe1effe74b396d",
+        "sheet": "499184c8a34ecba3",
+        "name": "KEY1"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "eba7d926053bdf6b",
+        "sheet": "499184c8a34ecba3",
+        "name": "KEY2"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "997fe87bb333abbd",
+        "sheet": "499184c8a34ecba3",
+        "name": "SERVO_SIG"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "6d3d48d16f2ed569",
+        "sheet": "499184c8a34ecba3",
+        "name": "PWM_IN"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "b22b8f43cc925240",
+        "sheet": "499184c8a34ecba3",
+        "name": "GND"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "ba1eab26fc2e070f",
+        "sheet": "499184c8a34ecba3",
+        "name": "PWM_IN"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "36a23a4eb0742723",
+        "sheet": "499184c8a34ecba3",
+        "name": "GND"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "40224d801965f559",
+        "sheet": "499184c8a34ecba3",
+        "name": "V5_SERVO"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "4f242e4f1b59c533",
+        "sheet": "499184c8a34ecba3",
+        "name": "SERVO_SIG"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "01e7eb14f6550441",
+        "sheet": "499184c8a34ecba3",
+        "name": "LED1"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "b84f43b3b8757afb",
+        "sheet": "499184c8a34ecba3",
+        "name": "KEY1"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "f7c52fa5139bf290",
+        "sheet": "499184c8a34ecba3",
+        "name": "GND"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "c2a3276549022d8f",
+        "sheet": "499184c8a34ecba3",
+        "name": "KEY1"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "d3d77c9df5286716",
+        "sheet": "499184c8a34ecba3",
+        "name": "LED1"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "88079468bc03f993",
+        "sheet": "499184c8a34ecba3",
+        "name": "GND"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "002f952282cb3b76",
+        "sheet": "499184c8a34ecba3",
+        "name": "BTN1_B"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "0237f5b1561378a9",
+        "sheet": "499184c8a34ecba3",
+        "name": "BTN1_A"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "dccf3bd07975267c",
+        "sheet": "499184c8a34ecba3",
+        "name": "BTN1_A"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "2b4b56051b822019",
+        "sheet": "499184c8a34ecba3",
+        "name": "BTN1_B"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "45b3c92a5f72618a",
+        "sheet": "499184c8a34ecba3",
+        "name": "LED2"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "13abe61a78477afb",
+        "sheet": "499184c8a34ecba3",
+        "name": "KEY2"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "fc0d4e42561c82ea",
+        "sheet": "499184c8a34ecba3",
+        "name": "GND"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "193999b6076d9893",
+        "sheet": "499184c8a34ecba3",
+        "name": "KEY2"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "c02d3a8bbb9dd19c",
+        "sheet": "499184c8a34ecba3",
+        "name": "LED2"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "448b77d6ee444f66",
+        "sheet": "499184c8a34ecba3",
+        "name": "GND"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "2daa5d26d31a1923",
+        "sheet": "499184c8a34ecba3",
+        "name": "BTN2_B"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "d139c9e8c81805c4",
+        "sheet": "499184c8a34ecba3",
+        "name": "BTN2_A"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "0e57417df39d6a9c",
+        "sheet": "499184c8a34ecba3",
+        "name": "BTN2_A"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "dd93aa8a47879f55",
+        "sheet": "499184c8a34ecba3",
+        "name": "BTN2_B"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "9f8ed5248aac0686",
+        "sheet": "499184c8a34ecba3",
+        "name": "GND"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "10647dee6ad63af8",
+        "sheet": "499184c8a34ecba3",
+        "name": "PWM_IN"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "9923d99ccb99115c",
+        "sheet": "499184c8a34ecba3",
+        "name": "KEY1"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "7ff12a846c6a9460",
+        "sheet": "499184c8a34ecba3",
+        "name": "KEY2"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "f0e7c3d8b35f4468",
+        "sheet": "499184c8a34ecba3",
+        "name": "SERVO_SIG"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "57917c370e7aa79e",
+        "sheet": "499184c8a34ecba3",
+        "name": "PWM_IN"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "d599c0437b1c1b24",
+        "sheet": "499184c8a34ecba3",
+        "name": "GND"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "f0b409654e2f32b5",
+        "sheet": "499184c8a34ecba3",
+        "name": "PWM_IN"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "cf6acb0cfa1ec146",
+        "sheet": "499184c8a34ecba3",
+        "name": "GND"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "40483d48532b0619",
+        "sheet": "499184c8a34ecba3",
+        "name": "V5_SERVO"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "4e4839582c6d95a4",
+        "sheet": "499184c8a34ecba3",
+        "name": "SERVO_SIG"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "789e16d4dd7a3c83",
+        "sheet": "499184c8a34ecba3",
+        "name": "LED1"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "35b6c8d5cd8eece8",
+        "sheet": "499184c8a34ecba3",
+        "name": "KEY1"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "2afe12fe07fa9e51",
+        "sheet": "499184c8a34ecba3",
+        "name": "GND"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "e571cabedf6db070",
+        "sheet": "499184c8a34ecba3",
+        "name": "KEY1"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "a438bf3a1f21e76c",
+        "sheet": "499184c8a34ecba3",
+        "name": "LED1"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "143f1a6d51aeacf5",
+        "sheet": "499184c8a34ecba3",
+        "name": "GND"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "3987403e0724dafe",
+        "sheet": "499184c8a34ecba3",
+        "name": "BTN1_B"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "f83ef7dd4691ed7d",
+        "sheet": "499184c8a34ecba3",
+        "name": "BTN1_A"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "25ebb419fee6e1d9",
+        "sheet": "499184c8a34ecba3",
+        "name": "BTN1_A"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "bd77858c8d6c260d",
+        "sheet": "499184c8a34ecba3",
+        "name": "BTN1_B"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "c399d8f7e4dee1dc",
+        "sheet": "499184c8a34ecba3",
+        "name": "LED2"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "0dee3f3c8f3dbed8",
+        "sheet": "499184c8a34ecba3",
+        "name": "KEY2"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "6e431dea0e7294b8",
+        "sheet": "499184c8a34ecba3",
+        "name": "GND"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "60f8ce3a03f515c0",
+        "sheet": "499184c8a34ecba3",
+        "name": "KEY2"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "885bd115b6396710",
+        "sheet": "499184c8a34ecba3",
+        "name": "LED2"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "5e814d8b685aef82",
+        "sheet": "499184c8a34ecba3",
+        "name": "GND"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "9a9b61895a32bb0f",
+        "sheet": "499184c8a34ecba3",
+        "name": "BTN2_B"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "5b5ede207ce9b3e9",
+        "sheet": "499184c8a34ecba3",
+        "name": "BTN2_A"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "0aaf63611d9d1d70",
+        "sheet": "499184c8a34ecba3",
+        "name": "BTN2_A"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "OBJECTOUTSIDESHEET",
+    "primitives": [
+      {
+        "primitiveId": "ce0db90a917e3f3c",
+        "sheet": "499184c8a34ecba3",
+        "name": "BTN2_B"
+      }
+    ]
+  }
+]

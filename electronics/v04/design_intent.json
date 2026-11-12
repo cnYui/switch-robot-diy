@@ -1,0 +1,239 @@
+{
+  "revision": "0.4",
+  "board_mm": [
+    60,
+    40,
+    1.6
+  ],
+  "mount_holes_mm": [
+    [
+      4,
+      4,
+      3.2
+    ],
+    [
+      56,
+      4,
+      3.2
+    ],
+    [
+      56,
+      36,
+      3.2
+    ],
+    [
+      4,
+      36,
+      3.2
+    ]
+  ],
+  "description": "Low-voltage external-MCU carrier: one 5V positional servo and two isolated remote-button outputs. Does not switch mains.",
+  "parts": [
+    {
+      "ref": "J1",
+      "sku": "C492401",
+      "xy_sch": [
+        200,
+        720
+      ],
+      "nets": {
+        "1": "VIN5",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "F1",
+      "sku": "C5395",
+      "xy_sch": [
+        460,
+        720
+      ],
+      "nets": {
+        "1": "VIN5",
+        "2": "V5_SERVO"
+      }
+    },
+    {
+      "ref": "C1",
+      "sku": "C407944",
+      "xy_sch": [
+        700,
+        720
+      ],
+      "nets": {
+        "1": "V5_SERVO",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C2",
+      "sku": "C3689569",
+      "xy_sch": [
+        940,
+        720
+      ],
+      "nets": {
+        "1": "V5_SERVO",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "J2",
+      "sku": "C492404",
+      "xy_sch": [
+        200,
+        560
+      ],
+      "nets": {
+        "1": "GND",
+        "2": "PWM_IN",
+        "3": "KEY1",
+        "4": "KEY2",
+        "5": "GND"
+      }
+    },
+    {
+      "ref": "R5",
+      "sku": "C2848564",
+      "xy_sch": [
+        460,
+        560
+      ],
+      "nets": {
+        "1": "PWM_IN",
+        "2": "SERVO_SIG"
+      }
+    },
+    {
+      "ref": "R6",
+      "sku": "C2903382",
+      "xy_sch": [
+        700,
+        560
+      ],
+      "nets": {
+        "1": "PWM_IN",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "J3",
+      "sku": "C2937625",
+      "xy_sch": [
+        940,
+        560
+      ],
+      "nets": {
+        "1": "GND",
+        "2": "V5_SERVO",
+        "3": "SERVO_SIG"
+      }
+    },
+    {
+      "ref": "R1",
+      "sku": "C2848568",
+      "xy_sch": [
+        200,
+        400
+      ],
+      "nets": {
+        "1": "KEY1",
+        "2": "LED1"
+      }
+    },
+    {
+      "ref": "R3",
+      "sku": "C2903382",
+      "xy_sch": [
+        460,
+        400
+      ],
+      "nets": {
+        "1": "KEY1",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "U1",
+      "sku": "C2894775",
+      "xy_sch": [
+        700,
+        400
+      ],
+      "nets": {
+        "1": "LED1",
+        "2": "GND",
+        "3": "BTN1_B",
+        "4": "BTN1_A"
+      }
+    },
+    {
+      "ref": "J4",
+      "sku": "C492401",
+      "xy_sch": [
+        940,
+        400
+      ],
+      "nets": {
+        "1": "BTN1_A",
+        "2": "BTN1_B"
+      }
+    },
+    {
+      "ref": "R2",
+      "sku": "C2848568",
+      "xy_sch": [
+        200,
+        240
+      ],
+      "nets": {
+        "1": "KEY2",
+        "2": "LED2"
+      }
+    },
+    {
+      "ref": "R4",
+      "sku": "C2903382",
+      "xy_sch": [
+        460,
+        240
+      ],
+      "nets": {
+        "1": "KEY2",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "U2",
+      "sku": "C2894775",
+      "xy_sch": [
+        700,
+        240
+      ],
+      "nets": {
+        "1": "LED2",
+        "2": "GND",
+        "3": "BTN2_B",
+        "4": "BTN2_A"
+      }
+    },
+    {
+      "ref": "J5",
+      "sku": "C492401",
+      "xy_sch": [
+        940,
+        240
+      ],
+      "nets": {
+        "1": "BTN2_A",
+        "2": "BTN2_B"
+      }
+    }
+  ],
+  "interfaces": {
+    "J1": "External regulated 5V input; 1=+5V, 2=GND. No reverse-polarity protection.",
+    "J2": "External 3.3V MCU: 1=GND, 2=PWM, 3=KEY1, 4=KEY2, 5=GND spare. MCU powered separately; common GND.",
+    "J3": "Positional servo: 1=GND, 2=fused +5V, 3=PWM signal. Confirm lead order before plugging in.",
+    "J4,J5": "Floating normally-open PhotoMOS outputs across low-voltage remote button contacts; no direct mains loads."
+  }
+}

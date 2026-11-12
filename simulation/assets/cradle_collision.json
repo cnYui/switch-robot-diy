@@ -1,0 +1,41 @@
+{
+  "source_sha256": "d8e2ac5df81cfb5850b977f101f0adb3cb857e7695c3cf39864c5c2a4fe428c0",
+  "hulls": [
+    "cradle_col_00.obj",
+    "cradle_col_01.obj",
+    "cradle_col_02.obj",
+    "cradle_col_03.obj",
+    "cradle_col_04.obj",
+    "cradle_col_05.obj",
+    "cradle_col_06.obj"
+  ],
+  "method": "cad_primitives",
+  "watertight": false,
+  "volume_mm3": 9081.679998084257,
+  "solid_density_kg_m3": 1240,
+  "effective_mass_fraction_assumed": 0.55,
+  "mass_kg": 0.006193705758693465,
+  "center_of_mass_m": [
+    0.04520673972327793,
+    7.886672128087052e-11,
+    0.01810714039497469
+  ],
+  "inertia_kg_m2": [
+    [
+      2.01364113346996e-06,
+      -2.7017216644020132e-15,
+      -3.398902610747941e-08
+    ],
+    [
+      -2.7017216644020132e-15,
+      7.83810752393549e-07,
+      1.514777667884636e-15
+    ],
+    [
+      -3.398902610747941e-08,
+      1.514777667884636e-15,
+      2.4590169502704216e-06
+    ]
+  ],
+  "hull_volume_excess_ratio": 0.15044793498603437
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Switch Robot DIY V0.1",
+  "owner_uuid": "3c6b6035e751485c824305b6aa9d7fd2",
+  "creator_uuid": "3c6b6035e751485c824305b6aa9d7fd2",
+  "created_at": "2026-11-05 20:23:52",
+  "updated_at": "2026-11-05 20:23:52",
+  "modifier_uuid": "3c6b6035e751485c824305b6aa9d7fd2",
+  "content": "",
+  "archive": false,
+  "cbb_project": 0,
+  "thumb": "",
+  "ticket": 1,
+  "g_ticket": 1,
+  "boards": [],
+  "block_symbol_attrs_groups": {},
+  "default_sheet": "b217d099fdd7f880",
+  "branch_uuid": "",
+  "pcb_count": 0,
+  "format": "folder",
+  "profile": {
+    "boards": {
+      "5a15a98335cdf755": {
+        "uuid": "5a15a98335cdf755",
+        "title": "Board1",
+        "zIndex": 1
+      }
+    },
+    "schematics": {
+      "5210d004a9ebcbc6": {
+        "uuid": "5210d004a9ebcbc6",
+        "name": "Schematic1",
+        "board": "5a15a98335cdf755",
+        "source": "",
+        "version": "1793878485648",
+        "updateTime": 1793878485648
+      }
+    },
+    "sheets": {
+      "bc806f309d128c37": {
+        "uuid": "bc806f309d128c37",
+        "title": "P1",
+        "schematic_uuid": "5210d004a9ebcbc6",
+        "zIndex": 1,
+        "source": "",
+        "version": "1793878437023",
+        "updateTime": 1793878437023
+      }
+    },
+    "pcbs": {
+      "cc4ecc43b7be6423": {
+        "uuid": "cc4ecc43b7be6423",
+        "title": "PCB1",
+        "board": "5a15a98335cdf755",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1793878538633",
+        "updateTime": 1793878538633
+      }
+    },
+    "panels": {
+      "800e6820a3d62368": {
+        "uuid": "800e6820a3d62368",
+        "title": "Panel1",
+        "zIndex": null
+      }
+    },
+    "blockSymbols": {},
+    "owner": {
+      "uuid": "3c6b6035e751485c824305b6aa9d7fd2"
+    },
+    "simSchematics": {},
+    "simulations": {}
+  },
+  "config": {
+    "defaultSheet": "b217d099fdd7f880",
+    "settings": {
+      "UNIVERSAL": {
+        "dataType": "UNIVERSAL",
+        "data": {
+          "allowLibRename": true,
+          "defaultNetName": true,
+          "wireMultipleNet": true,
+          "netFlagCrossLayerConnection": true,
+          "netLabelCrossPageConnection": true,
+          "busGenerateNetClass": true,
+          "relevanceDisplayRow": "SINGLE",
+          "relevanceBelongSchPage": "NAME",
+          "relevanceLocation": "ZONE",
+          "multipartCrossLayer": true,
+          "nonElectronicAddIntoBom": false,
+          "nonElectronicUpdatePcb": false
+        }
+      }
+    }
+  }
+}

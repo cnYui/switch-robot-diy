@@ -1,0 +1,2724 @@
+[
+  {
+    "component": {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 991.1959999999993,
+      "y": -398.7003999999995,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": {
+          "name": "EEUFR1E471",
+          "source": "",
+          "uuid": "c66d591583af6fb4"
+        }
+      },
+      "primitiveId": "c8d21bc556c6b784",
+      "footprint": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": "ca7b96dab09f480d",
+        "name": "CAP-TH_BD10.0-P5.00-D1.0-FD"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "6ce78ce5315348e095d700085da75e48|0819f05c4eef4c71ace90d822a990e87",
+        "name": "CAP-TH_D10.0-H16.0-P5.00"
+      },
+      "designator": "C1",
+      "pads": [
+        {
+          "primitiveId": "e11",
+          "net": "V5_SERVO",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e12",
+          "net": "GND",
+          "padNumber": "2"
+        }
+      ],
+      "name": "={Value}",
+      "uniqueId": "SR04-C1",
+      "manufacturer": "PANASONIC(\u677e\u4e0b)",
+      "manufacturerId": "EEUFR1E471",
+      "supplier": "LCSC",
+      "supplierId": "C407944",
+      "otherProperty": {
+        "Footprint": "CAP-TH_BD10.0-P5.00-D1.0-FD",
+        "LCSC Part Name": "470uF \u00b120% 25V",
+        "Supplier Footprint": "\u63d2\u4ef6,D10xL12.5mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/EEUFR1E471/396923.html",
+        "3D Model": "6ce78ce5315348e095d700085da75e48|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "CAP-TH_D10.0-H16.0-P5.00",
+        "3D Model Transform": "394.094,393.72252,0,0,0,0,0,0,-137.795",
+        "Value": "470uF",
+        "Tolerance": "\u00b120%",
+        "Voltage Rating": "25V",
+        "Ripple Current": "1.29A@100kHz",
+        "Equivalent Series Resistance(ESR)": "43m\u03a9@100kHz",
+        "Pin Spacing": "5mm",
+        "Diameter": "10mm",
+        "Height - Seated (Max)": "12.5mm",
+        "Lifetime": "6000hrs@105\u2103",
+        "Operating Temperature": "-40\u2103~+105\u2103",
+        "Polarity type": "\u6709\u6781\u6027",
+        "Description": "\u5bb9\u503c:470uF;\u7cbe\u5ea6:\u00b120%;\u989d\u5b9a\u7535\u538b:25V;\u7eb9\u6ce2\u7535\u6d41:1.29A@100kHz;\u7b49\u6548\u4e32\u8054\u7535\u963b(ESR):43m\u03a9@100kHz;",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I4"
+      }
+    },
+    "pads": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "1",
+        "x": 891.2,
+        "y": -398.7,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          63,
+          63
+        ],
+        "net": "V5_SERVO",
+        "hole": [
+          "ROUND",
+          3.937,
+          3.937
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "c8d21bc556c6b784e11",
+        "parentComponentPrimitiveId": "c8d21bc556c6b784"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "2",
+        "x": 1091.2,
+        "y": -398.7,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          63,
+          63
+        ],
+        "net": "GND",
+        "hole": [
+          "ROUND",
+          3.937,
+          3.937
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "c8d21bc556c6b784e12",
+        "parentComponentPrimitiveId": "c8d21bc556c6b784"
+      }
+    ]
+  },
+  {
+    "component": {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 1341.4715,
+      "y": -398.70039999999904,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": {
+          "name": "FK18X7R1H104K",
+          "source": "",
+          "uuid": "058fb25e707b0fdb"
+        }
+      },
+      "primitiveId": "ba5e00f922d47295",
+      "footprint": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": "fbd59c0195a4f9c0",
+        "name": "CAP-TH_L4.0-W2.5-P2.50-D0.5"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "29f34a7a495a447ab8bf96a7f673455e|0819f05c4eef4c71ace90d822a990e87",
+        "name": "CAP-TH_L4.0-W2.5-P2.50-D0.5"
+      },
+      "designator": "C2",
+      "pads": [
+        {
+          "primitiveId": "e11",
+          "net": "GND",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "e12",
+          "net": "V5_SERVO",
+          "padNumber": "1"
+        }
+      ],
+      "name": "={Value}",
+      "uniqueId": "SR04-C2",
+      "manufacturer": "TDK",
+      "manufacturerId": "FK18X7R1H104K",
+      "supplier": "LCSC",
+      "supplierId": "C3689569",
+      "otherProperty": {
+        "Footprint": "CAP-TH_L4.0-W2.5-P2.50-D0.5",
+        "LCSC Part Name": "100nF \u00b110% 50V",
+        "Supplier Footprint": "-",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20171113/C140866_15105613015131115783.pdf",
+        "3D Model": "29f34a7a495a447ab8bf96a7f673455e|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "CAP-TH_L4.0-W2.5-P2.50-D0.5",
+        "3D Model Transform": "189.7897,98.8187,0,0,0,0,0,0,-196.85",
+        "Value": "100nF",
+        "Tolerance": "\u00b110%",
+        "Voltage Rated": "50V",
+        "Temperature Coefficient": "X7R",
+        "Description": "\u5bb9\u503c:100nF;\u7cbe\u5ea6:\u00b110%;\u989d\u5b9a\u7535\u538b:50V;\u6e29\u5ea6\u7cfb\u6570:X7R;",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I5"
+      }
+    },
+    "pads": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "2",
+        "x": 1390.7,
+        "y": -398.7,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          55.1,
+          55.1
+        ],
+        "net": "GND",
+        "hole": [
+          "ROUND",
+          3.1496,
+          3.1496
+        ],
+        "holeOffsetX": 0.00030000000000000003,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "ba5e00f922d47295e11",
+        "parentComponentPrimitiveId": "ba5e00f922d47295"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "1",
+        "x": 1292.3,
+        "y": -398.7,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          55.1,
+          55.1
+        ],
+        "net": "V5_SERVO",
+        "hole": [
+          "ROUND",
+          3.1496,
+          3.1496
+        ],
+        "holeOffsetX": -0.00030000000000000003,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "ba5e00f922d47295e12",
+        "parentComponentPrimitiveId": "ba5e00f922d47295"
+      }
+    ]
+  },
+  {
+    "component": {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 625.8660000000003,
+      "y": -398.7003999999986,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": {
+          "name": "RUEF110",
+          "source": "",
+          "uuid": "3276794d84017c35"
+        }
+      },
+      "primitiveId": "416cc546eb79b4df",
+      "footprint": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": "3a6e3e2065d46154",
+        "name": "FUSE-TH_L7.0-W3.1-P5.08-D1.2"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "daa0ef7ac6024341b772331432b58522|0819f05c4eef4c71ace90d822a990e87",
+        "name": "FUSE-TH_L7.0-W3.1-H8.5-P5.1-D0.5"
+      },
+      "designator": "F1",
+      "pads": [
+        {
+          "primitiveId": "e7",
+          "net": "VIN5",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e8",
+          "net": "V5_SERVO",
+          "padNumber": "2"
+        }
+      ],
+      "name": "={Manufacturer Part}",
+      "uniqueId": "SR04-F1",
+      "manufacturer": "Littelfuse(\u7f8e\u56fd\u529b\u7279)",
+      "manufacturerId": "RUEF110",
+      "supplier": "LCSC",
+      "supplierId": "C5395",
+      "otherProperty": {
+        "Footprint": "FUSE-TH_L7.0-W3.1-P5.08-D1.2",
+        "LCSC Part Name": "30V 1.1A \u63d2\u4ef6\u81ea\u6062\u590d",
+        "Supplier Footprint": "\u63d2\u4ef6,P=5.08mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/RUEF110/5832.html",
+        "3D Model": "daa0ef7ac6024341b772331432b58522|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "FUSE-TH_L7.0-W3.1-H8.5-P5.1-D0.5",
+        "3D Model Transform": "275.19315,122.8344,0,0,0,0,0,0,-275.591",
+        "Voltage - Max": "30V",
+        "Current - Max": "100A",
+        "Hold Current": "1.1A",
+        "Trip Current": "2.2A",
+        "Power Dissipation": "1.17W",
+        "Resistance - Initial (Ri) (Min)": "70m\u03a9",
+        "Resistance - Post Trip (R1) (Max)": "170m\u03a9",
+        "Time to Trip(Max)": "6.6s",
+        "Operating Temperature": "-",
+        "Length": "-",
+        "Width": "-",
+        "Height": "-",
+        "Pitch": "-",
+        "Description": "\u8010\u538b(Vmax):30V;\u6700\u5927\u7535\u6d41(Imax):100A;\u4fdd\u6301\u7535\u6d41(Ihold):1.1A;\u8df3\u95f8\u7535\u6d41(Itrip):2.2A;",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I3"
+      }
+    },
+    "pads": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "1",
+        "x": 525.9,
+        "y": -398.7,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          70.9,
+          70.9
+        ],
+        "net": "VIN5",
+        "hole": [
+          "ROUND",
+          3.937,
+          3.937
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "416cc546eb79b4dfe7",
+        "parentComponentPrimitiveId": "416cc546eb79b4df"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "2",
+        "x": 725.9,
+        "y": -398.7,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          70.9,
+          70.9
+        ],
+        "net": "V5_SERVO",
+        "hole": [
+          "ROUND",
+          3.937,
+          3.937
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "416cc546eb79b4dfe8",
+        "parentComponentPrimitiveId": "416cc546eb79b4df"
+      }
+    ]
+  },
+  {
+    "component": {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 255,
+      "y": -398.7003999999986,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": {
+          "name": "PZ254V-11-02P",
+          "source": "",
+          "uuid": "e0be371931036eef"
+        }
+      },
+      "primitiveId": "13eb0cf9bb2b9dfe",
+      "footprint": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": "ce07cbf0b9e46e4e",
+        "name": "HDR-TH_2P-P2.54-V-M"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e35305ec3aa84b66b849f914b715e73f|0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR2.54-M-LI-1X2P"
+      },
+      "designator": "J1",
+      "pads": [
+        {
+          "primitiveId": "e10",
+          "net": "VIN5",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e11",
+          "net": "GND",
+          "padNumber": "2"
+        }
+      ],
+      "name": "={Manufacturer Part}",
+      "uniqueId": "SR04-J1",
+      "manufacturer": "XFCN(\u5174\u98de)",
+      "manufacturerId": "PZ254V-11-02P",
+      "supplier": "LCSC",
+      "supplierId": "C492401",
+      "otherProperty": {
+        "Footprint": "HDR-TH_2P-P2.54-V-M",
+        "LCSC Part Name": "1x2P \u95f4\u8ddd:2.54mm \u65b9\u9488 \u76f4\u63d2",
+        "Supplier Footprint": "\u63d2\u4ef6,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/PZ254V-11-02P/502957.html",
+        "3D Model": "e35305ec3aa84b66b849f914b715e73f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "HDR2.54-M-LI-1X2P",
+        "3D Model Transform": "200,100,0,0,0,0,0,0,-118.11",
+        "Pin Structure": "1x2P",
+        "Pitch": "2.54mm",
+        "Row Spacing": "-",
+        "Circluar Pins/Square Pins": "\u65b9\u9488",
+        "Mounting Type": "\u76f4\u63d2",
+        "Number of Rows": "\u5355\u6392",
+        "Number of Pins": "2P",
+        "Current Rating": "3A",
+        "Voltage Rating (Max)": "250V",
+        "Length of Mating Pin": "6.1mm",
+        "Insulation Height": "2.5mm",
+        "Length of End Connection Pin": "3mm",
+        "Contact Material": "\u9ec4\u94dc",
+        "Contact Plating": "\u91d1",
+        "Operating Temperature": "-40\u2103~+105\u2103",
+        "Color": "\u9ed1\u8272",
+        "Description": "\u63d2\u9488\u7ed3\u6784:1x2P;\u95f4\u8ddd:2.54mm;\u884c\u8ddd:-;\u5706\u9488/\u65b9\u9488:\u65b9\u9488;\u5b89\u88c5\u65b9\u5f0f:\u76f4\u63d2;\u6392\u6570:\u5355\u6392;\u603bPIN\u4f4d\u6570:2P;\u989d\u5b9a\u7535\u6d41:3A;\u989d\u5b9a\u7535\u538b:250V;\u914d\u5408\u9488\u957f\u5ea6:6.1mm;\u5851\u9ad8:2.5mm;\u7aef\u63a5\u9488\u957f\u5ea6:3mm;\u89e6\u5934\u6750\u8d28:\u9ec4\u94dc;\u89e6\u5934\u9540\u5c42:\u91d1;\u5de5\u4f5c\u6e29\u5ea6:-40\u2103~+105\u2103;\u989c\u8272:\u9ed1\u8272;",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I2"
+      }
+    },
+    "pads": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "1",
+        "x": 205,
+        "y": -398.7,
+        "rotation": 0,
+        "pad": [
+          "RECT",
+          78.7,
+          78.7,
+          0
+        ],
+        "net": "VIN5",
+        "hole": [
+          "ROUND",
+          4.7244,
+          4.7244
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "13eb0cf9bb2b9dfee10",
+        "parentComponentPrimitiveId": "13eb0cf9bb2b9dfe"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "2",
+        "x": 305,
+        "y": -398.7,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          78.7,
+          78.7
+        ],
+        "net": "GND",
+        "hole": [
+          "ROUND",
+          4.7244,
+          4.7244
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "13eb0cf9bb2b9dfee11",
+        "parentComponentPrimitiveId": "13eb0cf9bb2b9dfe"
+      }
+    ]
+  },
+  {
+    "component": {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 255,
+      "y": -527.3853999999994,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": {
+          "name": "PZ254V-11-05P",
+          "source": "",
+          "uuid": "564769093ff7a691"
+        }
+      },
+      "primitiveId": "bf5dea5133a974d6",
+      "footprint": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": "f10b7f31e44734a1",
+        "name": "HDR-TH_5P-P2.54-V-M"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "47d466e4a34f4fc5bc626cf773a24dd5|0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_5P-P2.54-M-LI-1X5P"
+      },
+      "designator": "J2",
+      "pads": [
+        {
+          "primitiveId": "e13",
+          "net": "GND",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e14",
+          "net": "PWM_IN",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "e15",
+          "net": "KEY1",
+          "padNumber": "3"
+        },
+        {
+          "primitiveId": "e16",
+          "net": "KEY2",
+          "padNumber": "4"
+        },
+        {
+          "primitiveId": "e17",
+          "net": "GND",
+          "padNumber": "5"
+        }
+      ],
+      "name": "={Manufacturer Part}",
+      "uniqueId": "SR04-J2",
+      "manufacturer": "XFCN(\u5174\u98de)",
+      "manufacturerId": "PZ254V-11-05P",
+      "supplier": "LCSC",
+      "supplierId": "C492404",
+      "otherProperty": {
+        "Footprint": "HDR-TH_5P-P2.54-V-M",
+        "LCSC Part Name": "1x5P \u95f4\u8ddd:2.54mm \u65b9\u9488 \u76f4\u63d2",
+        "Supplier Footprint": "\u63d2\u4ef6,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/PZ254V-11-05P/502960.html",
+        "3D Model": "47d466e4a34f4fc5bc626cf773a24dd5|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "HDR-TH_5P-P2.54-M-LI-1X5P",
+        "3D Model Transform": "499.999,100,0,0,0,0,0,0,-118.11",
+        "Pin Structure": "1x5P",
+        "Pitch": "2.54mm",
+        "Row Spacing": "-",
+        "Circluar Pins/Square Pins": "\u65b9\u9488",
+        "Mounting Type": "\u76f4\u63d2",
+        "Number of Rows": "\u5355\u6392",
+        "Number of Pins": "5P",
+        "Current Rating": "3A",
+        "Voltage Rating (Max)": "250V",
+        "Length of Mating Pin": "6.1mm",
+        "Insulation Height": "2.5mm",
+        "Length of End Connection Pin": "3mm",
+        "Contact Material": "\u9ec4\u94dc",
+        "Contact Plating": "\u91d1",
+        "Operating Temperature": "-40\u2103~+105\u2103",
+        "Color": "\u9ed1\u8272",
+        "Description": "\u63d2\u9488\u7ed3\u6784:1x5P;\u95f4\u8ddd:2.54mm;\u884c\u8ddd:-;\u5706\u9488/\u65b9\u9488:\u65b9\u9488;\u5b89\u88c5\u65b9\u5f0f:\u76f4\u63d2;\u6392\u6570:\u5355\u6392;\u603bPIN\u4f4d\u6570:5P;\u989d\u5b9a\u7535\u6d41:3A;\u989d\u5b9a\u7535\u538b:250V;\u914d\u5408\u9488\u957f\u5ea6:6.1mm;\u5851\u9ad8:2.5mm;\u7aef\u63a5\u9488\u957f\u5ea6:3mm;\u89e6\u5934\u6750\u8d28:\u9ec4\u94dc;\u89e6\u5934\u9540\u5c42:\u91d1;\u5de5\u4f5c\u6e29\u5ea6:-40\u2103~+105\u2103;\u989c\u8272:\u9ed1\u8272;",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I6"
+      }
+    },
+    "pads": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "1",
+        "x": 55,
+        "y": -527.4,
+        "rotation": 0,
+        "pad": [
+          "RECT",
+          66.9,
+          66.9,
+          0
+        ],
+        "net": "GND",
+        "hole": [
+          "ROUND",
+          4.3308,
+          4.3308
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "bf5dea5133a974d6e13",
+        "parentComponentPrimitiveId": "bf5dea5133a974d6"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "2",
+        "x": 155,
+        "y": -527.4,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          66.9,
+          66.9
+        ],
+        "net": "PWM_IN",
+        "hole": [
+          "ROUND",
+          4.3308,
+          4.3308
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "bf5dea5133a974d6e14",
+        "parentComponentPrimitiveId": "bf5dea5133a974d6"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "3",
+        "x": 255,
+        "y": -527.4,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          66.9,
+          66.9
+        ],
+        "net": "KEY1",
+        "hole": [
+          "ROUND",
+          4.3308,
+          4.3308
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "bf5dea5133a974d6e15",
+        "parentComponentPrimitiveId": "bf5dea5133a974d6"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "4",
+        "x": 355,
+        "y": -527.4,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          66.9,
+          66.9
+        ],
+        "net": "KEY2",
+        "hole": [
+          "ROUND",
+          4.3308,
+          4.3308
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "bf5dea5133a974d6e16",
+        "parentComponentPrimitiveId": "bf5dea5133a974d6"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "5",
+        "x": 455,
+        "y": -527.4,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          66.9,
+          66.9
+        ],
+        "net": "GND",
+        "hole": [
+          "ROUND",
+          4.3308,
+          4.3308
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "bf5dea5133a974d6e17",
+        "parentComponentPrimitiveId": "bf5dea5133a974d6"
+      }
+    ]
+  },
+  {
+    "component": {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 1367.7310000000007,
+      "y": -527.3854,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": {
+          "name": "PZ254V-11-03P",
+          "source": "",
+          "uuid": "206ced1402b60d22"
+        }
+      },
+      "primitiveId": "8713f789ce9e653c",
+      "footprint": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": "58e6dd1fb0639ec2",
+        "name": "HDR-TH_3P-P2.54-V-M_PZ254V-11-03P"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "bd28a638fbd247be9398fd5d39c366ec|0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_3P-P2.54-V-M_PZ254V-11-03P"
+      },
+      "designator": "J3",
+      "pads": [
+        {
+          "primitiveId": "e11",
+          "net": "GND",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e12",
+          "net": "V5_SERVO",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "e13",
+          "net": "SERVO_SIG",
+          "padNumber": "3"
+        }
+      ],
+      "name": "={Manufacturer Part}",
+      "uniqueId": "SR04-J3",
+      "manufacturer": "XFCN(\u5174\u98de)",
+      "manufacturerId": "PZ254V-11-03P",
+      "supplier": "LCSC",
+      "supplierId": "C2937625",
+      "otherProperty": {
+        "Footprint": "HDR-TH_3P-P2.54-V-M_PZ254V-11-03P",
+        "LCSC Part Name": "1x3P \u95f4\u8ddd:2.54mm \u65b9\u9488 \u76f4\u63d2",
+        "Supplier Footprint": "\u63d2\u4ef6,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/PZ254V-11-03P/3293280.html",
+        "3D Model": "bd28a638fbd247be9398fd5d39c366ec|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "HDR-TH_3P-P2.54-V-M_PZ254V-11-03P",
+        "3D Model Transform": "300.3931,100,0,0,0,0,0,0,-118.11",
+        "Pin Structure": "1x3P",
+        "Pitch": "2.54mm",
+        "Row Spacing": "-",
+        "Circluar Pins/Square Pins": "\u65b9\u9488",
+        "Mounting Type": "\u76f4\u63d2",
+        "Number of Rows": "\u5355\u6392",
+        "Number of Pins": "3P",
+        "Current Rating": "3A",
+        "Voltage Rating (Max)": "250V",
+        "Length of Mating Pin": "6.1mm",
+        "Insulation Height": "2.5mm",
+        "Length of End Connection Pin": "3mm",
+        "Contact Material": "\u9ec4\u94dc",
+        "Contact Plating": "\u91d1",
+        "Operating Temperature": "-40\u2103~+105\u2103",
+        "Color": "\u9ed1\u8272",
+        "Supplementary Features": "-",
+        "Description": "\u63d2\u9488\u7ed3\u6784:1x3P;\u95f4\u8ddd:2.54mm;\u884c\u8ddd:-;\u5706\u9488/\u65b9\u9488:\u65b9\u9488;\u5b89\u88c5\u65b9\u5f0f:\u76f4\u63d2;\u6392\u6570:\u5355\u6392;\u603bPIN\u4f4d\u6570:3P;\u989d\u5b9a\u7535\u6d41:3A;\u989d\u5b9a\u7535\u538b:250V;\u914d\u5408\u9488\u957f\u5ea6:6.1mm;\u5851\u9ad8:2.5mm;\u7aef\u63a5\u9488\u957f\u5ea6:3mm;\u89e6\u5934\u6750\u8d28:\u9ec4\u94dc;\u89e6\u5934\u9540\u5c42:\u91d1;\u5de5\u4f5c\u6e29\u5ea6:-40\u2103~+105\u2103;\u989c\u8272:\u9ed1\u8272;",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I9"
+      }
+    },
+    "pads": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "1",
+        "x": 1267.7,
+        "y": -527.4,
+        "rotation": 0,
+        "pad": [
+          "RECT",
+          66.9,
+          66.9,
+          0
+        ],
+        "net": "GND",
+        "hole": [
+          "ROUND",
+          4.0158000000000005,
+          4.0158000000000005
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "8713f789ce9e653ce11",
+        "parentComponentPrimitiveId": "8713f789ce9e653c"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "2",
+        "x": 1367.7,
+        "y": -527.4,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          66.9,
+          66.9
+        ],
+        "net": "V5_SERVO",
+        "hole": [
+          "ROUND",
+          4.0158000000000005,
+          4.0158000000000005
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "8713f789ce9e653ce12",
+        "parentComponentPrimitiveId": "8713f789ce9e653c"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "3",
+        "x": 1467.7,
+        "y": -527.4,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          66.9,
+          66.9
+        ],
+        "net": "SERVO_SIG",
+        "hole": [
+          "ROUND",
+          4.0158000000000005,
+          4.0158000000000005
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "8713f789ce9e653ce13",
+        "parentComponentPrimitiveId": "8713f789ce9e653c"
+      }
+    ]
+  },
+  {
+    "component": {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 1341.4715,
+      "y": -1046.1473999999987,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": {
+          "name": "PZ254V-11-02P",
+          "source": "",
+          "uuid": "e0be371931036eef"
+        }
+      },
+      "primitiveId": "b1d619c3d2156470",
+      "footprint": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": "ce07cbf0b9e46e4e",
+        "name": "HDR-TH_2P-P2.54-V-M"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e35305ec3aa84b66b849f914b715e73f|0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR2.54-M-LI-1X2P"
+      },
+      "designator": "J4",
+      "pads": [
+        {
+          "primitiveId": "e10",
+          "net": "BTN1_A",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e11",
+          "net": "BTN1_B",
+          "padNumber": "2"
+        }
+      ],
+      "name": "={Manufacturer Part}",
+      "uniqueId": "SR04-J4",
+      "manufacturer": "XFCN(\u5174\u98de)",
+      "manufacturerId": "PZ254V-11-02P",
+      "supplier": "LCSC",
+      "supplierId": "C492401",
+      "otherProperty": {
+        "Footprint": "HDR-TH_2P-P2.54-V-M",
+        "LCSC Part Name": "1x2P \u95f4\u8ddd:2.54mm \u65b9\u9488 \u76f4\u63d2",
+        "Supplier Footprint": "\u63d2\u4ef6,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/PZ254V-11-02P/502957.html",
+        "3D Model": "e35305ec3aa84b66b849f914b715e73f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "HDR2.54-M-LI-1X2P",
+        "3D Model Transform": "200,100,0,0,0,0,0,0,-118.11",
+        "Pin Structure": "1x2P",
+        "Pitch": "2.54mm",
+        "Row Spacing": "-",
+        "Circluar Pins/Square Pins": "\u65b9\u9488",
+        "Mounting Type": "\u76f4\u63d2",
+        "Number of Rows": "\u5355\u6392",
+        "Number of Pins": "2P",
+        "Current Rating": "3A",
+        "Voltage Rating (Max)": "250V",
+        "Length of Mating Pin": "6.1mm",
+        "Insulation Height": "2.5mm",
+        "Length of End Connection Pin": "3mm",
+        "Contact Material": "\u9ec4\u94dc",
+        "Contact Plating": "\u91d1",
+        "Operating Temperature": "-40\u2103~+105\u2103",
+        "Color": "\u9ed1\u8272",
+        "Description": "\u63d2\u9488\u7ed3\u6784:1x2P;\u95f4\u8ddd:2.54mm;\u884c\u8ddd:-;\u5706\u9488/\u65b9\u9488:\u65b9\u9488;\u5b89\u88c5\u65b9\u5f0f:\u76f4\u63d2;\u6392\u6570:\u5355\u6392;\u603bPIN\u4f4d\u6570:2P;\u989d\u5b9a\u7535\u6d41:3A;\u989d\u5b9a\u7535\u538b:250V;\u914d\u5408\u9488\u957f\u5ea6:6.1mm;\u5851\u9ad8:2.5mm;\u7aef\u63a5\u9488\u957f\u5ea6:3mm;\u89e6\u5934\u6750\u8d28:\u9ec4\u94dc;\u89e6\u5934\u9540\u5c42:\u91d1;\u5de5\u4f5c\u6e29\u5ea6:-40\u2103~+105\u2103;\u989c\u8272:\u9ed1\u8272;",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I13"
+      }
+    },
+    "pads": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "1",
+        "x": 1291.5,
+        "y": -1046.1,
+        "rotation": 0,
+        "pad": [
+          "RECT",
+          78.7,
+          78.7,
+          0
+        ],
+        "net": "BTN1_A",
+        "hole": [
+          "ROUND",
+          4.7244,
+          4.7244
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "b1d619c3d2156470e10",
+        "parentComponentPrimitiveId": "b1d619c3d2156470"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "2",
+        "x": 1391.5,
+        "y": -1046.1,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          78.7,
+          78.7
+        ],
+        "net": "BTN1_B",
+        "hole": [
+          "ROUND",
+          4.7244,
+          4.7244
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "b1d619c3d2156470e11",
+        "parentComponentPrimitiveId": "b1d619c3d2156470"
+      }
+    ]
+  },
+  {
+    "component": {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 1341.4715,
+      "y": -1436.7083999999982,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": {
+          "name": "PZ254V-11-02P",
+          "source": "",
+          "uuid": "e0be371931036eef"
+        }
+      },
+      "primitiveId": "dc2e7070f13690a1",
+      "footprint": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": "ce07cbf0b9e46e4e",
+        "name": "HDR-TH_2P-P2.54-V-M"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e35305ec3aa84b66b849f914b715e73f|0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR2.54-M-LI-1X2P"
+      },
+      "designator": "J5",
+      "pads": [
+        {
+          "primitiveId": "e10",
+          "net": "BTN2_A",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e11",
+          "net": "BTN2_B",
+          "padNumber": "2"
+        }
+      ],
+      "name": "={Manufacturer Part}",
+      "uniqueId": "SR04-J5",
+      "manufacturer": "XFCN(\u5174\u98de)",
+      "manufacturerId": "PZ254V-11-02P",
+      "supplier": "LCSC",
+      "supplierId": "C492401",
+      "otherProperty": {
+        "Footprint": "HDR-TH_2P-P2.54-V-M",
+        "LCSC Part Name": "1x2P \u95f4\u8ddd:2.54mm \u65b9\u9488 \u76f4\u63d2",
+        "Supplier Footprint": "\u63d2\u4ef6,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/PZ254V-11-02P/502957.html",
+        "3D Model": "e35305ec3aa84b66b849f914b715e73f|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "HDR2.54-M-LI-1X2P",
+        "3D Model Transform": "200,100,0,0,0,0,0,0,-118.11",
+        "Pin Structure": "1x2P",
+        "Pitch": "2.54mm",
+        "Row Spacing": "-",
+        "Circluar Pins/Square Pins": "\u65b9\u9488",
+        "Mounting Type": "\u76f4\u63d2",
+        "Number of Rows": "\u5355\u6392",
+        "Number of Pins": "2P",
+        "Current Rating": "3A",
+        "Voltage Rating (Max)": "250V",
+        "Length of Mating Pin": "6.1mm",
+        "Insulation Height": "2.5mm",
+        "Length of End Connection Pin": "3mm",
+        "Contact Material": "\u9ec4\u94dc",
+        "Contact Plating": "\u91d1",
+        "Operating Temperature": "-40\u2103~+105\u2103",
+        "Color": "\u9ed1\u8272",
+        "Description": "\u63d2\u9488\u7ed3\u6784:1x2P;\u95f4\u8ddd:2.54mm;\u884c\u8ddd:-;\u5706\u9488/\u65b9\u9488:\u65b9\u9488;\u5b89\u88c5\u65b9\u5f0f:\u76f4\u63d2;\u6392\u6570:\u5355\u6392;\u603bPIN\u4f4d\u6570:2P;\u989d\u5b9a\u7535\u6d41:3A;\u989d\u5b9a\u7535\u538b:250V;\u914d\u5408\u9488\u957f\u5ea6:6.1mm;\u5851\u9ad8:2.5mm;\u7aef\u63a5\u9488\u957f\u5ea6:3mm;\u89e6\u5934\u6750\u8d28:\u9ec4\u94dc;\u89e6\u5934\u9540\u5c42:\u91d1;\u5de5\u4f5c\u6e29\u5ea6:-40\u2103~+105\u2103;\u989c\u8272:\u9ed1\u8272;",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I17"
+      }
+    },
+    "pads": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "1",
+        "x": 1291.5,
+        "y": -1436.7,
+        "rotation": 0,
+        "pad": [
+          "RECT",
+          78.7,
+          78.7,
+          0
+        ],
+        "net": "BTN2_A",
+        "hole": [
+          "ROUND",
+          4.7244,
+          4.7244
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "dc2e7070f13690a1e10",
+        "parentComponentPrimitiveId": "dc2e7070f13690a1"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "2",
+        "x": 1391.5,
+        "y": -1436.7,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          78.7,
+          78.7
+        ],
+        "net": "BTN2_B",
+        "hole": [
+          "ROUND",
+          4.7244,
+          4.7244
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "dc2e7070f13690a1e11",
+        "parentComponentPrimitiveId": "dc2e7070f13690a1"
+      }
+    ]
+  },
+  {
+    "component": {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 255,
+      "y": -1046.1473999999985,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": {
+          "name": "MF1/8W-470\u03a9\u00b11%-OT52",
+          "source": "",
+          "uuid": "3e1ef0f1d2c4d596"
+        }
+      },
+      "primitiveId": "9a3aad8487ebbbb3",
+      "footprint": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": "74b462f17f1bd11e",
+        "name": "RES-TH_BD2.3-L3.7-P7.70-D0.9"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "5631a15c8fe642639fec94924741e635|0819f05c4eef4c71ace90d822a990e87",
+        "name": "RES-TH_BD2.3-L3.7-P7.62-D0.4"
+      },
+      "designator": "R1",
+      "pads": [
+        {
+          "primitiveId": "e19",
+          "net": "KEY1",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e20",
+          "net": "LED1",
+          "padNumber": "2"
+        }
+      ],
+      "name": "={Value}",
+      "uniqueId": "SR04-R1",
+      "manufacturer": "VO(\u7fd4\u80dc)",
+      "manufacturerId": "MF1/8W-470\u03a9\u00b11%-OT52",
+      "supplier": "LCSC",
+      "supplierId": "C2848568",
+      "otherProperty": {
+        "Footprint": "RES-TH_BD2.3-L3.7-P7.70-D0.9",
+        "LCSC Part Name": "\u91d1\u5c5e\u819c\u7535\u963b 470\u03a9 \u00b11% 125mW",
+        "Supplier Footprint": "\u63d2\u4ef6,D2.3xL3.7mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MF1%252F8W-470%25CE%25A9%25C2%25B11%2525-OT52/3047013.html",
+        "3D Model": "5631a15c8fe642639fec94924741e635|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "RES-TH_BD2.3-L3.7-P7.62-D0.4",
+        "3D Model Transform": "316.9285,90.48368,0,0,0,0,0,0,-137.795",
+        "Type": "\u91d1\u5c5e\u819c\u7535\u963b",
+        "Value": "470\u03a9",
+        "Tolerance": "\u00b11%",
+        "Voltage-Supply(Max)": "200V",
+        "Power(Watts)": "125mW",
+        "Temperature Coefficient": "\u00b1350ppm/\u2103",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Description": "\u7535\u963b\u7c7b\u578b:\u91d1\u5c5e\u819c\u7535\u963b;\u963b\u503c:470\u03a9;\u7cbe\u5ea6:\u00b11%;\u529f\u7387:125mW;\u6e29\u5ea6\u7cfb\u6570:\u00b1350ppm/\u2103;",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I10"
+      }
+    },
+    "pads": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "1",
+        "x": 105,
+        "y": -1046.1,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          51.2,
+          51.2
+        ],
+        "net": "KEY1",
+        "hole": [
+          "ROUND",
+          2.756,
+          2.756
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "9a3aad8487ebbbb3e19",
+        "parentComponentPrimitiveId": "9a3aad8487ebbbb3"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "2",
+        "x": 405,
+        "y": -1046.1,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          51.2,
+          51.2
+        ],
+        "net": "LED1",
+        "hole": [
+          "ROUND",
+          2.756,
+          2.756
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "9a3aad8487ebbbb3e20",
+        "parentComponentPrimitiveId": "9a3aad8487ebbbb3"
+      }
+    ]
+  },
+  {
+    "component": {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 255,
+      "y": -1436.7083999999975,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": {
+          "name": "MF1/8W-470\u03a9\u00b11%-OT52",
+          "source": "",
+          "uuid": "3e1ef0f1d2c4d596"
+        }
+      },
+      "primitiveId": "6d659ef9a496f3c4",
+      "footprint": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": "74b462f17f1bd11e",
+        "name": "RES-TH_BD2.3-L3.7-P7.70-D0.9"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "5631a15c8fe642639fec94924741e635|0819f05c4eef4c71ace90d822a990e87",
+        "name": "RES-TH_BD2.3-L3.7-P7.62-D0.4"
+      },
+      "designator": "R2",
+      "pads": [
+        {
+          "primitiveId": "e19",
+          "net": "KEY2",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e20",
+          "net": "LED2",
+          "padNumber": "2"
+        }
+      ],
+      "name": "={Value}",
+      "uniqueId": "SR04-R2",
+      "manufacturer": "VO(\u7fd4\u80dc)",
+      "manufacturerId": "MF1/8W-470\u03a9\u00b11%-OT52",
+      "supplier": "LCSC",
+      "supplierId": "C2848568",
+      "otherProperty": {
+        "Footprint": "RES-TH_BD2.3-L3.7-P7.70-D0.9",
+        "LCSC Part Name": "\u91d1\u5c5e\u819c\u7535\u963b 470\u03a9 \u00b11% 125mW",
+        "Supplier Footprint": "\u63d2\u4ef6,D2.3xL3.7mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MF1%252F8W-470%25CE%25A9%25C2%25B11%2525-OT52/3047013.html",
+        "3D Model": "5631a15c8fe642639fec94924741e635|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "RES-TH_BD2.3-L3.7-P7.62-D0.4",
+        "3D Model Transform": "316.9285,90.48368,0,0,0,0,0,0,-137.795",
+        "Type": "\u91d1\u5c5e\u819c\u7535\u963b",
+        "Value": "470\u03a9",
+        "Tolerance": "\u00b11%",
+        "Voltage-Supply(Max)": "200V",
+        "Power(Watts)": "125mW",
+        "Temperature Coefficient": "\u00b1350ppm/\u2103",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Description": "\u7535\u963b\u7c7b\u578b:\u91d1\u5c5e\u819c\u7535\u963b;\u963b\u503c:470\u03a9;\u7cbe\u5ea6:\u00b11%;\u529f\u7387:125mW;\u6e29\u5ea6\u7cfb\u6570:\u00b1350ppm/\u2103;",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I14"
+      }
+    },
+    "pads": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "1",
+        "x": 105,
+        "y": -1436.7,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          51.2,
+          51.2
+        ],
+        "net": "KEY2",
+        "hole": [
+          "ROUND",
+          2.756,
+          2.756
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "6d659ef9a496f3c4e19",
+        "parentComponentPrimitiveId": "6d659ef9a496f3c4"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "2",
+        "x": 405,
+        "y": -1436.7,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          51.2,
+          51.2
+        ],
+        "net": "LED2",
+        "hole": [
+          "ROUND",
+          2.756,
+          2.756
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "6d659ef9a496f3c4e20",
+        "parentComponentPrimitiveId": "6d659ef9a496f3c4"
+      }
+    ]
+  },
+  {
+    "component": {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 625.8660000000003,
+      "y": -1046.1473999999982,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": {
+          "name": "MF1/8W-100K\u00b11%-OT26",
+          "source": "",
+          "uuid": "74d01f2a1e9dbc49"
+        }
+      },
+      "primitiveId": "7c0955195c69a266",
+      "footprint": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": "74b462f17f1bd11e",
+        "name": "RES-TH_BD2.3-L3.7-P7.70-D0.9"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "5631a15c8fe642639fec94924741e635|0819f05c4eef4c71ace90d822a990e87",
+        "name": "RES-TH_BD2.3-L3.7-P7.62-D0.4"
+      },
+      "designator": "R3",
+      "pads": [
+        {
+          "primitiveId": "e19",
+          "net": "KEY1",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e20",
+          "net": "GND",
+          "padNumber": "2"
+        }
+      ],
+      "name": "={Value}",
+      "uniqueId": "SR04-R3",
+      "manufacturer": "VO(\u7fd4\u80dc)",
+      "manufacturerId": "MF1/8W-100K\u00b11%-OT26",
+      "supplier": "LCSC",
+      "supplierId": "C2903382",
+      "otherProperty": {
+        "Footprint": "RES-TH_BD2.3-L3.7-P7.70-D0.9",
+        "LCSC Part Name": "\u91d1\u5c5e\u819c\u7535\u963b 100k\u03a9 \u00b11% 125mW",
+        "Supplier Footprint": "\u63d2\u4ef6,D2.3xL3.7mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MF1%252F8W-100K%25C2%25B11%2525-OT26/3159133.html",
+        "3D Model": "5631a15c8fe642639fec94924741e635|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "RES-TH_BD2.3-L3.7-P7.62-D0.4",
+        "3D Model Transform": "316.9285,90.48368,0,0,0,0,0,0,-137.795",
+        "Type": "\u91d1\u5c5e\u819c\u7535\u963b",
+        "Value": "100k\u03a9",
+        "Tolerance": "\u00b11%",
+        "Voltage-Supply(Max)": "200V",
+        "Power(Watts)": "125mW",
+        "Temperature Coefficient": "\u00b1100ppm/\u2103",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Description": "\u7535\u963b\u7c7b\u578b:\u91d1\u5c5e\u819c\u7535\u963b;\u963b\u503c:100k\u03a9;\u7cbe\u5ea6:\u00b11%;\u529f\u7387:125mW;\u6e29\u5ea6\u7cfb\u6570:\u00b1100ppm/\u2103;",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I11"
+      }
+    },
+    "pads": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "1",
+        "x": 475.9,
+        "y": -1046.1,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          51.2,
+          51.2
+        ],
+        "net": "KEY1",
+        "hole": [
+          "ROUND",
+          2.756,
+          2.756
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "7c0955195c69a266e19",
+        "parentComponentPrimitiveId": "7c0955195c69a266"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "2",
+        "x": 775.9,
+        "y": -1046.1,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          51.2,
+          51.2
+        ],
+        "net": "GND",
+        "hole": [
+          "ROUND",
+          2.756,
+          2.756
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "7c0955195c69a266e20",
+        "parentComponentPrimitiveId": "7c0955195c69a266"
+      }
+    ]
+  },
+  {
+    "component": {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 625.8660000000003,
+      "y": -1436.7083999999973,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": {
+          "name": "MF1/8W-100K\u00b11%-OT26",
+          "source": "",
+          "uuid": "74d01f2a1e9dbc49"
+        }
+      },
+      "primitiveId": "32131a1baa38d11f",
+      "footprint": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": "74b462f17f1bd11e",
+        "name": "RES-TH_BD2.3-L3.7-P7.70-D0.9"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "5631a15c8fe642639fec94924741e635|0819f05c4eef4c71ace90d822a990e87",
+        "name": "RES-TH_BD2.3-L3.7-P7.62-D0.4"
+      },
+      "designator": "R4",
+      "pads": [
+        {
+          "primitiveId": "e19",
+          "net": "KEY2",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e20",
+          "net": "GND",
+          "padNumber": "2"
+        }
+      ],
+      "name": "={Value}",
+      "uniqueId": "SR04-R4",
+      "manufacturer": "VO(\u7fd4\u80dc)",
+      "manufacturerId": "MF1/8W-100K\u00b11%-OT26",
+      "supplier": "LCSC",
+      "supplierId": "C2903382",
+      "otherProperty": {
+        "Footprint": "RES-TH_BD2.3-L3.7-P7.70-D0.9",
+        "LCSC Part Name": "\u91d1\u5c5e\u819c\u7535\u963b 100k\u03a9 \u00b11% 125mW",
+        "Supplier Footprint": "\u63d2\u4ef6,D2.3xL3.7mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MF1%252F8W-100K%25C2%25B11%2525-OT26/3159133.html",
+        "3D Model": "5631a15c8fe642639fec94924741e635|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "RES-TH_BD2.3-L3.7-P7.62-D0.4",
+        "3D Model Transform": "316.9285,90.48368,0,0,0,0,0,0,-137.795",
+        "Type": "\u91d1\u5c5e\u819c\u7535\u963b",
+        "Value": "100k\u03a9",
+        "Tolerance": "\u00b11%",
+        "Voltage-Supply(Max)": "200V",
+        "Power(Watts)": "125mW",
+        "Temperature Coefficient": "\u00b1100ppm/\u2103",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Description": "\u7535\u963b\u7c7b\u578b:\u91d1\u5c5e\u819c\u7535\u963b;\u963b\u503c:100k\u03a9;\u7cbe\u5ea6:\u00b11%;\u529f\u7387:125mW;\u6e29\u5ea6\u7cfb\u6570:\u00b1100ppm/\u2103;",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I15"
+      }
+    },
+    "pads": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "1",
+        "x": 475.9,
+        "y": -1436.7,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          51.2,
+          51.2
+        ],
+        "net": "KEY2",
+        "hole": [
+          "ROUND",
+          2.756,
+          2.756
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "32131a1baa38d11fe19",
+        "parentComponentPrimitiveId": "32131a1baa38d11f"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "2",
+        "x": 775.9,
+        "y": -1436.7,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          51.2,
+          51.2
+        ],
+        "net": "GND",
+        "hole": [
+          "ROUND",
+          2.756,
+          2.756
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "32131a1baa38d11fe20",
+        "parentComponentPrimitiveId": "32131a1baa38d11f"
+      }
+    ]
+  },
+  {
+    "component": {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 554.2755,
+      "y": -790.7483999999971,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": {
+          "name": "MF1/8W-220\u03a9\u00b11%-OT52",
+          "source": "",
+          "uuid": "a84a70b01ea4e113"
+        }
+      },
+      "primitiveId": "55739aa5b4482c62",
+      "footprint": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": "74b462f17f1bd11e",
+        "name": "RES-TH_BD2.3-L3.7-P7.70-D0.9"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "5631a15c8fe642639fec94924741e635|0819f05c4eef4c71ace90d822a990e87",
+        "name": "RES-TH_BD2.3-L3.7-P7.62-D0.4"
+      },
+      "designator": "R5",
+      "pads": [
+        {
+          "primitiveId": "e19",
+          "net": "PWM_IN",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e20",
+          "net": "SERVO_SIG",
+          "padNumber": "2"
+        }
+      ],
+      "name": "={Value}",
+      "uniqueId": "SR04-R5",
+      "manufacturer": "VO(\u7fd4\u80dc)",
+      "manufacturerId": "MF1/8W-220\u03a9\u00b11%-OT52",
+      "supplier": "LCSC",
+      "supplierId": "C2848564",
+      "otherProperty": {
+        "Footprint": "RES-TH_BD2.3-L3.7-P7.70-D0.9",
+        "LCSC Part Name": "\u91d1\u5c5e\u819c\u7535\u963b 220\u03a9 \u00b11% 125mW",
+        "Supplier Footprint": "\u63d2\u4ef6,D2.3xL3.7mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MF1%252F8W-220%25CE%25A9%25C2%25B11%2525-OT52/3047009.html",
+        "3D Model": "5631a15c8fe642639fec94924741e635|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "RES-TH_BD2.3-L3.7-P7.62-D0.4",
+        "3D Model Transform": "316.9285,90.48368,0,0,0,0,0,0,-137.795",
+        "Type": "\u91d1\u5c5e\u819c\u7535\u963b",
+        "Value": "220\u03a9",
+        "Tolerance": "\u00b11%",
+        "Voltage-Supply(Max)": "200V",
+        "Power(Watts)": "125mW",
+        "Temperature Coefficient": "\u00b1350ppm/\u2103",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Description": "\u7535\u963b\u7c7b\u578b:\u91d1\u5c5e\u819c\u7535\u963b;\u963b\u503c:220\u03a9;\u7cbe\u5ea6:\u00b11%;\u529f\u7387:125mW;\u6e29\u5ea6\u7cfb\u6570:\u00b1350ppm/\u2103;",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I7"
+      }
+    },
+    "pads": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "1",
+        "x": 404.3,
+        "y": -790.7,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          51.2,
+          51.2
+        ],
+        "net": "PWM_IN",
+        "hole": [
+          "ROUND",
+          2.756,
+          2.756
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "55739aa5b4482c62e19",
+        "parentComponentPrimitiveId": "55739aa5b4482c62"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "2",
+        "x": 704.3,
+        "y": -790.7,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          51.2,
+          51.2
+        ],
+        "net": "SERVO_SIG",
+        "hole": [
+          "ROUND",
+          2.756,
+          2.756
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "55739aa5b4482c62e20",
+        "parentComponentPrimitiveId": "55739aa5b4482c62"
+      }
+    ]
+  },
+  {
+    "component": {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 991.1959999999993,
+      "y": -670.5113999999975,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": {
+          "name": "MF1/8W-100K\u00b11%-OT26",
+          "source": "",
+          "uuid": "74d01f2a1e9dbc49"
+        }
+      },
+      "primitiveId": "f1ee2f0c5e78caac",
+      "footprint": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": "74b462f17f1bd11e",
+        "name": "RES-TH_BD2.3-L3.7-P7.70-D0.9"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "5631a15c8fe642639fec94924741e635|0819f05c4eef4c71ace90d822a990e87",
+        "name": "RES-TH_BD2.3-L3.7-P7.62-D0.4"
+      },
+      "designator": "R6",
+      "pads": [
+        {
+          "primitiveId": "e19",
+          "net": "PWM_IN",
+          "padNumber": "1"
+        },
+        {
+          "primitiveId": "e20",
+          "net": "GND",
+          "padNumber": "2"
+        }
+      ],
+      "name": "={Value}",
+      "uniqueId": "SR04-R6",
+      "manufacturer": "VO(\u7fd4\u80dc)",
+      "manufacturerId": "MF1/8W-100K\u00b11%-OT26",
+      "supplier": "LCSC",
+      "supplierId": "C2903382",
+      "otherProperty": {
+        "Footprint": "RES-TH_BD2.3-L3.7-P7.70-D0.9",
+        "LCSC Part Name": "\u91d1\u5c5e\u819c\u7535\u963b 100k\u03a9 \u00b11% 125mW",
+        "Supplier Footprint": "\u63d2\u4ef6,D2.3xL3.7mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MF1%252F8W-100K%25C2%25B11%2525-OT26/3159133.html",
+        "3D Model": "5631a15c8fe642639fec94924741e635|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "RES-TH_BD2.3-L3.7-P7.62-D0.4",
+        "3D Model Transform": "316.9285,90.48368,0,0,0,0,0,0,-137.795",
+        "Type": "\u91d1\u5c5e\u819c\u7535\u963b",
+        "Value": "100k\u03a9",
+        "Tolerance": "\u00b11%",
+        "Voltage-Supply(Max)": "200V",
+        "Power(Watts)": "125mW",
+        "Temperature Coefficient": "\u00b1100ppm/\u2103",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Description": "\u7535\u963b\u7c7b\u578b:\u91d1\u5c5e\u819c\u7535\u963b;\u963b\u503c:100k\u03a9;\u7cbe\u5ea6:\u00b11%;\u529f\u7387:125mW;\u6e29\u5ea6\u7cfb\u6570:\u00b1100ppm/\u2103;",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I8"
+      }
+    },
+    "pads": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "1",
+        "x": 841.2,
+        "y": -670.5,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          51.2,
+          51.2
+        ],
+        "net": "PWM_IN",
+        "hole": [
+          "ROUND",
+          2.756,
+          2.756
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "f1ee2f0c5e78caace19",
+        "parentComponentPrimitiveId": "f1ee2f0c5e78caac"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "2",
+        "x": 1141.2,
+        "y": -670.5,
+        "rotation": 0,
+        "pad": [
+          "ELLIPSE",
+          51.2,
+          51.2
+        ],
+        "net": "GND",
+        "hole": [
+          "ROUND",
+          2.756,
+          2.756
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": 0,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "f1ee2f0c5e78caace20",
+        "parentComponentPrimitiveId": "f1ee2f0c5e78caac"
+      }
+    ]
+  },
+  {
+    "component": {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 991.1959999999993,
+      "y": -1046.1473999999987,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": {
+          "name": "AQY212EH",
+          "source": "",
+          "uuid": "69a6a3878039b08c"
+        }
+      },
+      "primitiveId": "fa354d8eb015169e",
+      "footprint": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": "40abadd65eeb5d01",
+        "name": "DIP-4_L6.4-W4.8-P2.54-LS7.6-BL"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "1b6c83fe159244ef89b1100407eb6cfe|0819f05c4eef4c71ace90d822a990e87",
+        "name": "DIP-4_L6.4-W4.8-P2.54-LS7.6-BL"
+      },
+      "designator": "U1",
+      "pads": [
+        {
+          "primitiveId": "e19",
+          "net": "GND",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "e20",
+          "net": "BTN1_B",
+          "padNumber": "3"
+        },
+        {
+          "primitiveId": "e21",
+          "net": "BTN1_A",
+          "padNumber": "4"
+        },
+        {
+          "primitiveId": "e22",
+          "net": "LED1",
+          "padNumber": "1"
+        }
+      ],
+      "name": "={Manufacturer Part}",
+      "uniqueId": "SR04-U1",
+      "manufacturer": "PANASONIC(\u677e\u4e0b)",
+      "manufacturerId": "AQY212EH",
+      "supplier": "LCSC",
+      "supplierId": "C2894775",
+      "otherProperty": {
+        "Footprint": "DIP-4_L6.4-W4.8-P2.54-LS7.6-BL",
+        "LCSC Part Name": "1 Form A(SPSTNO) \u8d1f\u8f7dAC,DC \u8d1f\u8f7d\u7535\u538b60V",
+        "Supplier Footprint": "DIP-4",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/AQY212EH/3130775.html",
+        "3D Model": "1b6c83fe159244ef89b1100407eb6cfe|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "DIP-4_L6.4-W4.8-P2.54-LS7.6-BL",
+        "3D Model Transform": "188.1886,307.8734,0,0,0,0,0,0,-118.11",
+        "Contact Form": "\u4e00\u7ec4\u5e38\u5f00:2A(\u5355\u5200\u5355\u63b7-\u5e38\u5f00)",
+        "Load Current": "550mA",
+        "Load Voltage": "60V",
+        "Voltage - Forward(Vf)": "1.25V",
+        "Forward Current(If)": "50mA",
+        "RDS(on)": "850m\u03a9",
+        "Isolation Voltage(Vrms)": "5kV",
+        "Turn-on time": "1ms",
+        "Turn-off time": "50us",
+        "Input Type": "AC,DC",
+        "Operating Temperature": "-40\u2103~+85\u2103",
+        "Total Power Dissipation(Pd)": "550mW",
+        "Insulation Resistance": "1000M\u03a9",
+        "Features": "\u8fc7\u6d41\u4fdd\u62a4",
+        "Description": "\u89e6\u70b9\u5f62\u5f0f:\u4e00\u7ec4\u5e38\u5f00:2A(\u5355\u5200\u5355\u63b7-\u5e38\u5f00);\u8fde\u7eed\u8d1f\u8f7d\u7535\u6d41:550mA;\u8d1f\u8f7d\u7535\u538b:60V;\u6b63\u5411\u538b\u964d(Vf):1.25V;\u5bfc\u901a\u7535\u963b:850m\u03a9;",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I12"
+      }
+    },
+    "pads": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "2",
+        "x": 1041.4,
+        "y": -1196.1,
+        "rotation": 90,
+        "pad": [
+          "ELLIPSE",
+          70.9,
+          70.9
+        ],
+        "net": "GND",
+        "hole": [
+          "ROUND",
+          3.937,
+          3.937
+        ],
+        "holeOffsetX": -0.0009,
+        "holeOffsetY": 0.0002,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "fa354d8eb015169ee19",
+        "parentComponentPrimitiveId": "fa354d8eb015169e"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "3",
+        "x": 1041,
+        "y": -896.1,
+        "rotation": 90,
+        "pad": [
+          "ELLIPSE",
+          70.9,
+          70.9
+        ],
+        "net": "BTN1_B",
+        "hole": [
+          "ROUND",
+          3.937,
+          3.937
+        ],
+        "holeOffsetX": -0.0010999999999999998,
+        "holeOffsetY": -0.0004,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "fa354d8eb015169ee20",
+        "parentComponentPrimitiveId": "fa354d8eb015169e"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "4",
+        "x": 941,
+        "y": -896.1,
+        "rotation": 90,
+        "pad": [
+          "ELLIPSE",
+          70.9,
+          70.9
+        ],
+        "net": "BTN1_A",
+        "hole": [
+          "ROUND",
+          3.937,
+          3.937
+        ],
+        "holeOffsetX": -0.0010999999999999998,
+        "holeOffsetY": -0.0001,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "fa354d8eb015169ee21",
+        "parentComponentPrimitiveId": "fa354d8eb015169e"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "1",
+        "x": 941.4,
+        "y": -1196.2,
+        "rotation": 180,
+        "pad": [
+          "RECT",
+          70.9,
+          70.9,
+          0
+        ],
+        "net": "LED1",
+        "hole": [
+          "ROUND",
+          3.937,
+          3.937
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": -0.0002,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "fa354d8eb015169ee22",
+        "parentComponentPrimitiveId": "fa354d8eb015169e"
+      }
+    ]
+  },
+  {
+    "component": {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 991.1959999999993,
+      "y": -1436.708399999996,
+      "rotation": 0,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": {
+          "name": "AQY212EH",
+          "source": "",
+          "uuid": "69a6a3878039b08c"
+        }
+      },
+      "primitiveId": "9ccd0a0171367fc1",
+      "footprint": {
+        "libraryUuid": "66f15cef710e88b6d424140823d6cfee211abaa48a6f075f6c786f3665578f6d",
+        "uuid": "40abadd65eeb5d01",
+        "name": "DIP-4_L6.4-W4.8-P2.54-LS7.6-BL"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "1b6c83fe159244ef89b1100407eb6cfe|0819f05c4eef4c71ace90d822a990e87",
+        "name": "DIP-4_L6.4-W4.8-P2.54-LS7.6-BL"
+      },
+      "designator": "U2",
+      "pads": [
+        {
+          "primitiveId": "e19",
+          "net": "GND",
+          "padNumber": "2"
+        },
+        {
+          "primitiveId": "e20",
+          "net": "BTN2_B",
+          "padNumber": "3"
+        },
+        {
+          "primitiveId": "e21",
+          "net": "BTN2_A",
+          "padNumber": "4"
+        },
+        {
+          "primitiveId": "e22",
+          "net": "LED2",
+          "padNumber": "1"
+        }
+      ],
+      "name": "={Manufacturer Part}",
+      "uniqueId": "SR04-U2",
+      "manufacturer": "PANASONIC(\u677e\u4e0b)",
+      "manufacturerId": "AQY212EH",
+      "supplier": "LCSC",
+      "supplierId": "C2894775",
+      "otherProperty": {
+        "Footprint": "DIP-4_L6.4-W4.8-P2.54-LS7.6-BL",
+        "LCSC Part Name": "1 Form A(SPSTNO) \u8d1f\u8f7dAC,DC \u8d1f\u8f7d\u7535\u538b60V",
+        "Supplier Footprint": "DIP-4",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/AQY212EH/3130775.html",
+        "3D Model": "1b6c83fe159244ef89b1100407eb6cfe|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "DIP-4_L6.4-W4.8-P2.54-LS7.6-BL",
+        "3D Model Transform": "188.1886,307.8734,0,0,0,0,0,0,-118.11",
+        "Contact Form": "\u4e00\u7ec4\u5e38\u5f00:2A(\u5355\u5200\u5355\u63b7-\u5e38\u5f00)",
+        "Load Current": "550mA",
+        "Load Voltage": "60V",
+        "Voltage - Forward(Vf)": "1.25V",
+        "Forward Current(If)": "50mA",
+        "RDS(on)": "850m\u03a9",
+        "Isolation Voltage(Vrms)": "5kV",
+        "Turn-on time": "1ms",
+        "Turn-off time": "50us",
+        "Input Type": "AC,DC",
+        "Operating Temperature": "-40\u2103~+85\u2103",
+        "Total Power Dissipation(Pd)": "550mW",
+        "Insulation Resistance": "1000M\u03a9",
+        "Features": "\u8fc7\u6d41\u4fdd\u62a4",
+        "Description": "\u89e6\u70b9\u5f62\u5f0f:\u4e00\u7ec4\u5e38\u5f00:2A(\u5355\u5200\u5355\u63b7-\u5e38\u5f00);\u8fde\u7eed\u8d1f\u8f7d\u7535\u6d41:550mA;\u8d1f\u8f7d\u7535\u538b:60V;\u6b63\u5411\u538b\u964d(Vf):1.25V;\u5bfc\u901a\u7535\u963b:850m\u03a9;",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I16"
+      }
+    },
+    "pads": [
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "2",
+        "x": 1041.4,
+        "y": -1586.7,
+        "rotation": 90,
+        "pad": [
+          "ELLIPSE",
+          70.9,
+          70.9
+        ],
+        "net": "GND",
+        "hole": [
+          "ROUND",
+          3.937,
+          3.937
+        ],
+        "holeOffsetX": -0.0009,
+        "holeOffsetY": 0.0002,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "9ccd0a0171367fc1e19",
+        "parentComponentPrimitiveId": "9ccd0a0171367fc1"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "3",
+        "x": 1041,
+        "y": -1286.7,
+        "rotation": 90,
+        "pad": [
+          "ELLIPSE",
+          70.9,
+          70.9
+        ],
+        "net": "BTN2_B",
+        "hole": [
+          "ROUND",
+          3.937,
+          3.937
+        ],
+        "holeOffsetX": -0.0010999999999999998,
+        "holeOffsetY": -0.0004,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "9ccd0a0171367fc1e20",
+        "parentComponentPrimitiveId": "9ccd0a0171367fc1"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "4",
+        "x": 941,
+        "y": -1286.7,
+        "rotation": 90,
+        "pad": [
+          "ELLIPSE",
+          70.9,
+          70.9
+        ],
+        "net": "BTN2_A",
+        "hole": [
+          "ROUND",
+          3.937,
+          3.937
+        ],
+        "holeOffsetX": -0.0010999999999999998,
+        "holeOffsetY": -0.0001,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "9ccd0a0171367fc1e21",
+        "parentComponentPrimitiveId": "9ccd0a0171367fc1"
+      },
+      {
+        "async": true,
+        "primitiveType": "ComponentPad",
+        "layer": 12,
+        "padNumber": "1",
+        "x": 941.4,
+        "y": -1586.7,
+        "rotation": 180,
+        "pad": [
+          "RECT",
+          70.9,
+          70.9,
+          0
+        ],
+        "net": "LED2",
+        "hole": [
+          "ROUND",
+          3.937,
+          3.937
+        ],
+        "holeOffsetX": 0,
+        "holeOffsetY": -0.0002,
+        "holeRotation": 0,
+        "metallization": true,
+        "padType": 0,
+        "specialPad": [],
+        "solderMaskAndPasteMaskExpansion": {
+          "topSolderMask": 2,
+          "bottomSolderMask": 2,
+          "topPasteMask": 0,
+          "bottomPasteMask": 0
+        },
+        "heatWelding": null,
+        "primitiveLock": false,
+        "primitiveId": "9ccd0a0171367fc1e22",
+        "parentComponentPrimitiveId": "9ccd0a0171367fc1"
+      }
+    ]
+  }
+]

@@ -1,0 +1,193 @@
+{
+  "harness_passed": true,
+  "named_checks": [
+    {
+      "case": "v01_existing_stl",
+      "expected_fault": "INITIAL_PRELOAD",
+      "matched_expectation": true,
+      "observed_defects": [
+        "INITIAL_PRELOAD",
+        "ARM_NOT_RETRACTED",
+        "CONTACT_WHILE_IDLE",
+        "EXCEEDS_ASSUMED_6N_TEST_LIMIT"
+      ]
+    },
+    {
+      "case": "v02_animation_geometry",
+      "expected_fault": "FRAME_OR_CRADLE_COLLISION",
+      "matched_expectation": true,
+      "observed_defects": [
+        "FRAME_OR_CRADLE_COLLISION"
+      ]
+    },
+    {
+      "case": "v05_nominal",
+      "expected_fault": null,
+      "matched_expectation": true,
+      "observed_defects": []
+    },
+    {
+      "case": "v05_on_then_hold",
+      "expected_fault": null,
+      "matched_expectation": true,
+      "observed_defects": []
+    },
+    {
+      "case": "v05_off_then_hold",
+      "expected_fault": null,
+      "matched_expectation": true,
+      "observed_defects": []
+    },
+    {
+      "case": "v05_repeated_command",
+      "expected_fault": null,
+      "matched_expectation": true,
+      "observed_defects": []
+    },
+    {
+      "case": "v05_fast_reversal",
+      "expected_fault": null,
+      "matched_expectation": true,
+      "observed_defects": []
+    },
+    {
+      "case": "v05_stop_mid_press",
+      "expected_fault": null,
+      "matched_expectation": true,
+      "observed_defects": []
+    },
+    {
+      "case": "v05_pwm_dropout",
+      "expected_fault": null,
+      "matched_expectation": true,
+      "observed_defects": []
+    },
+    {
+      "case": "v05_power_loss",
+      "expected_fault": "NO_RETRACTION_WITHOUT_POWER",
+      "matched_expectation": true,
+      "observed_defects": [
+        "NO_RETRACTION_WITHOUT_POWER"
+      ]
+    },
+    {
+      "case": "v05_weak_servo",
+      "expected_fault": "TARGET_NOT_REACHED",
+      "matched_expectation": true,
+      "observed_defects": [
+        "TARGET_NOT_REACHED"
+      ]
+    },
+    {
+      "case": "v05_stiff_switch",
+      "expected_fault": "TARGET_NOT_REACHED",
+      "matched_expectation": true,
+      "observed_defects": [
+        "TARGET_NOT_REACHED",
+        "EXCEEDS_ASSUMED_6N_TEST_LIMIT"
+      ]
+    },
+    {
+      "case": "v05_insufficient_stroke",
+      "expected_fault": "TARGET_NOT_REACHED",
+      "matched_expectation": true,
+      "observed_defects": [
+        "TARGET_NOT_REACHED"
+      ]
+    },
+    {
+      "case": "v05_excessive_stroke",
+      "expected_fault": "EXCEEDS_ASSUMED_6N_TEST_LIMIT",
+      "matched_expectation": true,
+      "observed_defects": [
+        "EXCEEDS_ASSUMED_6N_TEST_LIMIT"
+      ]
+    },
+    {
+      "case": "v05_large_mount_offset",
+      "expected_fault": "FRAME_OR_CRADLE_COLLISION",
+      "matched_expectation": true,
+      "observed_defects": [
+        "FRAME_OR_CRADLE_COLLISION",
+        "TARGET_NOT_REACHED"
+      ]
+    },
+    {
+      "case": "v05_large_height_offset",
+      "expected_fault": "TARGET_NOT_REACHED",
+      "matched_expectation": true,
+      "observed_defects": [
+        "TARGET_NOT_REACHED"
+      ]
+    },
+    {
+      "case": "v05_narrow_rocker_missed",
+      "expected_fault": "TARGET_NOT_REACHED",
+      "matched_expectation": true,
+      "observed_defects": [
+        "TARGET_NOT_REACHED"
+      ]
+    },
+    {
+      "case": "v05_three_gang_right",
+      "expected_fault": null,
+      "matched_expectation": true,
+      "observed_defects": []
+    },
+    {
+      "case": "v05_twenty_cycles",
+      "expected_fault": null,
+      "matched_expectation": true,
+      "observed_defects": []
+    },
+    {
+      "case": "v05_dt_0p00025",
+      "expected_fault": null,
+      "matched_expectation": true,
+      "observed_defects": []
+    },
+    {
+      "case": "v05_dt_6p25e-05",
+      "expected_fault": null,
+      "matched_expectation": true,
+      "observed_defects": []
+    },
+    {
+      "case": "v05_friction_0p05",
+      "expected_fault": null,
+      "matched_expectation": true,
+      "observed_defects": []
+    },
+    {
+      "case": "v05_friction_0p9",
+      "expected_fault": null,
+      "matched_expectation": true,
+      "observed_defects": []
+    },
+    {
+      "case": "v05_no_contact_negative_control",
+      "expected_fault": "TARGET_NOT_REACHED",
+      "matched_expectation": true,
+      "observed_defects": [
+        "TARGET_NOT_REACHED"
+      ]
+    },
+    {
+      "case": "v05_soft_contact_sensitivity",
+      "expected_fault": null,
+      "matched_expectation": true,
+      "observed_defects": []
+    }
+  ],
+  "numerical_warnings": 0,
+  "convergence": {
+    "arm_deg_max_delta": 0.04744284022686607,
+    "rocker_deg_max_delta": 0.18941882402265176,
+    "peak_force_relative_delta": 0.011518209056775915,
+    "baseline_timestep_s": 0.000125,
+    "fine_timestep_s": 6.25e-05
+  },
+  "negative_control_no_contact_no_flip": true,
+  "physical_calibration_performed": false,
+  "real_firmware_binary_executed": false
+}

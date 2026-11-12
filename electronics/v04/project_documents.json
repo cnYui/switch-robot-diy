@@ -1,0 +1,242 @@
+{
+  "boards": [
+    {
+      "pcb": {
+        "itemType": "PCB",
+        "uuid": "6c5e122f46b5643c",
+        "name": "PCB1",
+        "parentProjectUuid": "5d76228ba25f34a3b30a9212cf6fe1a8ef5ece8b9fec8ccfb6c2891b06cc465b",
+        "parentBoardName": "Board1"
+      },
+      "uuid": "14770c414cdc3d4c",
+      "name": "Board1",
+      "zIndex": 1,
+      "schematic": {
+        "itemType": "Schematic",
+        "uuid": "3240a6127354b063",
+        "page": [
+          {
+            "itemType": "Schematic Page",
+            "uuid": "499184c8a34ecba3",
+            "name": "P1",
+            "parentSchematicUuid": "3240a6127354b063",
+            "showTitleBlock": true,
+            "titleBlockData": {}
+          }
+        ],
+        "parentProjectUuid": "5d76228ba25f34a3b30a9212cf6fe1a8ef5ece8b9fec8ccfb6c2891b06cc465b",
+        "parentBoardName": "Board1",
+        "name": "Schematic1"
+      },
+      "parentProjectUuid": "5d76228ba25f34a3b30a9212cf6fe1a8ef5ece8b9fec8ccfb6c2891b06cc465b",
+      "itemType": "Board"
+    }
+  ],
+  "project": {
+    "itemType": "Project",
+    "uuid": "5d76228ba25f34a3b30a9212cf6fe1a8ef5ece8b9fec8ccfb6c2891b06cc465b",
+    "friendlyName": "Switch Robot Carrier V0.4",
+    "name": "/Switch Robot Carrier V0.4",
+    "teamUuid": "C:\\Users\\yui\\Documents\\LCEDA-Pro\\projects",
+    "description": "",
+    "data": [
+      {
+        "itemType": "Board",
+        "name": "Board1",
+        "schematic": {
+          "itemType": "Schematic",
+          "uuid": "3240a6127354b063",
+          "name": "Schematic1",
+          "page": [
+            {
+              "itemType": "Schematic Page",
+              "uuid": "499184c8a34ecba3",
+              "name": "P1",
+              "parentSchematicUuid": "3240a6127354b063",
+              "showTitleBlock": true,
+              "titleBlockData": {
+                "Symbol": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Drawing-Symbol_A4"
+                },
+                "Company": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "\u5609\u7acb\u521bEDA"
+                },
+                "Drawed": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Reviewed": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Part Number": {
+                  "showTitle": false,
+                  "showValue": true,
+                  "value": ""
+                },
+                "Version": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "V1.0"
+                },
+                "Page Size": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "A4"
+                },
+                "@Project Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Switch Robot Carrier V0.4"
+                },
+                "@Update Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-11-05"
+                },
+                "@Create Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-11-05"
+                },
+                "Device": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Drawing-Symbol_A4"
+                },
+                "@Board Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Board1"
+                },
+                "@Page Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "P1"
+                },
+                "@Create Time": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "21:04:45"
+                },
+                "@Page Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": 1
+                },
+                "@Page No": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": 1
+                },
+                "@Schematic Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Schematic1"
+                },
+                "@Update Time": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "21:04:49"
+                },
+                "@Assembly Variant": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Basic"
+                },
+                "Border": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "Title Block Position": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "3"
+                },
+                "Size": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "A4"
+                },
+                "Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": 1170
+                },
+                "Height": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": 825
+                },
+                "Region Start": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "X Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": 6
+                },
+                "Y Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": 4
+                },
+                "Blade Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": 10
+                },
+                "Color": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "Title Block": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "Description": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "ID": {}
+              }
+            }
+          ],
+          "parentProjectUuid": "5d76228ba25f34a3b30a9212cf6fe1a8ef5ece8b9fec8ccfb6c2891b06cc465b",
+          "parentBoardName": "Board1"
+        },
+        "pcb": {
+          "itemType": "PCB",
+          "name": "PCB1",
+          "uuid": "6c5e122f46b5643c",
+          "parentBoardName": "Board1",
+          "parentProjectUuid": "5d76228ba25f34a3b30a9212cf6fe1a8ef5ece8b9fec8ccfb6c2891b06cc465b"
+        },
+        "parentProjectUuid": "5d76228ba25f34a3b30a9212cf6fe1a8ef5ece8b9fec8ccfb6c2891b06cc465b"
+      },
+      {
+        "itemType": "Panel",
+        "uuid": "91b8e7a0a08115c5",
+        "name": "Panel1",
+        "parentProjectUuid": "5d76228ba25f34a3b30a9212cf6fe1a8ef5ece8b9fec8ccfb6c2891b06cc465b"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "parts": [
+    {
+      "part": "PRINT_03_double_press_arm",
+      "non_manifold_edges": 0,
+      "volume_mm3": 1517.91,
+      "dimensions_mm": [
+        4.0,
+        56.0,
+        10.5
+      ],
+      "print_orientation": "bar flat on bed, fingers up (STL is exported in this orientation)",
+      "assembly_changes": {
+        "cradle_and_servo_raised_mm": 1.0,
+        "finger_bottom_mm": 17.5
+      }
+    },
+    {
+      "part": "PRINT_01_86_adjustable_frame",
+      "non_manifold_edges": 0,
+      "volume_mm3": 11996.8,
+      "dimensions_mm": [
+        96.0,
+        96.0,
+        3.0
+      ],
+      "change": "slots replaced by 2 x 2.5 mm pilot holes at (42, +-29) mm"
+    }
+  ]
+}

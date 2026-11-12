@@ -1,0 +1,241 @@
+{
+  "method": "CAD construction primitives, not a single convex hull",
+  "approximation": "Fastener/strap holes omitted; bar/base outer bevels conservatively filled by at most 0.7mm. Press pad and finger extents exact.",
+  "parts": {
+    "frame": {
+      "source_sha256": "30ce2bdae3b92b6e3788aa19c6b430c61a8c9ef6c2190c1a365830f9c7b95b4a",
+      "hulls": [
+        "frame_col_00.obj",
+        "frame_col_01.obj",
+        "frame_col_02.obj",
+        "frame_col_03.obj"
+      ],
+      "method": "cad_primitives",
+      "watertight": false,
+      "volume_mm3": 11674.007224886822,
+      "solid_density_kg_m3": 1240,
+      "effective_mass_fraction_assumed": 0.55,
+      "mass_kg": 0.007961672927372813,
+      "center_of_mass_m": [
+        -0.001266977392457419,
+        -6.046430979362588e-18,
+        0.006500000134012514
+      ],
+      "inertia_kg_m2": [
+        [
+          9.624112447690322e-06,
+          1.7381935452551325e-22,
+          -1.2632265460148834e-19
+        ],
+        [
+          1.7381935452551325e-22,
+          9.395428937279476e-06,
+          -1.6247151364653845e-22
+        ],
+        [
+          -1.2632265460148834e-19,
+          -1.6247151364653845e-22,
+          1.9007701859378348e-05
+        ]
+      ],
+      "hull_volume_excess_ratio": 0.036148065268759355
+    },
+    "cradle": {
+      "source_sha256": "d8e2ac5df81cfb5850b977f101f0adb3cb857e7695c3cf39864c5c2a4fe428c0",
+      "hulls": [
+        "cradle_col_00.obj",
+        "cradle_col_01.obj",
+        "cradle_col_02.obj",
+        "cradle_col_03.obj",
+        "cradle_col_04.obj",
+        "cradle_col_05.obj",
+        "cradle_col_06.obj"
+      ],
+      "method": "cad_primitives",
+      "watertight": false,
+      "volume_mm3": 9081.679998084257,
+      "solid_density_kg_m3": 1240,
+      "effective_mass_fraction_assumed": 0.55,
+      "mass_kg": 0.006193705758693465,
+      "center_of_mass_m": [
+        0.04520673972327793,
+        7.886672128087052e-11,
+        0.01810714039497469
+      ],
+      "inertia_kg_m2": [
+        [
+          2.01364113346996e-06,
+          -2.7017216644020132e-15,
+          -3.398902610747941e-08
+        ],
+        [
+          -2.7017216644020132e-15,
+          7.83810752393549e-07,
+          1.514777667884636e-15
+        ],
+        [
+          -3.398902610747941e-08,
+          1.514777667884636e-15,
+          2.4590169502704216e-06
+        ]
+      ],
+      "hull_volume_excess_ratio": 0.15044793498603437
+    },
+    "arm_v01": {
+      "source_sha256": "66e8ff29c95d3f79c1fbaa7b49df7a3369c0b816fc89a39380210ad8367fdd2e",
+      "hulls": [
+        "arm_v01_col_00.obj",
+        "arm_v01_col_01.obj",
+        "arm_v01_col_02.obj",
+        "arm_v01_col_03.obj",
+        "arm_v01_col_04.obj"
+      ],
+      "method": "cad_primitives",
+      "watertight": true,
+      "volume_mm3": 2021.9105119242681,
+      "solid_density_kg_m3": 1240,
+      "effective_mass_fraction_assumed": 0.55,
+      "mass_kg": 0.001378942969132351,
+      "center_of_mass_m": [
+        1.0518733153771576e-13,
+        -2.3362662643563835e-12,
+        -0.00353965235871123
+      ],
+      "inertia_kg_m2": [
+        [
+          5.691202103555497e-07,
+          1.389706032217508e-16,
+          -3.751890385216949e-18
+        ],
+        [
+          1.389706032217508e-16,
+          3.995293873838466e-08,
+          1.2053331780599651e-17
+        ],
+        [
+          -3.751890385216949e-18,
+          1.2053331780599651e-17,
+          5.336119228534293e-07
+        ]
+      ],
+      "hull_volume_excess_ratio": 0.19095280715875407
+    },
+    "arm_v02": {
+      "source_sha256": "e69941822d5a63257e8f9fdfacafd6c18399b2310e3c26bf6f2b0c4939a39e0c",
+      "hulls": [
+        "arm_v02_col_00.obj",
+        "arm_v02_col_01.obj",
+        "arm_v02_col_02.obj",
+        "arm_v02_col_03.obj",
+        "arm_v02_col_04.obj"
+      ],
+      "method": "cad_primitives",
+      "watertight": true,
+      "volume_mm3": 1923.3017741256592,
+      "solid_density_kg_m3": 1240,
+      "effective_mass_fraction_assumed": 0.55,
+      "mass_kg": 0.0013116918099536996,
+      "center_of_mass_m": [
+        1.1058032585042283e-13,
+        -2.456047344830299e-12,
+        -0.0029487097286723034
+      ],
+      "inertia_kg_m2": [
+        [
+          5.209581773686638e-07,
+          1.389706032217334e-16,
+          -3.666175664487121e-18
+        ],
+        [
+          1.389706032217334e-16,
+          3.068262535073288e-08,
+          1.0149552420045374e-17
+        ],
+        [
+          -3.666175664487121e-18,
+          1.0149552420045374e-17,
+          4.944312722100425e-07
+        ]
+      ],
+      "hull_volume_excess_ratio": 0.19884417591356995
+    },
+    "arm_v05": {
+      "source_sha256": "2571ddf8598955b776e464483c859829c595d5b3458f6fa60e2cddb24dec8517",
+      "hulls": [
+        "arm_v05_col_00.obj",
+        "arm_v05_col_01.obj",
+        "arm_v05_col_02.obj",
+        "arm_v05_col_03.obj",
+        "arm_v05_col_04.obj"
+      ],
+      "method": "cad_primitives",
+      "watertight": true,
+      "volume_mm3": 1867.6496364016805,
+      "solid_density_kg_m3": 1240,
+      "effective_mass_fraction_assumed": 0.55,
+      "mass_kg": 0.0012737370520259463,
+      "center_of_mass_m": [
+        6.216395386782207e-14,
+        7.931828679840382e-13,
+        -0.0026751131725355048
+      ],
+      "inertia_kg_m2": [
+        [
+          4.955891600491752e-07,
+          1.4018804136845935e-16,
+          -1.477927666960604e-19
+        ],
+        [
+          1.4018804136845935e-16,
+          2.7033218111748737e-08,
+          -2.6166763460346988e-18
+        ],
+        [
+          -1.477927666960604e-19,
+          -2.6166763460346988e-18,
+          4.7202215034197783e-07
+        ]
+      ],
+      "hull_volume_excess_ratio": 0.2047693061193665
+    },
+    "arm_v06": {
+      "source_sha256": "337c05cd3be0dd059de54c2ff85852e7df31d8747b9bf98617262fb73e999ca0",
+      "hulls": [
+        "arm_v06_col_00.obj",
+        "arm_v06_col_01.obj",
+        "arm_v06_col_02.obj",
+        "arm_v06_col_03.obj",
+        "arm_v06_col_04.obj"
+      ],
+      "method": "cad_primitives",
+      "watertight": true,
+      "volume_mm3": 1517.9105026949437,
+      "solid_density_kg_m3": 1240,
+      "effective_mass_fraction_assumed": 0.55,
+      "mass_kg": 0.0010352149628379517,
+      "center_of_mass_m": [
+        -4.434684721519485e-14,
+        9.941550184737988e-14,
+        -0.0008780888165570423
+      ],
+      "inertia_kg_m2": [
+        [
+          3.386304113631201e-07,
+          1.411566808975129e-16,
+          -6.3451877836972884e-21
+        ],
+        [
+          1.411566808975129e-16,
+          8.16657445589441e-09,
+          -4.771343699910592e-19
+        ],
+        [
+          -6.3451877836972884e-21,
+          -4.771343699910592e-19,
+          3.3315165602448657e-07
+        ]
+      ],
+      "hull_volume_excess_ratio": 0.3000661083090175
+    }
+  }
+}

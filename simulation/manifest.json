@@ -1,0 +1,24 @@
+{
+  "engine": "3.17.0",
+  "video": {
+    "fps": 24.0,
+    "duration": 27.5,
+    "size": [
+      1280,
+      896
+    ]
+  },
+  "video_sha256": "c092d984cbdecaafdffbe65514c1db315fb59c1b7840072a2da95c77e5f55233",
+  "files": {
+    "model.py": "2cf610811004e80bb391d0c572043db5af72147acd22a045e301ad4944d56777",
+    "controller.py": "3d1e22758b3b2da11986633fb3137a98ed612b3d0dd6e531d1d36f0cf1295473",
+    "parameters.json": "f49c38e6742d5944e9a6af56f5415b3fd03a2f544271527f31dabd5bd9620c5c",
+    "results\\suite.json": "f7f1b976b462b15869a2a381ae93c780b9995a2fe1741a7e923d88dfce83f4af",
+    "results\\validation.json": "bc374118dab881c6aa12b68801487b73da99a79db9e593dc119cc86dfaf30b97",
+    "results\\interface_tests.json": "3644f1a3c96b332554b60aa7ef91c0d233a8f89502b34db52a7379c67a3a5e46",
+    "results\\mujoco_full_test.mp4": "c092d984cbdecaafdffbe65514c1db315fb59c1b7840072a2da95c77e5f55233"
+  },
+  "native_window_verified": true,
+  "hardware_connected": false,
+  "unused_generated_hulls_removed": 2214
+}

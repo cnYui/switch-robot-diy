@@ -1,0 +1,2048 @@
+{
+  "components": [
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "e7d10146bd136a5c",
+      "componentType": "sheet",
+      "x": 0,
+      "y": 0,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "b2531c09cfed8000",
+        "name": "Drawing-Symbol_A4"
+      },
+      "symbol": {
+        "uuid": "48d1f5fd5157a7fc",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Drawing-Symbol_A4"
+      },
+      "name": "",
+      "otherProperty": {
+        "Company": "\u5609\u7acb\u521bEDA",
+        "Drawed": "",
+        "Reviewed": "",
+        "Part Number": "",
+        "Version": "V1.0",
+        "Page Size": "A4",
+        "@Project Name": "Switch Robot Carrier V0.4",
+        "@Update Date": "2026-11-05",
+        "@Create Date": "2026-11-05",
+        "@Board Name": "Board1",
+        "@Page Name": "P1",
+        "@Create Time": "21:10:46",
+        "@Page Count": "1",
+        "@Page No": "1",
+        "@Schematic Name": "Schematic1",
+        "@Update Time": "21:10:46",
+        "@Assembly Variant": "Basic",
+        "Border": "1",
+        "Title Block Position": "3",
+        "Size": "A4",
+        "Width": "1170",
+        "Height": "825",
+        "Region Start": "1",
+        "X Region Count": "6",
+        "Y Region Count": "4",
+        "Blade Width": "10",
+        "Color": "",
+        "Title Block": "1",
+        "Description": ""
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "28aaec4c9be90fdd",
+      "componentType": "part",
+      "x": 100,
+      "y": 150,
+      "subPartName": "PZ254V-11-02P.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e0be371931036eef",
+        "name": "PZ254V-11-02P"
+      },
+      "symbol": {
+        "uuid": "ad0d5f8ba25a24ec",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "PZ254V-11-02P"
+      },
+      "footprint": {
+        "uuid": "ce07cbf0b9e46e4e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_2P-P2.54-V-M"
+      },
+      "designator": "J1",
+      "name": "={Manufacturer Part}",
+      "uniqueId": "SR04-J1",
+      "manufacturer": "XFCN(\u5174\u98de)",
+      "manufacturerId": "PZ254V-11-02P",
+      "supplier": "LCSC",
+      "supplierId": "C492401",
+      "otherProperty": {
+        "PCB Layer": "Default",
+        "LCSC Part Name": "1x2P \u95f4\u8ddd:2.54mm \u65b9\u9488 \u76f4\u63d2",
+        "Supplier Footprint": "\u63d2\u4ef6,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/PZ254V-11-02P/502957.html",
+        "Pin Structure": "1x2P",
+        "Pitch": "2.54mm",
+        "Row Spacing": "-",
+        "Circluar Pins/Square Pins": "\u65b9\u9488",
+        "Mounting Type": "\u76f4\u63d2",
+        "Number of Rows": "\u5355\u6392",
+        "Number of Pins": "2P",
+        "Current Rating": "3A",
+        "Voltage Rating (Max)": "250V",
+        "Length of Mating Pin": "6.1mm",
+        "Insulation Height": "2.5mm",
+        "Length of End Connection Pin": "3mm",
+        "Contact Material": "\u9ec4\u94dc",
+        "Contact Plating": "\u91d1",
+        "Operating Temperature": "-40\u2103~+105\u2103",
+        "Color": "\u9ed1\u8272",
+        "Description": "\u63d2\u9488\u7ed3\u6784:1x2P;\u95f4\u8ddd:2.54mm;\u884c\u8ddd:-;\u5706\u9488/\u65b9\u9488:\u65b9\u9488;\u5b89\u88c5\u65b9\u5f0f:\u76f4\u63d2;\u6392\u6570:\u5355\u6392;\u603bPIN\u4f4d\u6570:2P;\u989d\u5b9a\u7535\u6d41:3A;\u989d\u5b9a\u7535\u538b:250V;\u914d\u5408\u9488\u957f\u5ea6:6.1mm;\u5851\u9ad8:2.5mm;\u7aef\u63a5\u9488\u957f\u5ea6:3mm;\u89e6\u5934\u6750\u8d28:\u9ec4\u94dc;\u89e6\u5934\u9540\u5c42:\u91d1;\u5de5\u4f5c\u6e29\u5ea6:-40\u2103~+105\u2103;\u989c\u8272:\u9ed1\u8272;"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "7c09a67648c3c997",
+      "componentType": "part",
+      "x": 840,
+      "y": -310,
+      "subPartName": "PZ254V-11-02P.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e0be371931036eef",
+        "name": "PZ254V-11-02P"
+      },
+      "symbol": {
+        "uuid": "ad0d5f8ba25a24ec",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "PZ254V-11-02P"
+      },
+      "footprint": {
+        "uuid": "ce07cbf0b9e46e4e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_2P-P2.54-V-M"
+      },
+      "designator": "J4",
+      "name": "={Manufacturer Part}",
+      "uniqueId": "SR04-J4",
+      "manufacturer": "XFCN(\u5174\u98de)",
+      "manufacturerId": "PZ254V-11-02P",
+      "supplier": "LCSC",
+      "supplierId": "C492401",
+      "otherProperty": {
+        "PCB Layer": "Default",
+        "LCSC Part Name": "1x2P \u95f4\u8ddd:2.54mm \u65b9\u9488 \u76f4\u63d2",
+        "Supplier Footprint": "\u63d2\u4ef6,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/PZ254V-11-02P/502957.html",
+        "Pin Structure": "1x2P",
+        "Pitch": "2.54mm",
+        "Row Spacing": "-",
+        "Circluar Pins/Square Pins": "\u65b9\u9488",
+        "Mounting Type": "\u76f4\u63d2",
+        "Number of Rows": "\u5355\u6392",
+        "Number of Pins": "2P",
+        "Current Rating": "3A",
+        "Voltage Rating (Max)": "250V",
+        "Length of Mating Pin": "6.1mm",
+        "Insulation Height": "2.5mm",
+        "Length of End Connection Pin": "3mm",
+        "Contact Material": "\u9ec4\u94dc",
+        "Contact Plating": "\u91d1",
+        "Operating Temperature": "-40\u2103~+105\u2103",
+        "Color": "\u9ed1\u8272",
+        "Description": "\u63d2\u9488\u7ed3\u6784:1x2P;\u95f4\u8ddd:2.54mm;\u884c\u8ddd:-;\u5706\u9488/\u65b9\u9488:\u65b9\u9488;\u5b89\u88c5\u65b9\u5f0f:\u76f4\u63d2;\u6392\u6570:\u5355\u6392;\u603bPIN\u4f4d\u6570:2P;\u989d\u5b9a\u7535\u6d41:3A;\u989d\u5b9a\u7535\u538b:250V;\u914d\u5408\u9488\u957f\u5ea6:6.1mm;\u5851\u9ad8:2.5mm;\u7aef\u63a5\u9488\u957f\u5ea6:3mm;\u89e6\u5934\u6750\u8d28:\u9ec4\u94dc;\u89e6\u5934\u9540\u5c42:\u91d1;\u5de5\u4f5c\u6e29\u5ea6:-40\u2103~+105\u2103;\u989c\u8272:\u9ed1\u8272;"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "bc0a380d9698d95a",
+      "componentType": "part",
+      "x": 840,
+      "y": -550,
+      "subPartName": "PZ254V-11-02P.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e0be371931036eef",
+        "name": "PZ254V-11-02P"
+      },
+      "symbol": {
+        "uuid": "ad0d5f8ba25a24ec",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "PZ254V-11-02P"
+      },
+      "footprint": {
+        "uuid": "ce07cbf0b9e46e4e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_2P-P2.54-V-M"
+      },
+      "designator": "J5",
+      "name": "={Manufacturer Part}",
+      "uniqueId": "SR04-J5",
+      "manufacturer": "XFCN(\u5174\u98de)",
+      "manufacturerId": "PZ254V-11-02P",
+      "supplier": "LCSC",
+      "supplierId": "C492401",
+      "otherProperty": {
+        "PCB Layer": "Default",
+        "LCSC Part Name": "1x2P \u95f4\u8ddd:2.54mm \u65b9\u9488 \u76f4\u63d2",
+        "Supplier Footprint": "\u63d2\u4ef6,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/PZ254V-11-02P/502957.html",
+        "Pin Structure": "1x2P",
+        "Pitch": "2.54mm",
+        "Row Spacing": "-",
+        "Circluar Pins/Square Pins": "\u65b9\u9488",
+        "Mounting Type": "\u76f4\u63d2",
+        "Number of Rows": "\u5355\u6392",
+        "Number of Pins": "2P",
+        "Current Rating": "3A",
+        "Voltage Rating (Max)": "250V",
+        "Length of Mating Pin": "6.1mm",
+        "Insulation Height": "2.5mm",
+        "Length of End Connection Pin": "3mm",
+        "Contact Material": "\u9ec4\u94dc",
+        "Contact Plating": "\u91d1",
+        "Operating Temperature": "-40\u2103~+105\u2103",
+        "Color": "\u9ed1\u8272",
+        "Description": "\u63d2\u9488\u7ed3\u6784:1x2P;\u95f4\u8ddd:2.54mm;\u884c\u8ddd:-;\u5706\u9488/\u65b9\u9488:\u65b9\u9488;\u5b89\u88c5\u65b9\u5f0f:\u76f4\u63d2;\u6392\u6570:\u5355\u6392;\u603bPIN\u4f4d\u6570:2P;\u989d\u5b9a\u7535\u6d41:3A;\u989d\u5b9a\u7535\u538b:250V;\u914d\u5408\u9488\u957f\u5ea6:6.1mm;\u5851\u9ad8:2.5mm;\u7aef\u63a5\u9488\u957f\u5ea6:3mm;\u89e6\u5934\u6750\u8d28:\u9ec4\u94dc;\u89e6\u5934\u9540\u5c42:\u91d1;\u5de5\u4f5c\u6e29\u5ea6:-40\u2103~+105\u2103;\u989c\u8272:\u9ed1\u8272;"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "784c821960d9f415",
+      "componentType": "part",
+      "x": 360,
+      "y": 150,
+      "subPartName": "RUEF110.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "3276794d84017c35",
+        "name": "RUEF110"
+      },
+      "symbol": {
+        "uuid": "e7331385f7d56c0f",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "RUEF110"
+      },
+      "footprint": {
+        "uuid": "3a6e3e2065d46154",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "FUSE-TH_L7.0-W3.1-P5.08-D1.2"
+      },
+      "designator": "F1",
+      "name": "={Manufacturer Part}",
+      "uniqueId": "SR04-F1",
+      "manufacturer": "Littelfuse(\u7f8e\u56fd\u529b\u7279)",
+      "manufacturerId": "RUEF110",
+      "supplier": "LCSC",
+      "supplierId": "C5395",
+      "otherProperty": {
+        "PCB Layer": "Default",
+        "LCSC Part Name": "30V 1.1A \u63d2\u4ef6\u81ea\u6062\u590d",
+        "Supplier Footprint": "\u63d2\u4ef6,P=5.08mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/RUEF110/5832.html",
+        "Voltage - Max": "30V",
+        "Current - Max": "100A",
+        "Hold Current": "1.1A",
+        "Trip Current": "2.2A",
+        "Power Dissipation": "1.17W",
+        "Resistance - Initial (Ri) (Min)": "70m\u03a9",
+        "Resistance - Post Trip (R1) (Max)": "170m\u03a9",
+        "Time to Trip(Max)": "6.6s",
+        "Operating Temperature": "-",
+        "Length": "-",
+        "Width": "-",
+        "Height": "-",
+        "Pitch": "-",
+        "Description": "\u8010\u538b(Vmax):30V;\u6700\u5927\u7535\u6d41(Imax):100A;\u4fdd\u6301\u7535\u6d41(Ihold):1.1A;\u8df3\u95f8\u7535\u6d41(Itrip):2.2A;"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "a1ac0da31c5d6814",
+      "componentType": "part",
+      "x": 600,
+      "y": 150,
+      "subPartName": "EEUFR1E471.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "c66d591583af6fb4",
+        "name": "EEUFR1E471"
+      },
+      "symbol": {
+        "uuid": "f4c8ef1ef19b2543",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "EEUFR1E471"
+      },
+      "footprint": {
+        "uuid": "ca7b96dab09f480d",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "CAP-TH_BD10.0-P5.00-D1.0-FD"
+      },
+      "designator": "C1",
+      "name": "={Value}",
+      "uniqueId": "SR04-C1",
+      "manufacturer": "PANASONIC(\u677e\u4e0b)",
+      "manufacturerId": "EEUFR1E471",
+      "supplier": "LCSC",
+      "supplierId": "C407944",
+      "otherProperty": {
+        "PCB Layer": "Default",
+        "LCSC Part Name": "470uF \u00b120% 25V",
+        "Supplier Footprint": "\u63d2\u4ef6,D10xL12.5mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/EEUFR1E471/396923.html",
+        "Value": "470uF",
+        "Tolerance": "\u00b120%",
+        "Voltage Rating": "25V",
+        "Ripple Current": "1.29A@100kHz",
+        "Equivalent Series Resistance(ESR)": "43m\u03a9@100kHz",
+        "Pin Spacing": "5mm",
+        "Diameter": "10mm",
+        "Height - Seated (Max)": "12.5mm",
+        "Lifetime": "6000hrs@105\u2103",
+        "Operating Temperature": "-40\u2103~+105\u2103",
+        "Polarity type": "\u6709\u6781\u6027",
+        "Description": "\u5bb9\u503c:470uF;\u7cbe\u5ea6:\u00b120%;\u989d\u5b9a\u7535\u538b:25V;\u7eb9\u6ce2\u7535\u6d41:1.29A@100kHz;\u7b49\u6548\u4e32\u8054\u7535\u963b(ESR):43m\u03a9@100kHz;"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "893f11aa24721ebe",
+      "componentType": "part",
+      "x": 840,
+      "y": 150,
+      "subPartName": "FK18X7R1H104K.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "058fb25e707b0fdb",
+        "name": "FK18X7R1H104K"
+      },
+      "symbol": {
+        "uuid": "823c8d2d03b5db8e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "FK18X7R1H104K"
+      },
+      "footprint": {
+        "uuid": "fbd59c0195a4f9c0",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "CAP-TH_L4.0-W2.5-P2.50-D0.5"
+      },
+      "designator": "C2",
+      "name": "={Value}",
+      "uniqueId": "SR04-C2",
+      "manufacturer": "TDK",
+      "manufacturerId": "FK18X7R1H104K",
+      "supplier": "LCSC",
+      "supplierId": "C3689569",
+      "otherProperty": {
+        "PCB Layer": "Default",
+        "LCSC Part Name": "100nF \u00b110% 50V",
+        "Supplier Footprint": "-",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20171113/C140866_15105613015131115783.pdf",
+        "Value": "100nF",
+        "Tolerance": "\u00b110%",
+        "Voltage Rated": "50V",
+        "Temperature Coefficient": "X7R",
+        "Description": "\u5bb9\u503c:100nF;\u7cbe\u5ea6:\u00b110%;\u989d\u5b9a\u7535\u538b:50V;\u6e29\u5ea6\u7cfb\u6570:X7R;"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "b65c7988803d0953",
+      "componentType": "part",
+      "x": 100,
+      "y": -70,
+      "subPartName": "PZ254V-11-05P.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "564769093ff7a691",
+        "name": "PZ254V-11-05P"
+      },
+      "symbol": {
+        "uuid": "da5f5bdec08b0a8d",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "PZ254V-11-05P"
+      },
+      "footprint": {
+        "uuid": "f10b7f31e44734a1",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_5P-P2.54-V-M"
+      },
+      "designator": "J2",
+      "name": "={Manufacturer Part}",
+      "uniqueId": "SR04-J2",
+      "manufacturer": "XFCN(\u5174\u98de)",
+      "manufacturerId": "PZ254V-11-05P",
+      "supplier": "LCSC",
+      "supplierId": "C492404",
+      "otherProperty": {
+        "PCB Layer": "Default",
+        "LCSC Part Name": "1x5P \u95f4\u8ddd:2.54mm \u65b9\u9488 \u76f4\u63d2",
+        "Supplier Footprint": "\u63d2\u4ef6,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/PZ254V-11-05P/502960.html",
+        "Pin Structure": "1x5P",
+        "Pitch": "2.54mm",
+        "Row Spacing": "-",
+        "Circluar Pins/Square Pins": "\u65b9\u9488",
+        "Mounting Type": "\u76f4\u63d2",
+        "Number of Rows": "\u5355\u6392",
+        "Number of Pins": "5P",
+        "Current Rating": "3A",
+        "Voltage Rating (Max)": "250V",
+        "Length of Mating Pin": "6.1mm",
+        "Insulation Height": "2.5mm",
+        "Length of End Connection Pin": "3mm",
+        "Contact Material": "\u9ec4\u94dc",
+        "Contact Plating": "\u91d1",
+        "Operating Temperature": "-40\u2103~+105\u2103",
+        "Color": "\u9ed1\u8272",
+        "Description": "\u63d2\u9488\u7ed3\u6784:1x5P;\u95f4\u8ddd:2.54mm;\u884c\u8ddd:-;\u5706\u9488/\u65b9\u9488:\u65b9\u9488;\u5b89\u88c5\u65b9\u5f0f:\u76f4\u63d2;\u6392\u6570:\u5355\u6392;\u603bPIN\u4f4d\u6570:5P;\u989d\u5b9a\u7535\u6d41:3A;\u989d\u5b9a\u7535\u538b:250V;\u914d\u5408\u9488\u957f\u5ea6:6.1mm;\u5851\u9ad8:2.5mm;\u7aef\u63a5\u9488\u957f\u5ea6:3mm;\u89e6\u5934\u6750\u8d28:\u9ec4\u94dc;\u89e6\u5934\u9540\u5c42:\u91d1;\u5de5\u4f5c\u6e29\u5ea6:-40\u2103~+105\u2103;\u989c\u8272:\u9ed1\u8272;"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "fdfbd3959511c2a3",
+      "componentType": "part",
+      "x": 360,
+      "y": -70,
+      "subPartName": "MF1/8W-220\u03a9\u00b11%-OT52.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "a84a70b01ea4e113",
+        "name": "MF1/8W-220\u03a9\u00b11%-OT52"
+      },
+      "symbol": {
+        "uuid": "54ecb6d09696478c",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "MF1/8W-220\u03a9\u00b11%-OT52"
+      },
+      "footprint": {
+        "uuid": "74b462f17f1bd11e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "RES-TH_BD2.3-L3.7-P7.70-D0.9"
+      },
+      "designator": "R5",
+      "name": "={Value}",
+      "uniqueId": "SR04-R5",
+      "manufacturer": "VO(\u7fd4\u80dc)",
+      "manufacturerId": "MF1/8W-220\u03a9\u00b11%-OT52",
+      "supplier": "LCSC",
+      "supplierId": "C2848564",
+      "otherProperty": {
+        "PCB Layer": "Default",
+        "LCSC Part Name": "\u91d1\u5c5e\u819c\u7535\u963b 220\u03a9 \u00b11% 125mW",
+        "Supplier Footprint": "\u63d2\u4ef6,D2.3xL3.7mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MF1%252F8W-220%25CE%25A9%25C2%25B11%2525-OT52/3047009.html",
+        "Type": "\u91d1\u5c5e\u819c\u7535\u963b",
+        "Value": "220\u03a9",
+        "Tolerance": "\u00b11%",
+        "Voltage-Supply(Max)": "200V",
+        "Power(Watts)": "125mW",
+        "Temperature Coefficient": "\u00b1350ppm/\u2103",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Description": "\u7535\u963b\u7c7b\u578b:\u91d1\u5c5e\u819c\u7535\u963b;\u963b\u503c:220\u03a9;\u7cbe\u5ea6:\u00b11%;\u529f\u7387:125mW;\u6e29\u5ea6\u7cfb\u6570:\u00b1350ppm/\u2103;"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "27178c509df83f36",
+      "componentType": "part",
+      "x": 600,
+      "y": -70,
+      "subPartName": "MF1/8W-100K\u00b11%-OT26.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "74d01f2a1e9dbc49",
+        "name": "MF1/8W-100K\u00b11%-OT26"
+      },
+      "symbol": {
+        "uuid": "35d4465f76861dec",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "MF1/8W-100K\u00b11%-OT26"
+      },
+      "footprint": {
+        "uuid": "74b462f17f1bd11e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "RES-TH_BD2.3-L3.7-P7.70-D0.9"
+      },
+      "designator": "R6",
+      "name": "={Value}",
+      "uniqueId": "SR04-R6",
+      "manufacturer": "VO(\u7fd4\u80dc)",
+      "manufacturerId": "MF1/8W-100K\u00b11%-OT26",
+      "supplier": "LCSC",
+      "supplierId": "C2903382",
+      "otherProperty": {
+        "PCB Layer": "Default",
+        "LCSC Part Name": "\u91d1\u5c5e\u819c\u7535\u963b 100k\u03a9 \u00b11% 125mW",
+        "Supplier Footprint": "\u63d2\u4ef6,D2.3xL3.7mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MF1%252F8W-100K%25C2%25B11%2525-OT26/3159133.html",
+        "Type": "\u91d1\u5c5e\u819c\u7535\u963b",
+        "Value": "100k\u03a9",
+        "Tolerance": "\u00b11%",
+        "Voltage-Supply(Max)": "200V",
+        "Power(Watts)": "125mW",
+        "Temperature Coefficient": "\u00b1100ppm/\u2103",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Description": "\u7535\u963b\u7c7b\u578b:\u91d1\u5c5e\u819c\u7535\u963b;\u963b\u503c:100k\u03a9;\u7cbe\u5ea6:\u00b11%;\u529f\u7387:125mW;\u6e29\u5ea6\u7cfb\u6570:\u00b1100ppm/\u2103;"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "27385582d9fbd6ce",
+      "componentType": "part",
+      "x": 360,
+      "y": -310,
+      "subPartName": "MF1/8W-100K\u00b11%-OT26.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "74d01f2a1e9dbc49",
+        "name": "MF1/8W-100K\u00b11%-OT26"
+      },
+      "symbol": {
+        "uuid": "35d4465f76861dec",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "MF1/8W-100K\u00b11%-OT26"
+      },
+      "footprint": {
+        "uuid": "74b462f17f1bd11e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "RES-TH_BD2.3-L3.7-P7.70-D0.9"
+      },
+      "designator": "R3",
+      "name": "={Value}",
+      "uniqueId": "SR04-R3",
+      "manufacturer": "VO(\u7fd4\u80dc)",
+      "manufacturerId": "MF1/8W-100K\u00b11%-OT26",
+      "supplier": "LCSC",
+      "supplierId": "C2903382",
+      "otherProperty": {
+        "PCB Layer": "Default",
+        "LCSC Part Name": "\u91d1\u5c5e\u819c\u7535\u963b 100k\u03a9 \u00b11% 125mW",
+        "Supplier Footprint": "\u63d2\u4ef6,D2.3xL3.7mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MF1%252F8W-100K%25C2%25B11%2525-OT26/3159133.html",
+        "Type": "\u91d1\u5c5e\u819c\u7535\u963b",
+        "Value": "100k\u03a9",
+        "Tolerance": "\u00b11%",
+        "Voltage-Supply(Max)": "200V",
+        "Power(Watts)": "125mW",
+        "Temperature Coefficient": "\u00b1100ppm/\u2103",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Description": "\u7535\u963b\u7c7b\u578b:\u91d1\u5c5e\u819c\u7535\u963b;\u963b\u503c:100k\u03a9;\u7cbe\u5ea6:\u00b11%;\u529f\u7387:125mW;\u6e29\u5ea6\u7cfb\u6570:\u00b1100ppm/\u2103;"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "c634e54a4dceea19",
+      "componentType": "part",
+      "x": 360,
+      "y": -550,
+      "subPartName": "MF1/8W-100K\u00b11%-OT26.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "74d01f2a1e9dbc49",
+        "name": "MF1/8W-100K\u00b11%-OT26"
+      },
+      "symbol": {
+        "uuid": "35d4465f76861dec",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "MF1/8W-100K\u00b11%-OT26"
+      },
+      "footprint": {
+        "uuid": "74b462f17f1bd11e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "RES-TH_BD2.3-L3.7-P7.70-D0.9"
+      },
+      "designator": "R4",
+      "name": "={Value}",
+      "uniqueId": "SR04-R4",
+      "manufacturer": "VO(\u7fd4\u80dc)",
+      "manufacturerId": "MF1/8W-100K\u00b11%-OT26",
+      "supplier": "LCSC",
+      "supplierId": "C2903382",
+      "otherProperty": {
+        "PCB Layer": "Default",
+        "LCSC Part Name": "\u91d1\u5c5e\u819c\u7535\u963b 100k\u03a9 \u00b11% 125mW",
+        "Supplier Footprint": "\u63d2\u4ef6,D2.3xL3.7mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MF1%252F8W-100K%25C2%25B11%2525-OT26/3159133.html",
+        "Type": "\u91d1\u5c5e\u819c\u7535\u963b",
+        "Value": "100k\u03a9",
+        "Tolerance": "\u00b11%",
+        "Voltage-Supply(Max)": "200V",
+        "Power(Watts)": "125mW",
+        "Temperature Coefficient": "\u00b1100ppm/\u2103",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Description": "\u7535\u963b\u7c7b\u578b:\u91d1\u5c5e\u819c\u7535\u963b;\u963b\u503c:100k\u03a9;\u7cbe\u5ea6:\u00b11%;\u529f\u7387:125mW;\u6e29\u5ea6\u7cfb\u6570:\u00b1100ppm/\u2103;"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "6828773c6f0f8e28",
+      "componentType": "part",
+      "x": 840,
+      "y": -70,
+      "subPartName": "PZ254V-11-03P_C2937625.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "206ced1402b60d22",
+        "name": "PZ254V-11-03P"
+      },
+      "symbol": {
+        "uuid": "70979d0e22472801",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "PZ254V-11-03P_C2937625"
+      },
+      "footprint": {
+        "uuid": "58e6dd1fb0639ec2",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_3P-P2.54-V-M_PZ254V-11-03P"
+      },
+      "designator": "J3",
+      "name": "={Manufacturer Part}",
+      "uniqueId": "SR04-J3",
+      "manufacturer": "XFCN(\u5174\u98de)",
+      "manufacturerId": "PZ254V-11-03P",
+      "supplier": "LCSC",
+      "supplierId": "C2937625",
+      "otherProperty": {
+        "PCB Layer": "Default",
+        "LCSC Part Name": "1x3P \u95f4\u8ddd:2.54mm \u65b9\u9488 \u76f4\u63d2",
+        "Supplier Footprint": "\u63d2\u4ef6,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/PZ254V-11-03P/3293280.html",
+        "Pin Structure": "1x3P",
+        "Pitch": "2.54mm",
+        "Row Spacing": "-",
+        "Circluar Pins/Square Pins": "\u65b9\u9488",
+        "Mounting Type": "\u76f4\u63d2",
+        "Number of Rows": "\u5355\u6392",
+        "Number of Pins": "3P",
+        "Current Rating": "3A",
+        "Voltage Rating (Max)": "250V",
+        "Length of Mating Pin": "6.1mm",
+        "Insulation Height": "2.5mm",
+        "Length of End Connection Pin": "3mm",
+        "Contact Material": "\u9ec4\u94dc",
+        "Contact Plating": "\u91d1",
+        "Operating Temperature": "-40\u2103~+105\u2103",
+        "Color": "\u9ed1\u8272",
+        "Supplementary Features": "-",
+        "Description": "\u63d2\u9488\u7ed3\u6784:1x3P;\u95f4\u8ddd:2.54mm;\u884c\u8ddd:-;\u5706\u9488/\u65b9\u9488:\u65b9\u9488;\u5b89\u88c5\u65b9\u5f0f:\u76f4\u63d2;\u6392\u6570:\u5355\u6392;\u603bPIN\u4f4d\u6570:3P;\u989d\u5b9a\u7535\u6d41:3A;\u989d\u5b9a\u7535\u538b:250V;\u914d\u5408\u9488\u957f\u5ea6:6.1mm;\u5851\u9ad8:2.5mm;\u7aef\u63a5\u9488\u957f\u5ea6:3mm;\u89e6\u5934\u6750\u8d28:\u9ec4\u94dc;\u89e6\u5934\u9540\u5c42:\u91d1;\u5de5\u4f5c\u6e29\u5ea6:-40\u2103~+105\u2103;\u989c\u8272:\u9ed1\u8272;"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "9ead0e3a700c9575",
+      "componentType": "part",
+      "x": 100,
+      "y": -310,
+      "subPartName": "MF1/8W-470\u03a9\u00b11%-OT52.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "3e1ef0f1d2c4d596",
+        "name": "MF1/8W-470\u03a9\u00b11%-OT52"
+      },
+      "symbol": {
+        "uuid": "13a47cd939f04a9f",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "MF1/8W-470\u03a9\u00b11%-OT52"
+      },
+      "footprint": {
+        "uuid": "74b462f17f1bd11e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "RES-TH_BD2.3-L3.7-P7.70-D0.9"
+      },
+      "designator": "R1",
+      "name": "={Value}",
+      "uniqueId": "SR04-R1",
+      "manufacturer": "VO(\u7fd4\u80dc)",
+      "manufacturerId": "MF1/8W-470\u03a9\u00b11%-OT52",
+      "supplier": "LCSC",
+      "supplierId": "C2848568",
+      "otherProperty": {
+        "PCB Layer": "Default",
+        "LCSC Part Name": "\u91d1\u5c5e\u819c\u7535\u963b 470\u03a9 \u00b11% 125mW",
+        "Supplier Footprint": "\u63d2\u4ef6,D2.3xL3.7mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MF1%252F8W-470%25CE%25A9%25C2%25B11%2525-OT52/3047013.html",
+        "Type": "\u91d1\u5c5e\u819c\u7535\u963b",
+        "Value": "470\u03a9",
+        "Tolerance": "\u00b11%",
+        "Voltage-Supply(Max)": "200V",
+        "Power(Watts)": "125mW",
+        "Temperature Coefficient": "\u00b1350ppm/\u2103",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Description": "\u7535\u963b\u7c7b\u578b:\u91d1\u5c5e\u819c\u7535\u963b;\u963b\u503c:470\u03a9;\u7cbe\u5ea6:\u00b11%;\u529f\u7387:125mW;\u6e29\u5ea6\u7cfb\u6570:\u00b1350ppm/\u2103;"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "6f7a951a128efcd4",
+      "componentType": "part",
+      "x": 100,
+      "y": -550,
+      "subPartName": "MF1/8W-470\u03a9\u00b11%-OT52.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "3e1ef0f1d2c4d596",
+        "name": "MF1/8W-470\u03a9\u00b11%-OT52"
+      },
+      "symbol": {
+        "uuid": "13a47cd939f04a9f",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "MF1/8W-470\u03a9\u00b11%-OT52"
+      },
+      "footprint": {
+        "uuid": "74b462f17f1bd11e",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "RES-TH_BD2.3-L3.7-P7.70-D0.9"
+      },
+      "designator": "R2",
+      "name": "={Value}",
+      "uniqueId": "SR04-R2",
+      "manufacturer": "VO(\u7fd4\u80dc)",
+      "manufacturerId": "MF1/8W-470\u03a9\u00b11%-OT52",
+      "supplier": "LCSC",
+      "supplierId": "C2848568",
+      "otherProperty": {
+        "PCB Layer": "Default",
+        "LCSC Part Name": "\u91d1\u5c5e\u819c\u7535\u963b 470\u03a9 \u00b11% 125mW",
+        "Supplier Footprint": "\u63d2\u4ef6,D2.3xL3.7mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MF1%252F8W-470%25CE%25A9%25C2%25B11%2525-OT52/3047013.html",
+        "Type": "\u91d1\u5c5e\u819c\u7535\u963b",
+        "Value": "470\u03a9",
+        "Tolerance": "\u00b11%",
+        "Voltage-Supply(Max)": "200V",
+        "Power(Watts)": "125mW",
+        "Temperature Coefficient": "\u00b1350ppm/\u2103",
+        "Operating Temperature": "-55\u2103~+155\u2103",
+        "Description": "\u7535\u963b\u7c7b\u578b:\u91d1\u5c5e\u819c\u7535\u963b;\u963b\u503c:470\u03a9;\u7cbe\u5ea6:\u00b11%;\u529f\u7387:125mW;\u6e29\u5ea6\u7cfb\u6570:\u00b1350ppm/\u2103;"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "f4dd02dd78fe2338",
+      "componentType": "part",
+      "x": 600,
+      "y": -310,
+      "subPartName": "AQY212EH.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "69a6a3878039b08c",
+        "name": "AQY212EH"
+      },
+      "symbol": {
+        "uuid": "8a4aa9473fd15e3f",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "AQY212EH"
+      },
+      "footprint": {
+        "uuid": "40abadd65eeb5d01",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "DIP-4_L6.4-W4.8-P2.54-LS7.6-BL"
+      },
+      "designator": "U1",
+      "name": "={Manufacturer Part}",
+      "uniqueId": "SR04-U1",
+      "manufacturer": "PANASONIC(\u677e\u4e0b)",
+      "manufacturerId": "AQY212EH",
+      "supplier": "LCSC",
+      "supplierId": "C2894775",
+      "otherProperty": {
+        "PCB Layer": "Default",
+        "LCSC Part Name": "1 Form A(SPSTNO) \u8d1f\u8f7dAC,DC \u8d1f\u8f7d\u7535\u538b60V",
+        "Supplier Footprint": "DIP-4",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/AQY212EH/3130775.html",
+        "Contact Form": "\u4e00\u7ec4\u5e38\u5f00:2A(\u5355\u5200\u5355\u63b7-\u5e38\u5f00)",
+        "Load Current": "550mA",
+        "Load Voltage": "60V",
+        "Voltage - Forward(Vf)": "1.25V",
+        "Forward Current(If)": "50mA",
+        "RDS(on)": "850m\u03a9",
+        "Isolation Voltage(Vrms)": "5kV",
+        "Turn-on time": "1ms",
+        "Turn-off time": "50us",
+        "Input Type": "AC,DC",
+        "Operating Temperature": "-40\u2103~+85\u2103",
+        "Total Power Dissipation(Pd)": "550mW",
+        "Insulation Resistance": "1000M\u03a9",
+        "Features": "\u8fc7\u6d41\u4fdd\u62a4",
+        "Description": "\u89e6\u70b9\u5f62\u5f0f:\u4e00\u7ec4\u5e38\u5f00:2A(\u5355\u5200\u5355\u63b7-\u5e38\u5f00);\u8fde\u7eed\u8d1f\u8f7d\u7535\u6d41:550mA;\u8d1f\u8f7d\u7535\u538b:60V;\u6b63\u5411\u538b\u964d(Vf):1.25V;\u5bfc\u901a\u7535\u963b:850m\u03a9;"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "63cc05fbef1caa4a",
+      "componentType": "part",
+      "x": 600,
+      "y": -550,
+      "subPartName": "AQY212EH.1",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "69a6a3878039b08c",
+        "name": "AQY212EH"
+      },
+      "symbol": {
+        "uuid": "8a4aa9473fd15e3f",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "AQY212EH"
+      },
+      "footprint": {
+        "uuid": "40abadd65eeb5d01",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "DIP-4_L6.4-W4.8-P2.54-LS7.6-BL"
+      },
+      "designator": "U2",
+      "name": "={Manufacturer Part}",
+      "uniqueId": "SR04-U2",
+      "manufacturer": "PANASONIC(\u677e\u4e0b)",
+      "manufacturerId": "AQY212EH",
+      "supplier": "LCSC",
+      "supplierId": "C2894775",
+      "otherProperty": {
+        "PCB Layer": "Default",
+        "LCSC Part Name": "1 Form A(SPSTNO) \u8d1f\u8f7dAC,DC \u8d1f\u8f7d\u7535\u538b60V",
+        "Supplier Footprint": "DIP-4",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/AQY212EH/3130775.html",
+        "Contact Form": "\u4e00\u7ec4\u5e38\u5f00:2A(\u5355\u5200\u5355\u63b7-\u5e38\u5f00)",
+        "Load Current": "550mA",
+        "Load Voltage": "60V",
+        "Voltage - Forward(Vf)": "1.25V",
+        "Forward Current(If)": "50mA",
+        "RDS(on)": "850m\u03a9",
+        "Isolation Voltage(Vrms)": "5kV",
+        "Turn-on time": "1ms",
+        "Turn-off time": "50us",
+        "Input Type": "AC,DC",
+        "Operating Temperature": "-40\u2103~+85\u2103",
+        "Total Power Dissipation(Pd)": "550mW",
+        "Insulation Resistance": "1000M\u03a9",
+        "Features": "\u8fc7\u6d41\u4fdd\u62a4",
+        "Description": "\u89e6\u70b9\u5f62\u5f0f:\u4e00\u7ec4\u5e38\u5f00:2A(\u5355\u5200\u5355\u63b7-\u5e38\u5f00);\u8fde\u7eed\u8d1f\u8f7d\u7535\u6d41:550mA;\u8d1f\u8f7d\u7535\u538b:60V;\u6b63\u5411\u538b\u964d(Vf):1.25V;\u5bfc\u901a\u7535\u963b:850m\u03a9;"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "e531dee30a4189ed",
+      "componentType": "netport",
+      "x": 40,
+      "y": 155,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "VIN5",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "VIN5",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "82e5290fc30b4a3e",
+      "componentType": "netport",
+      "x": 40,
+      "y": 145,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "GND",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "767e8256662f24d9",
+      "componentType": "netport",
+      "x": 295,
+      "y": 150,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "VIN5",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "VIN5",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "1f6181a152b7cfae",
+      "componentType": "netport",
+      "x": 425,
+      "y": 150,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "V5_SERVO",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "V5_SERVO",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "480ed6f9fecdb744",
+      "componentType": "netport",
+      "x": 660,
+      "y": 150,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "GND",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "5308d60b05610c76",
+      "componentType": "netport",
+      "x": 540,
+      "y": 150,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "V5_SERVO",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "V5_SERVO",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "1927321c137536ea",
+      "componentType": "netport",
+      "x": 780,
+      "y": 150,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "V5_SERVO",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "V5_SERVO",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "22bccc2af7a70801",
+      "componentType": "netport",
+      "x": 900,
+      "y": 150,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "GND",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "34643f371dd01235",
+      "componentType": "netport",
+      "x": 40,
+      "y": -50,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "GND",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "e4c6224c8459d83a",
+      "componentType": "netport",
+      "x": 40,
+      "y": -60,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "PWM_IN",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "PWM_IN",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "99fe1effe74b396d",
+      "componentType": "netport",
+      "x": 40,
+      "y": -70,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "KEY1",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "KEY1",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "eba7d926053bdf6b",
+      "componentType": "netport",
+      "x": 40,
+      "y": -80,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "KEY2",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "KEY2",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "997fe87bb333abbd",
+      "componentType": "netport",
+      "x": 420,
+      "y": -70,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "SERVO_SIG",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "SERVO_SIG",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "6d3d48d16f2ed569",
+      "componentType": "netport",
+      "x": 300,
+      "y": -70,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "PWM_IN",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "PWM_IN",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "b22b8f43cc925240",
+      "componentType": "netport",
+      "x": 660,
+      "y": -70,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "GND",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "ba1eab26fc2e070f",
+      "componentType": "netport",
+      "x": 540,
+      "y": -70,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "PWM_IN",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "PWM_IN",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "36a23a4eb0742723",
+      "componentType": "netport",
+      "x": 780,
+      "y": -60,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "GND",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "40224d801965f559",
+      "componentType": "netport",
+      "x": 780,
+      "y": -70,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "V5_SERVO",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "V5_SERVO",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "4f242e4f1b59c533",
+      "componentType": "netport",
+      "x": 780,
+      "y": -80,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "SERVO_SIG",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "SERVO_SIG",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "01e7eb14f6550441",
+      "componentType": "netport",
+      "x": 160,
+      "y": -310,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "LED1",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "LED1",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "b84f43b3b8757afb",
+      "componentType": "netport",
+      "x": 40,
+      "y": -310,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "KEY1",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "KEY1",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "f7c52fa5139bf290",
+      "componentType": "netport",
+      "x": 420,
+      "y": -310,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "GND",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "c2a3276549022d8f",
+      "componentType": "netport",
+      "x": 300,
+      "y": -310,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "KEY1",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "KEY1",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "d3d77c9df5286716",
+      "componentType": "netport",
+      "x": 510,
+      "y": -280,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "LED1",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "LED1",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "88079468bc03f993",
+      "componentType": "netport",
+      "x": 510,
+      "y": -340,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "GND",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "002f952282cb3b76",
+      "componentType": "netport",
+      "x": 700,
+      "y": -340,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "BTN1_B",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "BTN1_B",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "0237f5b1561378a9",
+      "componentType": "netport",
+      "x": 700,
+      "y": -280,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "BTN1_A",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "BTN1_A",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "45b3c92a5f72618a",
+      "componentType": "netport",
+      "x": 160,
+      "y": -550,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "LED2",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "LED2",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "13abe61a78477afb",
+      "componentType": "netport",
+      "x": 40,
+      "y": -550,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "KEY2",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "KEY2",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "fc0d4e42561c82ea",
+      "componentType": "netport",
+      "x": 420,
+      "y": -550,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "GND",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "193999b6076d9893",
+      "componentType": "netport",
+      "x": 300,
+      "y": -550,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "KEY2",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "KEY2",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "c02d3a8bbb9dd19c",
+      "componentType": "netport",
+      "x": 510,
+      "y": -520,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "LED2",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "LED2",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "448b77d6ee444f66",
+      "componentType": "netport",
+      "x": 510,
+      "y": -580,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "GND",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "GND",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "2daa5d26d31a1923",
+      "componentType": "netport",
+      "x": 700,
+      "y": -580,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "BTN2_B",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "BTN2_B",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "d139c9e8c81805c4",
+      "componentType": "netport",
+      "x": 700,
+      "y": -520,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 180,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "BTN2_A",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "BTN2_A",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "0e57417df39d6a9c",
+      "componentType": "netport",
+      "x": 780,
+      "y": -545,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "BTN2_A",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "BTN2_A",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    },
+    {
+      "async": true,
+      "primitiveType": "Component",
+      "primitiveId": "dd93aa8a47879f55",
+      "componentType": "netport",
+      "x": 780,
+      "y": -555,
+      "subPartName": "pid8a0e77bacb214e",
+      "rotation": 0,
+      "mirror": false,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "net": "BTN2_B",
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "e08b110ee3f8e446",
+        "name": "Netport-BI"
+      },
+      "symbol": {
+        "uuid": "42109334f6cd509b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "Netport-BI"
+      },
+      "name": "BTN2_B",
+      "otherProperty": {
+        "Relevance": "",
+        "Description": "Netport-BI"
+      }
+    }
+  ],
+  "wires": [
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        40,
+        155,
+        80,
+        155
+      ],
+      "net": "VIN5",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "d9236531f9a6a5e1"
+    },
+    {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+        40,
+        145,
+        80,
+        145
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "fe01a4795a2a972b"
+    }
+  ]
+}

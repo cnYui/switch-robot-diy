@@ -1,0 +1,138 @@
+{
+  "passed": true,
+  "backend": "localhost TCP process exercised with actual sockets",
+  "physical_hardware_connected": false,
+  "requests": [
+    {
+      "request": {
+        "type": "command",
+        "value": "INVALID"
+      },
+      "response": {
+        "accepted": false,
+        "physical_state_confirmed": false
+      }
+    },
+    {
+      "request": {
+        "type": "pwm",
+        "microseconds": 99999
+      },
+      "response": {
+        "accepted": false
+      }
+    },
+    {
+      "request": {
+        "type": "command",
+        "value": "ON"
+      },
+      "response": {
+        "accepted": true,
+        "physical_state_confirmed": false
+      }
+    },
+    {
+      "request": {
+        "type": "state"
+      },
+      "response": {
+        "mode": "SIMULATION_ONLY",
+        "time_s": 1.610999999999787,
+        "phase": "IDLE",
+        "rocker_state": "ON",
+        "arm_deg": -0.40276825831507534,
+        "rocker_deg": -3.5000000000000018,
+        "target_deg": 0.0,
+        "servo_torque_nm": 0.00012791455062557792,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0,
+        "feedback_source": "MuJoCo model, not a real sensor"
+      }
+    },
+    {
+      "request": {
+        "type": "command",
+        "value": "OFF"
+      },
+      "response": {
+        "accepted": true,
+        "physical_state_confirmed": false
+      }
+    },
+    {
+      "request": {
+        "type": "state"
+      },
+      "response": {
+        "mode": "SIMULATION_ONLY",
+        "time_s": 3.2118750000010525,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": 0.21811270284348805,
+        "rocker_deg": 3.5000000000000018,
+        "target_deg": 0.0,
+        "servo_torque_nm": 0.00011217734348087336,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0,
+        "feedback_source": "MuJoCo model, not a real sensor"
+      }
+    },
+    {
+      "request": {
+        "type": "pwm",
+        "microseconds": 1550
+      },
+      "response": {
+        "accepted": true
+      }
+    },
+    {
+      "request": {
+        "type": "state"
+      },
+      "response": {
+        "mode": "SIMULATION_ONLY",
+        "time_s": 3.2185000000010606,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": 1.3876441275980835,
+        "rocker_deg": 3.5000000000000018,
+        "target_deg": 4.5,
+        "servo_torque_nm": -0.0015451288586140549,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0,
+        "feedback_source": "MuJoCo model, not a real sensor"
+      }
+    },
+    {
+      "request": {
+        "type": "state"
+      },
+      "response": {
+        "mode": "SIMULATION_ONLY",
+        "time_s": 3.6217500000015534,
+        "phase": "IDLE",
+        "rocker_state": "OFF",
+        "arm_deg": 0.37642923821682645,
+        "rocker_deg": 3.5000000000000018,
+        "target_deg": 0.0,
+        "servo_torque_nm": 0.00011217567501720198,
+        "contact_n": 0.0,
+        "forbidden_n": 0.0,
+        "feedback_source": "MuJoCo model, not a real sensor"
+      }
+    },
+    {
+      "request": {
+        "type": "shutdown"
+      },
+      "response": {
+        "accepted": true
+      }
+    }
+  ],
+  "invalid_pwm_cases": 7,
+  "burst_commands": 1000,
+  "finite_queue_latest_wins": true
+}

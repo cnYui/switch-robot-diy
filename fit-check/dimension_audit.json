@@ -1,0 +1,110 @@
+{
+  "status": "FAIL_ORIGINAL_ENCLOSURE__PARTIAL_VERIFICATION_ONLY",
+  "units": "mm",
+  "pcb": {
+    "outline": [
+      60,
+      40
+    ],
+    "thickness_assumed": 1.6,
+    "mounting_holes_from_actual_epcb": [
+      [
+        4.0,
+        4.0,
+        3.2
+      ],
+      [
+        56.0,
+        4.0,
+        3.2
+      ],
+      [
+        56.0,
+        36.0,
+        3.2
+      ],
+      [
+        4.0,
+        36.0,
+        3.2
+      ]
+    ]
+  },
+  "old_case": {
+    "outer": [
+      68,
+      48,
+      22
+    ],
+    "inner_xy": [
+      64,
+      44
+    ],
+    "pcb_wall_clearance_each_side": 2,
+    "pcb_top_to_closed_lid": 13.5,
+    "pcb_bottom_to_inner_floor": 4.9,
+    "case_pcb_intersection_mm3_from_blender_boolean": 38.48121769553776,
+    "cause": "Lid screw posts at PCB corner coordinates intrude into rectangular board"
+  },
+  "new_case_design": {
+    "revision": "0.3",
+    "outer": [
+      76,
+      56,
+      30
+    ],
+    "inner_xy": [
+      72,
+      52
+    ],
+    "pcb_wall_clearance_each_side": 6,
+    "lid_screw_posts_center_from_case_center": [
+      [
+        -34,
+        -24
+      ],
+      [
+        -34,
+        24
+      ],
+      [
+        34,
+        -24
+      ],
+      [
+        34,
+        24
+      ]
+    ],
+    "lid_screw_post_radius": 3,
+    "pcb_top_to_closed_lid": 21.5,
+    "pcb_bottom_to_inner_floor": 4.9,
+    "verified_case_PCB_intersection_mm3": 0.0,
+    "verified_lid_PCB_intersection_mm3": 0.0,
+    "lid_post_to_PCB_corner_clearance_mm": 2.6568542494923806,
+    "mesh_nonmanifold_edges": {
+      "case": 0,
+      "lid": 0
+    }
+  },
+  "unverified": [
+    "Actual connected MCU model and dimensions",
+    "Chosen capacitor and connector body dimensions and lead heights",
+    "Space for cable plugs, bends and strain relief",
+    "Component-to-component body collisions on PCB",
+    "Actual PCB thickness and printer shrinkage",
+    "Fastener type, screw length and thread engagement"
+  ],
+  "component_envelope_concern": {
+    "C1_center": [
+      29.5,
+      8
+    ],
+    "C2_center": [
+      28.27,
+      12.5
+    ],
+    "center_distance": 4.665,
+    "explanation": "With a 10 mm diameter C1 envelope, C2 pad/body area may collide. Actual parts not selected; this placement is not mechanically approved."
+  }
+}

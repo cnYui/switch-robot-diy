@@ -1,0 +1,130 @@
+[
+  {
+    "ref": "C1",
+    "model": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "6ce78ce5315348e095d700085da75e48|0819f05c4eef4c71ace90d822a990e87",
+      "name": "CAP-TH_D10.0-H16.0-P5.00"
+    }
+  },
+  {
+    "ref": "C2",
+    "model": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "29f34a7a495a447ab8bf96a7f673455e|0819f05c4eef4c71ace90d822a990e87",
+      "name": "CAP-TH_L4.0-W2.5-P2.50-D0.5"
+    }
+  },
+  {
+    "ref": "F1",
+    "model": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "daa0ef7ac6024341b772331432b58522|0819f05c4eef4c71ace90d822a990e87",
+      "name": "FUSE-TH_L7.0-W3.1-H8.5-P5.1-D0.5"
+    }
+  },
+  {
+    "ref": "J1",
+    "model": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "e35305ec3aa84b66b849f914b715e73f|0819f05c4eef4c71ace90d822a990e87",
+      "name": "HDR2.54-M-LI-1X2P"
+    }
+  },
+  {
+    "ref": "J2",
+    "model": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "47d466e4a34f4fc5bc626cf773a24dd5|0819f05c4eef4c71ace90d822a990e87",
+      "name": "HDR-TH_5P-P2.54-M-LI-1X5P"
+    }
+  },
+  {
+    "ref": "J3",
+    "model": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "bd28a638fbd247be9398fd5d39c366ec|0819f05c4eef4c71ace90d822a990e87",
+      "name": "HDR-TH_3P-P2.54-V-M_PZ254V-11-03P"
+    }
+  },
+  {
+    "ref": "J4",
+    "model": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "e35305ec3aa84b66b849f914b715e73f|0819f05c4eef4c71ace90d822a990e87",
+      "name": "HDR2.54-M-LI-1X2P"
+    }
+  },
+  {
+    "ref": "J5",
+    "model": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "e35305ec3aa84b66b849f914b715e73f|0819f05c4eef4c71ace90d822a990e87",
+      "name": "HDR2.54-M-LI-1X2P"
+    }
+  },
+  {
+    "ref": "R1",
+    "model": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "5631a15c8fe642639fec94924741e635|0819f05c4eef4c71ace90d822a990e87",
+      "name": "RES-TH_BD2.3-L3.7-P7.62-D0.4"
+    }
+  },
+  {
+    "ref": "R2",
+    "model": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "5631a15c8fe642639fec94924741e635|0819f05c4eef4c71ace90d822a990e87",
+      "name": "RES-TH_BD2.3-L3.7-P7.62-D0.4"
+    }
+  },
+  {
+    "ref": "R3",
+    "model": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "5631a15c8fe642639fec94924741e635|0819f05c4eef4c71ace90d822a990e87",
+      "name": "RES-TH_BD2.3-L3.7-P7.62-D0.4"
+    }
+  },
+  {
+    "ref": "R4",
+    "model": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "5631a15c8fe642639fec94924741e635|0819f05c4eef4c71ace90d822a990e87",
+      "name": "RES-TH_BD2.3-L3.7-P7.62-D0.4"
+    }
+  },
+  {
+    "ref": "R5",
+    "model": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "5631a15c8fe642639fec94924741e635|0819f05c4eef4c71ace90d822a990e87",
+      "name": "RES-TH_BD2.3-L3.7-P7.62-D0.4"
+    }
+  },
+  {
+    "ref": "R6",
+    "model": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "5631a15c8fe642639fec94924741e635|0819f05c4eef4c71ace90d822a990e87",
+      "name": "RES-TH_BD2.3-L3.7-P7.62-D0.4"
+    }
+  },
+  {
+    "ref": "U1",
+    "model": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "1b6c83fe159244ef89b1100407eb6cfe|0819f05c4eef4c71ace90d822a990e87",
+      "name": "DIP-4_L6.4-W4.8-P2.54-LS7.6-BL"
+    }
+  },
+  {
+    "ref": "U2",
+    "model": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "1b6c83fe159244ef89b1100407eb6cfe|0819f05c4eef4c71ace90d822a990e87",
+      "name": "DIP-4_L6.4-W4.8-P2.54-LS7.6-BL"
+    }
+  }
+]

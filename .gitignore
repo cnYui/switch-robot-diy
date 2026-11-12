@@ -1,0 +1,19 @@
+# Python / Blender / editor leftovers
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+*.blend1
+*.blend2
+
+# 第三方工具（嘉立创官方桥接 easyeda-api-skill、freerouting 布线器、本机 MCP 虚拟环境），按 README 说明自行获取
+tools/
+
+# 本机 MCP 配置、日志、过期的打包文件
+.mcp.json
+*.log
+Switch_Robot_MuJoCo_Test_Package.zip
+
+# demo 逐帧图（约 390 MB），保留 mp4 / gif / blend / 脚本
+demo/frames/
+demo/captioned_frames/

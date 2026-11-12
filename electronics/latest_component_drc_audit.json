@@ -1,0 +1,908 @@
+{
+  "components": [],
+  "pads": 44,
+  "drc": [
+    {
+      "name": "Connection Error",
+      "list": [
+        {
+          "name": "GND",
+          "list": [
+            {
+              "visible": true,
+              "errorType": "Connection Error",
+              "errorObjType": "TH Pad",
+              "ruleName": "Common",
+              "obj1": {
+                "typeName": "TH Pad",
+                "suffix": "(GND): e25"
+              },
+              "isFree": false,
+              "net": "GND",
+              "explanation": {
+                "str": "{obj1} is disconnected from other objects of the same network",
+                "param": {
+                  "obj1": "Object 1",
+                  "type": "ConnectError"
+                },
+                "errData": {
+                  "globalIndex": "err42",
+                  "position": {
+                    "x": 89.05511811023624,
+                    "y": 66.92913385826772
+                  },
+                  "name": "Common",
+                  "obj1": "18011f2e128f7d72",
+                  "obj1Type": "TH Pad",
+                  "net": "GND",
+                  "isFree": false,
+                  "layerIds": [
+                    12
+                  ],
+                  "errorType": "No Connection",
+                  "obj1Suffix": "(GND): e25"
+                }
+              },
+              "objs": [
+                "18011f2e128f7d72"
+              ],
+              "globalIndex": "err42",
+              "pos": {
+                "x": 89.05511811023624,
+                "y": 66.92913385826772
+              },
+              "parentId": "DRCTab|_|Errors|_|Connection Error|_|GND"
+            },
+            {
+              "visible": true,
+              "errorType": "Connection Error",
+              "errorObjType": "TH Pad",
+              "ruleName": "Common",
+              "obj1": {
+                "typeName": "TH Pad",
+                "suffix": "(GND): e27"
+              },
+              "isFree": false,
+              "net": "GND",
+              "explanation": {
+                "str": "{obj1} is disconnected from other objects of the same network",
+                "param": {
+                  "obj1": "Object 1",
+                  "type": "ConnectError"
+                },
+                "errData": {
+                  "globalIndex": "err43",
+                  "position": {
+                    "x": 89.05511811023624,
+                    "y": 80.70866141732283
+                  },
+                  "name": "Common",
+                  "obj1": "41e5aa2d9414cd44",
+                  "obj1Type": "TH Pad",
+                  "net": "GND",
+                  "isFree": false,
+                  "layerIds": [
+                    12
+                  ],
+                  "errorType": "No Connection",
+                  "obj1Suffix": "(GND): e27"
+                }
+              },
+              "objs": [
+                "41e5aa2d9414cd44"
+              ],
+              "globalIndex": "err43",
+              "pos": {
+                "x": 89.05511811023624,
+                "y": 80.70866141732283
+              },
+              "parentId": "DRCTab|_|Errors|_|Connection Error|_|GND"
+            },
+            {
+              "visible": true,
+              "errorType": "Connection Error",
+              "errorObjType": "TH Pad",
+              "ruleName": "Common",
+              "obj1": {
+                "typeName": "TH Pad",
+                "suffix": "(GND): e9"
+              },
+              "isFree": false,
+              "net": "GND",
+              "explanation": {
+                "str": "{obj1} is disconnected from other objects of the same network",
+                "param": {
+                  "obj1": "Object 1",
+                  "type": "ConnectError"
+                },
+                "errData": {
+                  "globalIndex": "err44",
+                  "position": {
+                    "x": 125.98425196850394,
+                    "y": 31.496062992125985
+                  },
+                  "name": "Common",
+                  "obj1": "0d5902847b042f86",
+                  "obj1Type": "TH Pad",
+                  "net": "GND",
+                  "isFree": false,
+                  "layerIds": [
+                    12
+                  ],
+                  "errorType": "No Connection",
+                  "obj1Suffix": "(GND): e9"
+                }
+              },
+              "objs": [
+                "0d5902847b042f86"
+              ],
+              "globalIndex": "err44",
+              "pos": {
+                "x": 125.98425196850394,
+                "y": 31.496062992125985
+              },
+              "parentId": "DRCTab|_|Errors|_|Connection Error|_|GND"
+            },
+            {
+              "visible": true,
+              "errorType": "Connection Error",
+              "errorObjType": "TH Pad",
+              "ruleName": "Common",
+              "obj1": {
+                "typeName": "TH Pad",
+                "suffix": "(GND): e11"
+              },
+              "isFree": false,
+              "net": "GND",
+              "explanation": {
+                "str": "{obj1} is disconnected from other objects of the same network",
+                "param": {
+                  "obj1": "Object 1",
+                  "type": "ConnectError"
+                },
+                "errData": {
+                  "globalIndex": "err45",
+                  "position": {
+                    "x": 116.2992125984252,
+                    "y": 49.21259842519685
+                  },
+                  "name": "Common",
+                  "obj1": "079997845c63be96",
+                  "obj1Type": "TH Pad",
+                  "net": "GND",
+                  "isFree": false,
+                  "layerIds": [
+                    12
+                  ],
+                  "errorType": "No Connection",
+                  "obj1Suffix": "(GND): e11"
+                }
+              },
+              "objs": [
+                "079997845c63be96"
+              ],
+              "globalIndex": "err45",
+              "pos": {
+                "x": 116.2992125984252,
+                "y": 49.21259842519685
+              },
+              "parentId": "DRCTab|_|Errors|_|Connection Error|_|GND"
+            },
+            {
+              "visible": true,
+              "errorType": "Connection Error",
+              "errorObjType": "TH Pad",
+              "ruleName": "Common",
+              "obj1": {
+                "typeName": "TH Pad",
+                "suffix": "(GND): e33"
+              },
+              "isFree": false,
+              "net": "GND",
+              "explanation": {
+                "str": "{obj1} is disconnected from other objects of the same network",
+                "param": {
+                  "obj1": "Object 1",
+                  "type": "ConnectError"
+                },
+                "errData": {
+                  "globalIndex": "err46",
+                  "position": {
+                    "x": 137.79527559055117,
+                    "y": 72.99212598425197
+                  },
+                  "name": "Common",
+                  "obj1": "40027298a45a2421",
+                  "obj1Type": "TH Pad",
+                  "net": "GND",
+                  "isFree": false,
+                  "layerIds": [
+                    12
+                  ],
+                  "errorType": "No Connection",
+                  "obj1Suffix": "(GND): e33"
+                }
+              },
+              "objs": [
+                "40027298a45a2421"
+              ],
+              "globalIndex": "err46",
+              "pos": {
+                "x": 137.79527559055117,
+                "y": 72.99212598425197
+              },
+              "parentId": "DRCTab|_|Errors|_|Connection Error|_|GND"
+            },
+            {
+              "visible": true,
+              "errorType": "Connection Error",
+              "errorObjType": "TH Pad",
+              "ruleName": "Common",
+              "obj1": {
+                "typeName": "TH Pad",
+                "suffix": "(GND): e31"
+              },
+              "isFree": false,
+              "net": "GND",
+              "explanation": {
+                "str": "{obj1} is disconnected from other objects of the same network",
+                "param": {
+                  "obj1": "Object 1",
+                  "type": "ConnectError"
+                },
+                "errData": {
+                  "globalIndex": "err47",
+                  "position": {
+                    "x": 89.05511811023624,
+                    "y": 114.1732283464567
+                  },
+                  "name": "Common",
+                  "obj1": "e4f0bc0a0232844b",
+                  "obj1Type": "TH Pad",
+                  "net": "GND",
+                  "isFree": false,
+                  "layerIds": [
+                    12
+                  ],
+                  "errorType": "No Connection",
+                  "obj1Suffix": "(GND): e31"
+                }
+              },
+              "objs": [
+                "e4f0bc0a0232844b"
+              ],
+              "globalIndex": "err47",
+              "pos": {
+                "x": 89.05511811023624,
+                "y": 114.1732283464567
+              },
+              "parentId": "DRCTab|_|Errors|_|Connection Error|_|GND"
+            },
+            {
+              "visible": true,
+              "errorType": "Connection Error",
+              "errorObjType": "TH Pad",
+              "ruleName": "Common",
+              "obj1": {
+                "typeName": "TH Pad",
+                "suffix": "(GND): e37"
+              },
+              "isFree": false,
+              "net": "GND",
+              "explanation": {
+                "str": "{obj1} is disconnected from other objects of the same network",
+                "param": {
+                  "obj1": "Object 1",
+                  "type": "ConnectError"
+                },
+                "errData": {
+                  "globalIndex": "err48",
+                  "position": {
+                    "x": 137.79527559055117,
+                    "y": 116.2992125984252
+                  },
+                  "name": "Common",
+                  "obj1": "9da359fdba8a01ab",
+                  "obj1Type": "TH Pad",
+                  "net": "GND",
+                  "isFree": false,
+                  "layerIds": [
+                    12
+                  ],
+                  "errorType": "No Connection",
+                  "obj1Suffix": "(GND): e37"
+                }
+              },
+              "objs": [
+                "9da359fdba8a01ab"
+              ],
+              "globalIndex": "err48",
+              "pos": {
+                "x": 137.79527559055117,
+                "y": 116.2992125984252
+              },
+              "parentId": "DRCTab|_|Errors|_|Connection Error|_|GND"
+            },
+            {
+              "visible": true,
+              "errorType": "Connection Error",
+              "errorObjType": "TH Pad",
+              "ruleName": "Common",
+              "obj1": {
+                "typeName": "TH Pad",
+                "suffix": "(GND): e5"
+              },
+              "isFree": false,
+              "net": "GND",
+              "explanation": {
+                "str": "{obj1} is disconnected from other objects of the same network",
+                "param": {
+                  "obj1": "Object 1",
+                  "type": "ConnectError"
+                },
+                "errData": {
+                  "globalIndex": "err49",
+                  "position": {
+                    "x": 31.496062992125985,
+                    "y": 41.496062992125985
+                  },
+                  "name": "Common",
+                  "obj1": "b827d5d3b89af0a6",
+                  "obj1Type": "TH Pad",
+                  "net": "GND",
+                  "isFree": false,
+                  "layerIds": [
+                    12
+                  ],
+                  "errorType": "No Connection",
+                  "obj1Suffix": "(GND): e5"
+                }
+              },
+              "objs": [
+                "b827d5d3b89af0a6"
+              ],
+              "globalIndex": "err49",
+              "pos": {
+                "x": 31.496062992125985,
+                "y": 41.496062992125985
+              },
+              "parentId": "DRCTab|_|Errors|_|Connection Error|_|GND"
+            },
+            {
+              "visible": true,
+              "errorType": "Connection Error",
+              "errorObjType": "TH Pad",
+              "ruleName": "Common",
+              "obj1": {
+                "typeName": "TH Pad",
+                "suffix": "(GND): e12"
+              },
+              "isFree": false,
+              "net": "GND",
+              "explanation": {
+                "str": "{obj1} is disconnected from other objects of the same network",
+                "param": {
+                  "obj1": "Object 1",
+                  "type": "ConnectError"
+                },
+                "errData": {
+                  "globalIndex": "err50",
+                  "position": {
+                    "x": 31.496062992125985,
+                    "y": 86.61417322834646
+                  },
+                  "name": "Common",
+                  "obj1": "2c2f8ee9e092b871",
+                  "obj1Type": "TH Pad",
+                  "net": "GND",
+                  "isFree": false,
+                  "layerIds": [
+                    12
+                  ],
+                  "errorType": "No Connection",
+                  "obj1Suffix": "(GND): e12"
+                }
+              },
+              "objs": [
+                "2c2f8ee9e092b871"
+              ],
+              "globalIndex": "err50",
+              "pos": {
+                "x": 31.496062992125985,
+                "y": 86.61417322834646
+              },
+              "parentId": "DRCTab|_|Errors|_|Connection Error|_|GND"
+            },
+            {
+              "visible": true,
+              "errorType": "Connection Error",
+              "errorObjType": "TH Pad",
+              "ruleName": "Common",
+              "obj1": {
+                "typeName": "TH Pad",
+                "suffix": "(GND): e15"
+              },
+              "isFree": false,
+              "net": "GND",
+              "explanation": {
+                "str": "{obj1} is disconnected from other objects of the same network",
+                "param": {
+                  "obj1": "Object 1",
+                  "type": "ConnectError"
+                },
+                "errData": {
+                  "globalIndex": "err51",
+                  "position": {
+                    "x": 39.37007874015748,
+                    "y": 133.85826771653544
+                  },
+                  "name": "Common",
+                  "obj1": "14c9f3c08dc83c05",
+                  "obj1Type": "TH Pad",
+                  "net": "GND",
+                  "isFree": false,
+                  "layerIds": [
+                    12
+                  ],
+                  "errorType": "No Connection",
+                  "obj1Suffix": "(GND): e15"
+                }
+              },
+              "objs": [
+                "14c9f3c08dc83c05"
+              ],
+              "globalIndex": "err51",
+              "pos": {
+                "x": 39.37007874015748,
+                "y": 133.85826771653544
+              },
+              "parentId": "DRCTab|_|Errors|_|Connection Error|_|GND"
+            }
+          ],
+          "doNotTranslate": true,
+          "count": 10,
+          "title": "GND (10)",
+          "visible": true
+        },
+        {
+          "name": "PWM",
+          "list": [
+            {
+              "visible": true,
+              "errorType": "Connection Error",
+              "errorObjType": "TH Pad",
+              "ruleName": "Common",
+              "obj1": {
+                "typeName": "TH Pad",
+                "suffix": "(PWM): e16"
+              },
+              "isFree": false,
+              "net": "PWM",
+              "explanation": {
+                "str": "{obj1} is disconnected from other objects of the same network",
+                "param": {
+                  "obj1": "Object 1",
+                  "type": "ConnectError"
+                },
+                "errData": {
+                  "globalIndex": "err52",
+                  "position": {
+                    "x": 49.37007874015748,
+                    "y": 133.85826771653544
+                  },
+                  "name": "Common",
+                  "obj1": "8a4d793eafbcddb4",
+                  "obj1Type": "TH Pad",
+                  "net": "PWM",
+                  "isFree": false,
+                  "layerIds": [
+                    12
+                  ],
+                  "errorType": "No Connection",
+                  "obj1Suffix": "(PWM): e16"
+                }
+              },
+              "objs": [
+                "8a4d793eafbcddb4"
+              ],
+              "globalIndex": "err52",
+              "pos": {
+                "x": 49.37007874015748,
+                "y": 133.85826771653544
+              },
+              "parentId": "DRCTab|_|Errors|_|Connection Error|_|PWM"
+            },
+            {
+              "visible": true,
+              "errorType": "Connection Error",
+              "errorObjType": "TH Pad",
+              "ruleName": "Common",
+              "obj1": {
+                "typeName": "TH Pad",
+                "suffix": "(PWM): e30"
+              },
+              "isFree": false,
+              "net": "PWM",
+              "explanation": {
+                "str": "{obj1} is disconnected from other objects of the same network",
+                "param": {
+                  "obj1": "Object 1",
+                  "type": "ConnectError"
+                },
+                "errData": {
+                  "globalIndex": "err53",
+                  "position": {
+                    "x": 59.05511811023622,
+                    "y": 114.1732283464567
+                  },
+                  "name": "Common",
+                  "obj1": "d5b212b14ccecac6",
+                  "obj1Type": "TH Pad",
+                  "net": "PWM",
+                  "isFree": false,
+                  "layerIds": [
+                    12
+                  ],
+                  "errorType": "No Connection",
+                  "obj1Suffix": "(PWM): e30"
+                }
+              },
+              "objs": [
+                "d5b212b14ccecac6"
+              ],
+              "globalIndex": "err53",
+              "pos": {
+                "x": 59.05511811023622,
+                "y": 114.1732283464567
+              },
+              "parentId": "DRCTab|_|Errors|_|Connection Error|_|PWM"
+            },
+            {
+              "visible": true,
+              "errorType": "Connection Error",
+              "errorObjType": "TH Pad",
+              "ruleName": "Common",
+              "obj1": {
+                "typeName": "TH Pad",
+                "suffix": "(PWM): e29"
+              },
+              "isFree": false,
+              "net": "PWM",
+              "explanation": {
+                "str": "{obj1} is disconnected from other objects of the same network",
+                "param": {
+                  "obj1": "Object 1",
+                  "type": "ConnectError"
+                },
+                "errData": {
+                  "globalIndex": "err54",
+                  "position": {
+                    "x": 89.05511811023624,
+                    "y": 98.4251968503937
+                  },
+                  "name": "Common",
+                  "obj1": "5123e30fe7c5be6f",
+                  "obj1Type": "TH Pad",
+                  "net": "PWM",
+                  "isFree": false,
+                  "layerIds": [
+                    12
+                  ],
+                  "errorType": "No Connection",
+                  "obj1Suffix": "(PWM): e29"
+                }
+              },
+              "objs": [
+                "5123e30fe7c5be6f"
+              ],
+              "globalIndex": "err54",
+              "pos": {
+                "x": 89.05511811023624,
+                "y": 98.4251968503937
+              },
+              "parentId": "DRCTab|_|Errors|_|Connection Error|_|PWM"
+            }
+          ],
+          "doNotTranslate": true,
+          "count": 3,
+          "title": "PWM (3)",
+          "visible": true
+        },
+        {
+          "name": "KEY1",
+          "list": [
+            {
+              "visible": true,
+              "errorType": "Connection Error",
+              "errorObjType": "TH Pad",
+              "ruleName": "Common",
+              "obj1": {
+                "typeName": "TH Pad",
+                "suffix": "(KEY1): e20"
+              },
+              "isFree": false,
+              "net": "KEY1",
+              "explanation": {
+                "str": "{obj1} is disconnected from other objects of the same network",
+                "param": {
+                  "obj1": "Object 1",
+                  "type": "ConnectError"
+                },
+                "errData": {
+                  "globalIndex": "err55",
+                  "position": {
+                    "x": 110.23622047244096,
+                    "y": 93.70078740157481
+                  },
+                  "name": "Common",
+                  "obj1": "c7d043bd129cde93",
+                  "obj1Type": "TH Pad",
+                  "net": "KEY1",
+                  "isFree": false,
+                  "layerIds": [
+                    12
+                  ],
+                  "errorType": "No Connection",
+                  "obj1Suffix": "(KEY1): e20"
+                }
+              },
+              "objs": [
+                "c7d043bd129cde93"
+              ],
+              "globalIndex": "err55",
+              "pos": {
+                "x": 110.23622047244096,
+                "y": 93.70078740157481
+              },
+              "parentId": "DRCTab|_|Errors|_|Connection Error|_|KEY1"
+            },
+            {
+              "visible": true,
+              "errorType": "Connection Error",
+              "errorObjType": "TH Pad",
+              "ruleName": "Common",
+              "obj1": {
+                "typeName": "TH Pad",
+                "suffix": "(KEY1): e24"
+              },
+              "isFree": false,
+              "net": "KEY1",
+              "explanation": {
+                "str": "{obj1} is disconnected from other objects of the same network",
+                "param": {
+                  "obj1": "Object 1",
+                  "type": "ConnectError"
+                },
+                "errData": {
+                  "globalIndex": "err56",
+                  "position": {
+                    "x": 59.05511811023622,
+                    "y": 66.92913385826772
+                  },
+                  "name": "Common",
+                  "obj1": "0de053414be9f2a0",
+                  "obj1Type": "TH Pad",
+                  "net": "KEY1",
+                  "isFree": false,
+                  "layerIds": [
+                    12
+                  ],
+                  "errorType": "No Connection",
+                  "obj1Suffix": "(KEY1): e24"
+                }
+              },
+              "objs": [
+                "0de053414be9f2a0"
+              ],
+              "globalIndex": "err56",
+              "pos": {
+                "x": 59.05511811023622,
+                "y": 66.92913385826772
+              },
+              "parentId": "DRCTab|_|Errors|_|Connection Error|_|KEY1"
+            },
+            {
+              "visible": true,
+              "errorType": "Connection Error",
+              "errorObjType": "TH Pad",
+              "ruleName": "Common",
+              "obj1": {
+                "typeName": "TH Pad",
+                "suffix": "(KEY1): e17"
+              },
+              "isFree": false,
+              "net": "KEY1",
+              "explanation": {
+                "str": "{obj1} is disconnected from other objects of the same network",
+                "param": {
+                  "obj1": "Object 1",
+                  "type": "ConnectError"
+                },
+                "errData": {
+                  "globalIndex": "err57",
+                  "position": {
+                    "x": 59.37007874015749,
+                    "y": 133.85826771653544
+                  },
+                  "name": "Common",
+                  "obj1": "afe106ecf513db91",
+                  "obj1Type": "TH Pad",
+                  "net": "KEY1",
+                  "isFree": false,
+                  "layerIds": [
+                    12
+                  ],
+                  "errorType": "No Connection",
+                  "obj1Suffix": "(KEY1): e17"
+                }
+              },
+              "objs": [
+                "afe106ecf513db91"
+              ],
+              "globalIndex": "err57",
+              "pos": {
+                "x": 59.37007874015749,
+                "y": 133.85826771653544
+              },
+              "parentId": "DRCTab|_|Errors|_|Connection Error|_|KEY1"
+            }
+          ],
+          "doNotTranslate": true,
+          "count": 3,
+          "title": "KEY1 (3)",
+          "visible": true
+        },
+        {
+          "name": "KEY2",
+          "list": [
+            {
+              "visible": true,
+              "errorType": "Connection Error",
+              "errorObjType": "TH Pad",
+              "ruleName": "Common",
+              "obj1": {
+                "typeName": "TH Pad",
+                "suffix": "(KEY2): e18"
+              },
+              "isFree": false,
+              "net": "KEY2",
+              "explanation": {
+                "str": "{obj1} is disconnected from other objects of the same network",
+                "param": {
+                  "obj1": "Object 1",
+                  "type": "ConnectError"
+                },
+                "errData": {
+                  "globalIndex": "err58",
+                  "position": {
+                    "x": 69.37007874015748,
+                    "y": 133.85826771653544
+                  },
+                  "name": "Common",
+                  "obj1": "da251d669f15a2c2",
+                  "obj1Type": "TH Pad",
+                  "net": "KEY2",
+                  "isFree": false,
+                  "layerIds": [
+                    12
+                  ],
+                  "errorType": "No Connection",
+                  "obj1Suffix": "(KEY2): e18"
+                }
+              },
+              "objs": [
+                "da251d669f15a2c2"
+              ],
+              "globalIndex": "err58",
+              "pos": {
+                "x": 69.37007874015748,
+                "y": 133.85826771653544
+              },
+              "parentId": "DRCTab|_|Errors|_|Connection Error|_|KEY2"
+            },
+            {
+              "visible": true,
+              "errorType": "Connection Error",
+              "errorObjType": "TH Pad",
+              "ruleName": "Common",
+              "obj1": {
+                "typeName": "TH Pad",
+                "suffix": "(KEY2): e22"
+              },
+              "isFree": false,
+              "net": "KEY2",
+              "explanation": {
+                "str": "{obj1} is disconnected from other objects of the same network",
+                "param": {
+                  "obj1": "Object 1",
+                  "type": "ConnectError"
+                },
+                "errData": {
+                  "globalIndex": "err59",
+                  "position": {
+                    "x": 110.23622047244096,
+                    "y": 133.85826771653544
+                  },
+                  "name": "Common",
+                  "obj1": "31cd8229ce5e37f3",
+                  "obj1Type": "TH Pad",
+                  "net": "KEY2",
+                  "isFree": false,
+                  "layerIds": [
+                    12
+                  ],
+                  "errorType": "No Connection",
+                  "obj1Suffix": "(KEY2): e22"
+                }
+              },
+              "objs": [
+                "31cd8229ce5e37f3"
+              ],
+              "globalIndex": "err59",
+              "pos": {
+                "x": 110.23622047244096,
+                "y": 133.85826771653544
+              },
+              "parentId": "DRCTab|_|Errors|_|Connection Error|_|KEY2"
+            },
+            {
+              "visible": true,
+              "errorType": "Connection Error",
+              "errorObjType": "TH Pad",
+              "ruleName": "Common",
+              "obj1": {
+                "typeName": "TH Pad",
+                "suffix": "(KEY2): e26"
+              },
+              "isFree": false,
+              "net": "KEY2",
+              "explanation": {
+                "str": "{obj1} is disconnected from other objects of the same network",
+                "param": {
+                  "obj1": "Object 1",
+                  "type": "ConnectError"
+                },
+                "errData": {
+                  "globalIndex": "err60",
+                  "position": {
+                    "x": 59.05511811023622,
+                    "y": 80.70866141732283
+                  },
+                  "name": "Common",
+                  "obj1": "ce18952c24549d17",
+                  "obj1Type": "TH Pad",
+                  "net": "KEY2",
+                  "isFree": false,
+                  "layerIds": [
+                    12
+                  ],
+                  "errorType": "No Connection",
+                  "obj1Suffix": "(KEY2): e26"
+                }
+              },
+              "objs": [
+                "ce18952c24549d17"
+              ],
+              "globalIndex": "err60",
+              "pos": {
+                "x": 59.05511811023622,
+                "y": 80.70866141732283
+              },
+              "parentId": "DRCTab|_|Errors|_|Connection Error|_|KEY2"
+            }
+          ],
+          "doNotTranslate": true,
+          "count": 3,
+          "title": "KEY2 (3)",
+          "visible": true
+        }
+      ],
+      "visible": true,
+      "count": 19,
+      "title": [
+        "Connection Error",
+        "(19)"
+      ]
+    }
+  ]
+}

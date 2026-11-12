@@ -1,0 +1,96 @@
+{
+  "name": "Switch Robot Carrier V0.4",
+  "owner_uuid": "3c6b6035e751485c824305b6aa9d7fd2",
+  "creator_uuid": "3c6b6035e751485c824305b6aa9d7fd2",
+  "created_at": "2026-11-05 21:04:12",
+  "updated_at": "2026-11-05 21:04:12",
+  "modifier_uuid": "3c6b6035e751485c824305b6aa9d7fd2",
+  "content": "",
+  "archive": false,
+  "cbb_project": 0,
+  "thumb": "",
+  "ticket": 1,
+  "g_ticket": 1,
+  "boards": [],
+  "block_symbol_attrs_groups": {},
+  "default_sheet": "b2531c09cfed8000",
+  "branch_uuid": "",
+  "pcb_count": 0,
+  "format": "folder",
+  "profile": {
+    "boards": {
+      "14770c414cdc3d4c": {
+        "uuid": "14770c414cdc3d4c",
+        "title": "Board1",
+        "zIndex": 1
+      }
+    },
+    "schematics": {
+      "3240a6127354b063": {
+        "uuid": "3240a6127354b063",
+        "name": "Schematic1",
+        "board": "14770c414cdc3d4c",
+        "source": "",
+        "version": "1793926053128",
+        "updateTime": 1793926053128
+      }
+    },
+    "sheets": {
+      "499184c8a34ecba3": {
+        "uuid": "499184c8a34ecba3",
+        "title": "P1",
+        "schematic_uuid": "3240a6127354b063",
+        "zIndex": 1,
+        "source": "",
+        "version": "1793926053128",
+        "updateTime": 1793926053128
+      }
+    },
+    "pcbs": {
+      "6c5e122f46b5643c": {
+        "uuid": "6c5e122f46b5643c",
+        "title": "PCB1",
+        "board": "14770c414cdc3d4c",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1793926867768",
+        "updateTime": 1793926867768
+      }
+    },
+    "panels": {
+      "91b8e7a0a08115c5": {
+        "uuid": "91b8e7a0a08115c5",
+        "title": "Panel1",
+        "zIndex": null
+      }
+    },
+    "blockSymbols": {},
+    "owner": {
+      "uuid": "3c6b6035e751485c824305b6aa9d7fd2"
+    },
+    "simSchematics": {},
+    "simulations": {}
+  },
+  "config": {
+    "defaultSheet": "b2531c09cfed8000",
+    "settings": {
+      "UNIVERSAL": {
+        "dataType": "UNIVERSAL",
+        "data": {
+          "allowLibRename": true,
+          "defaultNetName": true,
+          "wireMultipleNet": true,
+          "netFlagCrossLayerConnection": true,
+          "netLabelCrossPageConnection": true,
+          "busGenerateNetClass": true,
+          "relevanceDisplayRow": "SINGLE",
+          "relevanceBelongSchPage": "NAME",
+          "relevanceLocation": "ZONE",
+          "multipartCrossLayer": true,
+          "nonElectronicAddIntoBom": false,
+          "nonElectronicUpdatePcb": false
+        }
+      }
+    }
+  }
+}

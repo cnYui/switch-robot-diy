@@ -1,0 +1,21 @@
+{
+  "fps": 12,
+  "frames": 216,
+  "duration_seconds": 18,
+  "files": [
+    "assembled_annotated.png",
+    "assembly_and_operation.mp4",
+    "assembly_and_operation.gif",
+    "animation_contact_sheet.jpg",
+    "switch_robot_assembled_v02.blend"
+  ],
+  "rocker_states_deg": [
+    -3.5,
+    3.5
+  ],
+  "arm_press_deg": [
+    -11.4,
+    11.4
+  ],
+  "note": "Illustrative animation. Remote commands and electrical state are not implemented or verified."
+}
