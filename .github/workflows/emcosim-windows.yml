@@ -90,6 +90,8 @@ jobs:
         shell: pwsh
         run: |
           Invoke-WebRequest https://go.microsoft.com/fwlink/p/?LinkId=2124703 -OutFile packaging/windows/MicrosoftEdgeWebview2Setup.exe
+          # The runner's Inno Setup does not ship the Simplified Chinese messages file.
+          Invoke-WebRequest https://raw.githubusercontent.com/jrsoftware/issrc/main/Files/Languages/ChineseSimplified.isl -OutFile packaging/windows/ChineseSimplified.isl
           $ver = (Select-String -Path pyproject.toml -Pattern '^version = "(.+)"').Matches[0].Groups[1].Value
           & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" "/DAppVersion=$ver" packaging/windows/emcosim.iss
       - uses: actions/upload-artifact@v4
