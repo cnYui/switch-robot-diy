@@ -1,0 +1,84 @@
+menu "Switch Robot"
+
+    choice SWROBOT_MODE
+        prompt "Actuator mode"
+        default SWROBOT_MODE_SERVO
+        help
+            SERVO: self-built robot, a servo with a double press arm rocks the 86 switch.
+            PHOTOMOS: retrofit route, U1/U2 PhotoMOS short the ON/OFF buttons of an
+            existing remote (J4 = ON button, J5 = OFF button).
+
+        config SWROBOT_MODE_SERVO
+            bool "Servo press arm (J3)"
+        config SWROBOT_MODE_PHOTOMOS
+            bool "PhotoMOS remote buttons (J4/J5)"
+    endchoice
+
+    config SWROBOT_SERVO_GPIO
+        int "Servo PWM GPIO (J2 pin 2)"
+        default 4
+        depends on SWROBOT_MODE_SERVO
+
+    config SWROBOT_SERVO_NEUTRAL_US
+        int "Servo neutral pulse width (us)"
+        default 1500
+        range 500 2500
+        depends on SWROBOT_MODE_SERVO
+        help
+            Arm level, both feet clear of the rocker. Calibrate on the real switch.
+
+    config SWROBOT_SERVO_PRESS_DEG
+        int "Press angle from neutral (degrees)"
+        default 17
+        range 1 60
+        depends on SWROBOT_MODE_SERVO
+        help
+            17 deg is the simulated value from V0.6; it is NOT measured on hardware.
+
+    config SWROBOT_SERVO_US_PER_DEG
+        int "Pulse width per degree (us, x10)"
+        default 111
+        depends on SWROBOT_MODE_SERVO
+        help
+            SG90 class servos are roughly 500-2500 us over 180 deg, i.e. 11.1 us/deg.
+            Value is in tenths of a microsecond.
+
+    config SWROBOT_SERVO_INVERT
+        bool "Swap ON/OFF press direction"
+        default n
+        depends on SWROBOT_MODE_SERVO
+
+    config SWROBOT_PRESS_HOLD_MS
+        int "Press hold time (ms)"
+        default 400
+        range 50 3000
+        help
+            Servo mode: how long the arm stays at the press angle before returning.
+            PhotoMOS mode: how long the remote button is held closed.
+
+    config SWROBOT_SERVO_RELEASE_PWM
+        bool "Stop PWM after returning to neutral"
+        default y
+        depends on SWROBOT_MODE_SERVO
+        help
+            Cuts servo hum and current draw at rest. Needs the return spring
+            (see README) so the arm does not drift onto the rocker.
+
+    config SWROBOT_KEY_ON_GPIO
+        int "ON button GPIO (J2 pin 3, KEY1 -> U1 -> J4)"
+        default 5
+        depends on SWROBOT_MODE_PHOTOMOS
+
+    config SWROBOT_KEY_OFF_GPIO
+        int "OFF button GPIO (J2 pin 4, KEY2 -> U2 -> J5)"
+        default 6
+        depends on SWROBOT_MODE_PHOTOMOS
+
+    config SWROBOT_BUTTON_GPIO
+        int "Local button GPIO (short press toggles, hold 5 s = factory reset)"
+        default 9 if IDF_TARGET_ESP32C3 || IDF_TARGET_ESP32C6 || IDF_TARGET_ESP32H2
+        default 0
+        help
+            Defaults to the BOOT button of common dev boards. Set -1 to disable.
+
+endmenu
