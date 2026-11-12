@@ -1,3 +1,8 @@
+firmware/matter/build/
+firmware/matter/sdkconfig
+firmware/matter/sdkconfig.old
+firmware/matter/managed_components/
+firmware/matter/dependencies.lock
 # Python / Blender / editor leftovers
 __pycache__/
 *.pyc

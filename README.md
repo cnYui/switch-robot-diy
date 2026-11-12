@@ -41,6 +41,8 @@ PhotoMOS 只针对低压遥控器按键，本 PCB 未按市电隔离规范设计
 
 异地控制还需要远程服务：例如 MQTT 服务器，或 Home Assistant 加远程访问。ESP32 本身接上家庭 Wi-Fi 只解决局域网连接。本稿没有部署服务器、写入 Wi-Fi 凭据、实现米家接入或实现可用的远程控制固件。
 
+（2026-11-12 起）智能家居接入选定 Matter，固件在 firmware/matter，见那里的 README。异地控制交给 Matter 生态自己的中枢（HomePod/Apple TV、Google Nest、小米中枢等）。
+
 ## 机械文件
 
 mechanical/switch_robot_86_v01.blend 是原生装配场景；assembly_preview.png 是 Blender 渲染。五个 PRINT_*.stl 是独立结构零件，导出单位为 mm。蓝色舵机、绿色 PCB 和开关面板是包络参考，不是打印件。
