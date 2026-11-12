@@ -1,0 +1,763 @@
+{
+ "revision": "0.5",
+ "board_mm": [
+  60,
+  40,
+  1.6
+ ],
+ "layers": 2,
+ "copper_oz": 1,
+ "mount_holes_mm": [
+  [
+   4,
+   4,
+   3.2
+  ],
+  [
+   56,
+   4,
+   3.2
+  ],
+  [
+   56,
+   36,
+   3.2
+  ],
+  [
+   4,
+   36,
+   3.2
+  ]
+ ],
+ "description": "ESP32-C3-MINI-1-N4 integrated carrier: one 5V positional servo and two isolated remote-button outputs, USB-C power/programming. Does not switch mains.",
+ "gpio": {
+  "GPIO4": "PWM_IN",
+  "GPIO5": "KEY1",
+  "GPIO6": "KEY2",
+  "GPIO9": "BOOT",
+  "GPIO18": "USB_DN",
+  "GPIO19": "USB_DP",
+  "GPIO20": "UART_RX",
+  "GPIO21": "UART_TX",
+  "GPIO2": "IO2_STRAP (10k pull-up)",
+  "GPIO8": "IO8_STRAP (10k pull-up)",
+  "EN": "EN"
+ },
+ "parts": [
+  {
+   "ref": "J1",
+   "sku": "C492401",
+   "description": "5V 输入 PZ254 2P",
+   "mount": "THT",
+   "xy_sch": [
+    300,
+    110
+   ],
+   "nets": {
+    "1": "VIN5",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "USB1",
+   "sku": "C165948",
+   "description": "USB-C 16P USB2.0",
+   "mount": "SMT",
+   "xy_sch": [
+    160,
+    155
+   ],
+   "nets": {
+    "1": "GND",
+    "2": "GND",
+    "3": "GND",
+    "4": "GND",
+    "A5": "CC1",
+    "A6": "USB_DP",
+    "A7": "USB_DN",
+    "A8": null,
+    "B5": "CC2",
+    "B6": "USB_DP",
+    "B7": "USB_DN",
+    "B8": null,
+    "A4B9": "VBUS",
+    "B4A9": "VBUS",
+    "A1B12": "GND",
+    "B1A12": "GND"
+   }
+  },
+  {
+   "ref": "R7",
+   "sku": "C23186",
+   "description": "5.1k CC1 下拉",
+   "mount": "SMT",
+   "xy_sch": [
+    460,
+    110
+   ],
+   "nets": {
+    "1": "CC1",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "R8",
+   "sku": "C23186",
+   "description": "5.1k CC2 下拉",
+   "mount": "SMT",
+   "xy_sch": [
+    620,
+    110
+   ],
+   "nets": {
+    "1": "CC2",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "D1",
+   "sku": "C8678",
+   "description": "SS34 VBUS→VIN5 肖特基",
+   "mount": "SMT",
+   "xy_sch": [
+    780,
+    110
+   ],
+   "nets": {
+    "1": "VIN5",
+    "2": "VBUS"
+   }
+  },
+  {
+   "ref": "F1",
+   "sku": "C5395",
+   "description": "RUEF110 自恢复保险丝",
+   "mount": "THT",
+   "xy_sch": [
+    300,
+    200
+   ],
+   "nets": {
+    "1": "VIN5",
+    "2": "V5_SERVO"
+   }
+  },
+  {
+   "ref": "C1",
+   "sku": "C713400",
+   "description": "470uF 25V 电解",
+   "mount": "THT",
+   "xy_sch": [
+    460,
+    200
+   ],
+   "nets": {
+    "1": "V5_SERVO",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "C2",
+   "sku": "C14663",
+   "description": "100nF 舵机电源",
+   "mount": "SMT",
+   "xy_sch": [
+    620,
+    200
+   ],
+   "nets": {
+    "1": "V5_SERVO",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "J3",
+   "sku": "C2937625",
+   "description": "舵机 PZ254 3P",
+   "mount": "THT",
+   "xy_sch": [
+    780,
+    200
+   ],
+   "nets": {
+    "1": "GND",
+    "2": "V5_SERVO",
+    "3": "SERVO_SIG"
+   }
+  },
+  {
+   "ref": "U4",
+   "sku": "C6186",
+   "description": "AMS1117-3.3",
+   "mount": "SMT",
+   "xy_sch": [
+    140,
+    290
+   ],
+   "nets": {
+    "1": "GND",
+    "2": "3V3",
+    "3": "VIN5",
+    "4": "3V3"
+   }
+  },
+  {
+   "ref": "C3",
+   "sku": "C15850",
+   "description": "10uF LDO 输入",
+   "mount": "SMT",
+   "xy_sch": [
+    300,
+    290
+   ],
+   "nets": {
+    "1": "VIN5",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "C4",
+   "sku": "C15850",
+   "description": "10uF LDO 输出",
+   "mount": "SMT",
+   "xy_sch": [
+    460,
+    290
+   ],
+   "nets": {
+    "1": "3V3",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "C5",
+   "sku": "C15850",
+   "description": "10uF 模组 3V3",
+   "mount": "SMT",
+   "xy_sch": [
+    620,
+    290
+   ],
+   "nets": {
+    "1": "3V3",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "C6",
+   "sku": "C14663",
+   "description": "100nF 模组 3V3",
+   "mount": "SMT",
+   "xy_sch": [
+    780,
+    290
+   ],
+   "nets": {
+    "1": "3V3",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "U3",
+   "sku": "C2838502",
+   "description": "ESP32-C3-MINI-1-N4",
+   "mount": "SMT",
+   "xy_sch": [
+    1000,
+    400
+   ],
+   "nets": {
+    "1": "GND",
+    "2": "GND",
+    "3": "3V3",
+    "4": null,
+    "5": "IO2_STRAP",
+    "6": null,
+    "7": null,
+    "8": "EN",
+    "9": null,
+    "10": null,
+    "11": "GND",
+    "12": null,
+    "13": null,
+    "14": "GND",
+    "15": null,
+    "16": null,
+    "17": null,
+    "18": "PWM_IN",
+    "19": "KEY1",
+    "20": "KEY2",
+    "21": null,
+    "22": "IO8_STRAP",
+    "23": "BOOT",
+    "24": null,
+    "25": null,
+    "26": "USB_DN",
+    "27": "USB_DP",
+    "28": null,
+    "29": null,
+    "30": "UART_RX",
+    "31": "UART_TX",
+    "32": null,
+    "33": null,
+    "34": null,
+    "35": null,
+    "36": "GND",
+    "37": "GND",
+    "38": "GND",
+    "39": "GND",
+    "40": "GND",
+    "41": "GND",
+    "42": "GND",
+    "43": "GND",
+    "44": "GND",
+    "45": "GND",
+    "46": "GND",
+    "47": "GND",
+    "48": "GND",
+    "49": "GND",
+    "50": "GND",
+    "51": "GND",
+    "52": "GND",
+    "53": "GND"
+   }
+  },
+  {
+   "ref": "R9",
+   "sku": "C25804",
+   "description": "10k EN 上拉",
+   "mount": "SMT",
+   "xy_sch": [
+    140,
+    380
+   ],
+   "nets": {
+    "1": "3V3",
+    "2": "EN"
+   }
+  },
+  {
+   "ref": "C7",
+   "sku": "C15849",
+   "description": "1uF EN 延时",
+   "mount": "SMT",
+   "xy_sch": [
+    300,
+    380
+   ],
+   "nets": {
+    "1": "EN",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "SW1",
+   "sku": "C318884",
+   "description": "RESET 按键",
+   "mount": "SMT",
+   "xy_sch": [
+    460,
+    380
+   ],
+   "nets": {
+    "1": "EN",
+    "2": "EN",
+    "3": "GND",
+    "4": "GND"
+   }
+  },
+  {
+   "ref": "R10",
+   "sku": "C25804",
+   "description": "10k BOOT(GPIO9) 上拉",
+   "mount": "SMT",
+   "xy_sch": [
+    620,
+    380
+   ],
+   "nets": {
+    "1": "3V3",
+    "2": "BOOT"
+   }
+  },
+  {
+   "ref": "SW2",
+   "sku": "C318884",
+   "description": "BOOT 按键",
+   "mount": "SMT",
+   "xy_sch": [
+    780,
+    380
+   ],
+   "nets": {
+    "1": "BOOT",
+    "2": "BOOT",
+    "3": "GND",
+    "4": "GND"
+   }
+  },
+  {
+   "ref": "R11",
+   "sku": "C25804",
+   "description": "10k GPIO2 绑带上拉",
+   "mount": "SMT",
+   "xy_sch": [
+    140,
+    470
+   ],
+   "nets": {
+    "1": "3V3",
+    "2": "IO2_STRAP"
+   }
+  },
+  {
+   "ref": "R12",
+   "sku": "C25804",
+   "description": "10k GPIO8 绑带上拉",
+   "mount": "SMT",
+   "xy_sch": [
+    300,
+    470
+   ],
+   "nets": {
+    "1": "3V3",
+    "2": "IO8_STRAP"
+   }
+  },
+  {
+   "ref": "J6",
+   "sku": "C492403",
+   "description": "UART0 调试排针 4P（可不焊）",
+   "mount": "THT",
+   "xy_sch": [
+    460,
+    470
+   ],
+   "nets": {
+    "1": "3V3",
+    "2": "GND",
+    "3": "UART_TX",
+    "4": "UART_RX"
+   }
+  },
+  {
+   "ref": "R5",
+   "sku": "C22962",
+   "description": "220R PWM 串阻",
+   "mount": "SMT",
+   "xy_sch": [
+    620,
+    470
+   ],
+   "nets": {
+    "1": "PWM_IN",
+    "2": "SERVO_SIG"
+   }
+  },
+  {
+   "ref": "R6",
+   "sku": "C25803",
+   "description": "100k PWM 下拉",
+   "mount": "SMT",
+   "xy_sch": [
+    780,
+    470
+   ],
+   "nets": {
+    "1": "PWM_IN",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "R1",
+   "sku": "C23179",
+   "description": "470R U1 LED",
+   "mount": "SMT",
+   "xy_sch": [
+    140,
+    560
+   ],
+   "nets": {
+    "1": "KEY1",
+    "2": "LED1"
+   }
+  },
+  {
+   "ref": "R3",
+   "sku": "C25803",
+   "description": "100k KEY1 下拉",
+   "mount": "SMT",
+   "xy_sch": [
+    300,
+    560
+   ],
+   "nets": {
+    "1": "KEY1",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "U1",
+   "sku": "C29276",
+   "description": "AQY212EHAX PhotoMOS",
+   "mount": "SMT",
+   "xy_sch": [
+    460,
+    560
+   ],
+   "nets": {
+    "1": "LED1",
+    "2": "GND",
+    "3": "BTN1_B",
+    "4": "BTN1_A"
+   }
+  },
+  {
+   "ref": "J4",
+   "sku": "C492401",
+   "description": "输出1 PZ254 2P",
+   "mount": "THT",
+   "xy_sch": [
+    620,
+    560
+   ],
+   "nets": {
+    "1": "BTN1_A",
+    "2": "BTN1_B"
+   }
+  },
+  {
+   "ref": "R2",
+   "sku": "C23179",
+   "description": "470R U2 LED",
+   "mount": "SMT",
+   "xy_sch": [
+    780,
+    560
+   ],
+   "nets": {
+    "1": "KEY2",
+    "2": "LED2"
+   }
+  },
+  {
+   "ref": "R4",
+   "sku": "C25803",
+   "description": "100k KEY2 下拉",
+   "mount": "SMT",
+   "xy_sch": [
+    140,
+    650
+   ],
+   "nets": {
+    "1": "KEY2",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "U2",
+   "sku": "C29276",
+   "description": "AQY212EHAX PhotoMOS",
+   "mount": "SMT",
+   "xy_sch": [
+    300,
+    650
+   ],
+   "nets": {
+    "1": "LED2",
+    "2": "GND",
+    "3": "BTN2_B",
+    "4": "BTN2_A"
+   }
+  },
+  {
+   "ref": "J5",
+   "sku": "C492401",
+   "description": "输出2 PZ254 2P",
+   "mount": "THT",
+   "xy_sch": [
+    460,
+    650
+   ],
+   "nets": {
+    "1": "BTN2_A",
+    "2": "BTN2_B"
+   }
+  }
+ ],
+ "nets": {
+  "3V3": [
+   "U4.2",
+   "U4.4",
+   "C4.1",
+   "C5.1",
+   "C6.1",
+   "U3.3",
+   "R9.1",
+   "R10.1",
+   "R11.1",
+   "R12.1",
+   "J6.1"
+  ],
+  "BOOT": [
+   "U3.23",
+   "R10.2",
+   "SW2.1",
+   "SW2.2"
+  ],
+  "BTN1_A": [
+   "U1.4",
+   "J4.1"
+  ],
+  "BTN1_B": [
+   "U1.3",
+   "J4.2"
+  ],
+  "BTN2_A": [
+   "U2.4",
+   "J5.1"
+  ],
+  "BTN2_B": [
+   "U2.3",
+   "J5.2"
+  ],
+  "CC1": [
+   "USB1.A5",
+   "R7.1"
+  ],
+  "CC2": [
+   "USB1.B5",
+   "R8.1"
+  ],
+  "EN": [
+   "U3.8",
+   "R9.2",
+   "C7.1",
+   "SW1.1",
+   "SW1.2"
+  ],
+  "GND": [
+   "J1.2",
+   "USB1.1",
+   "USB1.2",
+   "USB1.3",
+   "USB1.4",
+   "USB1.A1B12",
+   "USB1.B1A12",
+   "R7.2",
+   "R8.2",
+   "C1.2",
+   "C2.2",
+   "J3.1",
+   "U4.1",
+   "C3.2",
+   "C4.2",
+   "C5.2",
+   "C6.2",
+   "U3.1",
+   "U3.2",
+   "U3.11",
+   "U3.14",
+   "U3.36",
+   "U3.37",
+   "U3.38",
+   "U3.39",
+   "U3.40",
+   "U3.41",
+   "U3.42",
+   "U3.43",
+   "U3.44",
+   "U3.45",
+   "U3.46",
+   "U3.47",
+   "U3.48",
+   "U3.49",
+   "U3.50",
+   "U3.51",
+   "U3.52",
+   "U3.53",
+   "C7.2",
+   "SW1.3",
+   "SW1.4",
+   "SW2.3",
+   "SW2.4",
+   "J6.2",
+   "R6.2",
+   "R3.2",
+   "U1.2",
+   "R4.2",
+   "U2.2"
+  ],
+  "IO2_STRAP": [
+   "U3.5",
+   "R11.2"
+  ],
+  "IO8_STRAP": [
+   "U3.22",
+   "R12.2"
+  ],
+  "KEY1": [
+   "U3.19",
+   "R1.1",
+   "R3.1"
+  ],
+  "KEY2": [
+   "U3.20",
+   "R2.1",
+   "R4.1"
+  ],
+  "LED1": [
+   "R1.2",
+   "U1.1"
+  ],
+  "LED2": [
+   "R2.2",
+   "U2.1"
+  ],
+  "PWM_IN": [
+   "U3.18",
+   "R5.1",
+   "R6.1"
+  ],
+  "SERVO_SIG": [
+   "J3.3",
+   "R5.2"
+  ],
+  "UART_RX": [
+   "U3.30",
+   "J6.4"
+  ],
+  "UART_TX": [
+   "U3.31",
+   "J6.3"
+  ],
+  "USB_DN": [
+   "USB1.A7",
+   "USB1.B7",
+   "U3.26"
+  ],
+  "USB_DP": [
+   "USB1.A6",
+   "USB1.B6",
+   "U3.27"
+  ],
+  "V5_SERVO": [
+   "F1.2",
+   "C1.1",
+   "C2.1",
+   "J3.2"
+  ],
+  "VBUS": [
+   "USB1.A4B9",
+   "USB1.B4A9",
+   "D1.2"
+  ],
+  "VIN5": [
+   "J1.1",
+   "D1.1",
+   "F1.1",
+   "U4.3",
+   "C3.1"
+  ]
+ }
+}
