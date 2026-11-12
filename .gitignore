@@ -17,3 +17,6 @@ Switch_Robot_MuJoCo_Test_Package.zip
 # demo 逐帧图（约 390 MB），保留 mp4 / gif / blend / 脚本
 demo/frames/
 demo/captioned_frames/
+
+# 紧固件检查的中间网格（build_fasteners.py 生成）
+mechanical/_fastener_meshes/

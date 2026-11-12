@@ -1,0 +1,246 @@
+[
+ {
+  "fastener": "FASTENER_F1_pcb_to_standoff_1",
+  "type": "screw",
+  "role": "PCB -> case standoff",
+  "id": "F1",
+  "thread_into": "PRINT_04_gateway_case_V03",
+  "overlap": {
+   "PRINT_04_gateway_case_V03": {
+    "volume_mm3": 9.71,
+    "axial_from_bearing_mm": [
+     1.6,
+     5.1
+    ],
+    "engaged_length_mm": 3.5
+   }
+  },
+  "free_beyond_tip_mm": 1.5,
+  "interference_with_other_parts": {},
+  "verdict": "PASS"
+ },
+ {
+  "fastener": "FASTENER_F1_pcb_to_standoff_2",
+  "type": "screw",
+  "role": "PCB -> case standoff",
+  "id": "F1",
+  "thread_into": "PRINT_04_gateway_case_V03",
+  "overlap": {
+   "PRINT_04_gateway_case_V03": {
+    "volume_mm3": 9.7,
+    "axial_from_bearing_mm": [
+     1.6,
+     5.13
+    ],
+    "engaged_length_mm": 3.53
+   }
+  },
+  "free_beyond_tip_mm": 1.55,
+  "interference_with_other_parts": {},
+  "verdict": "PASS"
+ },
+ {
+  "fastener": "FASTENER_F1_pcb_to_standoff_3",
+  "type": "screw",
+  "role": "PCB -> case standoff",
+  "id": "F1",
+  "thread_into": "PRINT_04_gateway_case_V03",
+  "overlap": {
+   "PRINT_04_gateway_case_V03": {
+    "volume_mm3": 9.55,
+    "axial_from_bearing_mm": [
+     1.6,
+     5.12
+    ],
+    "engaged_length_mm": 3.52
+   }
+  },
+  "free_beyond_tip_mm": 1.5,
+  "interference_with_other_parts": {},
+  "verdict": "PASS"
+ },
+ {
+  "fastener": "FASTENER_F1_pcb_to_standoff_4",
+  "type": "screw",
+  "role": "PCB -> case standoff",
+  "id": "F1",
+  "thread_into": "PRINT_04_gateway_case_V03",
+  "overlap": {
+   "PRINT_04_gateway_case_V03": {
+    "volume_mm3": 9.62,
+    "axial_from_bearing_mm": [
+     1.6,
+     5.13
+    ],
+    "engaged_length_mm": 3.53
+   }
+  },
+  "free_beyond_tip_mm": 1.5,
+  "interference_with_other_parts": {},
+  "verdict": "PASS"
+ },
+ {
+  "fastener": "FASTENER_F2_lid_to_post_1",
+  "type": "screw",
+  "role": "lid -> lid post",
+  "id": "F2",
+  "thread_into": "PRINT_04_gateway_case_V03",
+  "overlap": {
+   "PRINT_04_gateway_case_V03": {
+    "volume_mm3": 15.93,
+    "axial_from_bearing_mm": [
+     5.4,
+     11.09
+    ],
+    "engaged_length_mm": 5.69
+   }
+  },
+  "free_beyond_tip_mm": 19.95,
+  "interference_with_other_parts": {},
+  "verdict": "PASS"
+ },
+ {
+  "fastener": "FASTENER_F2_lid_to_post_2",
+  "type": "screw",
+  "role": "lid -> lid post",
+  "id": "F2",
+  "thread_into": "PRINT_04_gateway_case_V03",
+  "overlap": {
+   "PRINT_04_gateway_case_V03": {
+    "volume_mm3": 15.95,
+    "axial_from_bearing_mm": [
+     5.4,
+     11.11
+    ],
+    "engaged_length_mm": 5.71
+   }
+  },
+  "free_beyond_tip_mm": 19.95,
+  "interference_with_other_parts": {},
+  "verdict": "PASS"
+ },
+ {
+  "fastener": "FASTENER_F2_lid_to_post_3",
+  "type": "screw",
+  "role": "lid -> lid post",
+  "id": "F2",
+  "thread_into": "PRINT_04_gateway_case_V03",
+  "overlap": {
+   "PRINT_04_gateway_case_V03": {
+    "volume_mm3": 15.86,
+    "axial_from_bearing_mm": [
+     5.4,
+     11.09
+    ],
+    "engaged_length_mm": 5.69
+   }
+  },
+  "free_beyond_tip_mm": 19.95,
+  "interference_with_other_parts": {},
+  "verdict": "PASS"
+ },
+ {
+  "fastener": "FASTENER_F2_lid_to_post_4",
+  "type": "screw",
+  "role": "lid -> lid post",
+  "id": "F2",
+  "thread_into": "PRINT_04_gateway_case_V03",
+  "overlap": {
+   "PRINT_04_gateway_case_V03": {
+    "volume_mm3": 15.99,
+    "axial_from_bearing_mm": [
+     5.4,
+     11.12
+    ],
+    "engaged_length_mm": 5.71
+   }
+  },
+  "free_beyond_tip_mm": 19.95,
+  "interference_with_other_parts": {},
+  "verdict": "PASS"
+ },
+ {
+  "fastener": "FASTENER_F3_cradle_to_frame_1",
+  "type": "screw",
+  "role": "cradle foot -> frame pilot",
+  "id": "F3",
+  "thread_into": "PRINT_01_86_adjustable_frame",
+  "overlap": {
+   "PRINT_01_86_adjustable_frame": {
+    "volume_mm3": 3.04,
+    "axial_from_bearing_mm": [
+     3.5,
+     5.03
+    ],
+    "engaged_length_mm": 1.53
+   }
+  },
+  "free_beyond_tip_mm": 1.05,
+  "interference_with_other_parts": {},
+  "verdict": "PASS"
+ },
+ {
+  "fastener": "FASTENER_W1_washer_1",
+  "type": "washer",
+  "outer_mm": 7.0,
+  "inner_mm": 3.2,
+  "thick_mm": 0.5,
+  "z_range_mm": [
+   8.5,
+   9.0
+  ]
+ },
+ {
+  "fastener": "FASTENER_F3_cradle_to_frame_2",
+  "type": "screw",
+  "role": "cradle foot -> frame pilot",
+  "id": "F3",
+  "thread_into": "PRINT_01_86_adjustable_frame",
+  "overlap": {
+   "PRINT_01_86_adjustable_frame": {
+    "volume_mm3": 2.9,
+    "axial_from_bearing_mm": [
+     3.5,
+     5.03
+    ],
+    "engaged_length_mm": 1.53
+   }
+  },
+  "free_beyond_tip_mm": 1.05,
+  "interference_with_other_parts": {},
+  "verdict": "PASS"
+ },
+ {
+  "fastener": "FASTENER_W1_washer_2",
+  "type": "washer",
+  "outer_mm": 7.0,
+  "inner_mm": 3.2,
+  "thick_mm": 0.5,
+  "z_range_mm": [
+   8.5,
+   9.0
+  ]
+ },
+ {
+  "fastener": "FASTENER_F4_arm_to_horn_1",
+  "type": "screw",
+  "role": "press arm -> SG90 horn",
+  "id": "F4",
+  "thread_into": null,
+  "overlap": {},
+  "free_beyond_tip_mm": 3.05,
+  "interference_with_other_parts": {},
+  "verdict": "PASS"
+ },
+ {
+  "fastener": "FASTENER_F4_arm_to_horn_2",
+  "type": "screw",
+  "role": "press arm -> SG90 horn",
+  "id": "F4",
+  "thread_into": null,
+  "overlap": {},
+  "free_beyond_tip_mm": null,
+  "interference_with_other_parts": {},
+  "verdict": "PASS"
+ }
+]

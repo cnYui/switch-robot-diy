@@ -1,0 +1,296 @@
+[
+ {
+  "thread_d_mm": 3.0,
+  "length_under_head_mm": 6,
+  "head_dia_mm": 5.3,
+  "head_height_mm": 1.9,
+  "recess": "Phillips recess not modelled",
+  "bearing_point_mm": [
+   88.0,
+   -30.0,
+   13.5
+  ],
+  "axis": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "tip_mm": 1.2,
+  "role": "PCB -> case standoff",
+  "taobao_item": "https://detail.tmall.com/item.htm?id=15858629599",
+  "taobao_sku": "M3*6(200粒)304",
+  "name": "FASTENER_F1_pcb_to_standoff_1"
+ },
+ {
+  "thread_d_mm": 3.0,
+  "length_under_head_mm": 6,
+  "head_dia_mm": 5.3,
+  "head_height_mm": 1.9,
+  "recess": "Phillips recess not modelled",
+  "bearing_point_mm": [
+   140.0,
+   -30.0,
+   13.5
+  ],
+  "axis": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "tip_mm": 1.2,
+  "role": "PCB -> case standoff",
+  "taobao_item": "https://detail.tmall.com/item.htm?id=15858629599",
+  "taobao_sku": "M3*6(200粒)304",
+  "name": "FASTENER_F1_pcb_to_standoff_2"
+ },
+ {
+  "thread_d_mm": 3.0,
+  "length_under_head_mm": 6,
+  "head_dia_mm": 5.3,
+  "head_height_mm": 1.9,
+  "recess": "Phillips recess not modelled",
+  "bearing_point_mm": [
+   140.0,
+   2.0,
+   13.5
+  ],
+  "axis": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "tip_mm": 1.2,
+  "role": "PCB -> case standoff",
+  "taobao_item": "https://detail.tmall.com/item.htm?id=15858629599",
+  "taobao_sku": "M3*6(200粒)304",
+  "name": "FASTENER_F1_pcb_to_standoff_3"
+ },
+ {
+  "thread_d_mm": 3.0,
+  "length_under_head_mm": 6,
+  "head_dia_mm": 5.3,
+  "head_height_mm": 1.9,
+  "recess": "Phillips recess not modelled",
+  "bearing_point_mm": [
+   88.0,
+   2.0,
+   13.5
+  ],
+  "axis": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "tip_mm": 1.2,
+  "role": "PCB -> case standoff",
+  "taobao_item": "https://detail.tmall.com/item.htm?id=15858629599",
+  "taobao_sku": "M3*6(200粒)304",
+  "name": "FASTENER_F1_pcb_to_standoff_4"
+ },
+ {
+  "thread_d_mm": 3.0,
+  "length_under_head_mm": 12,
+  "head_dia_mm": 5.3,
+  "head_height_mm": 1.9,
+  "recess": "Phillips recess not modelled",
+  "bearing_point_mm": [
+   80.0,
+   -38.0,
+   37.400001525878906
+  ],
+  "axis": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "tip_mm": 1.2,
+  "role": "lid -> lid post",
+  "taobao_item": "https://detail.tmall.com/item.htm?id=15858629599",
+  "taobao_sku": "M3*12(200粒)304",
+  "name": "FASTENER_F2_lid_to_post_1"
+ },
+ {
+  "thread_d_mm": 3.0,
+  "length_under_head_mm": 12,
+  "head_dia_mm": 5.3,
+  "head_height_mm": 1.9,
+  "recess": "Phillips recess not modelled",
+  "bearing_point_mm": [
+   148.0,
+   -38.0,
+   37.400001525878906
+  ],
+  "axis": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "tip_mm": 1.2,
+  "role": "lid -> lid post",
+  "taobao_item": "https://detail.tmall.com/item.htm?id=15858629599",
+  "taobao_sku": "M3*12(200粒)304",
+  "name": "FASTENER_F2_lid_to_post_2"
+ },
+ {
+  "thread_d_mm": 3.0,
+  "length_under_head_mm": 12,
+  "head_dia_mm": 5.3,
+  "head_height_mm": 1.9,
+  "recess": "Phillips recess not modelled",
+  "bearing_point_mm": [
+   148.0,
+   10.0,
+   37.400001525878906
+  ],
+  "axis": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "tip_mm": 1.2,
+  "role": "lid -> lid post",
+  "taobao_item": "https://detail.tmall.com/item.htm?id=15858629599",
+  "taobao_sku": "M3*12(200粒)304",
+  "name": "FASTENER_F2_lid_to_post_3"
+ },
+ {
+  "thread_d_mm": 3.0,
+  "length_under_head_mm": 12,
+  "head_dia_mm": 5.3,
+  "head_height_mm": 1.9,
+  "recess": "Phillips recess not modelled",
+  "bearing_point_mm": [
+   80.0,
+   10.0,
+   37.400001525878906
+  ],
+  "axis": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "tip_mm": 1.2,
+  "role": "lid -> lid post",
+  "taobao_item": "https://detail.tmall.com/item.htm?id=15858629599",
+  "taobao_sku": "M3*12(200粒)304",
+  "name": "FASTENER_F2_lid_to_post_4"
+ },
+ {
+  "thread_d_mm": 3.0,
+  "length_under_head_mm": 6,
+  "head_dia_mm": 5.3,
+  "head_height_mm": 1.9,
+  "recess": "Phillips recess not modelled",
+  "bearing_point_mm": [
+   42.0,
+   -29.0,
+   12.0
+  ],
+  "axis": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "tip_mm": 1.2,
+  "role": "cradle foot -> frame pilot",
+  "taobao_item": "https://detail.tmall.com/item.htm?id=15858629599",
+  "taobao_sku": "M3*6(200粒)304",
+  "name": "FASTENER_F3_cradle_to_frame_1"
+ },
+ {
+  "role": "shim under cradle foot",
+  "taobao_item": "https://detail.tmall.com/item.htm?id=849674040028",
+  "taobao_sku": "3*7*0.5(500只)",
+  "outer_mm": 7.0,
+  "inner_mm": 3.2,
+  "thick_mm": 0.5,
+  "centre_mm": [
+   42.0,
+   -29.0,
+   8.75
+  ],
+  "name": "FASTENER_W1_washer_1"
+ },
+ {
+  "thread_d_mm": 3.0,
+  "length_under_head_mm": 6,
+  "head_dia_mm": 5.3,
+  "head_height_mm": 1.9,
+  "recess": "Phillips recess not modelled",
+  "bearing_point_mm": [
+   42.0,
+   29.0,
+   12.0
+  ],
+  "axis": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "tip_mm": 1.2,
+  "role": "cradle foot -> frame pilot",
+  "taobao_item": "https://detail.tmall.com/item.htm?id=15858629599",
+  "taobao_sku": "M3*6(200粒)304",
+  "name": "FASTENER_F3_cradle_to_frame_2"
+ },
+ {
+  "role": "shim under cradle foot",
+  "taobao_item": "https://detail.tmall.com/item.htm?id=849674040028",
+  "taobao_sku": "3*7*0.5(500只)",
+  "outer_mm": 7.0,
+  "inner_mm": 3.2,
+  "thick_mm": 0.5,
+  "centre_mm": [
+   42.0,
+   29.0,
+   8.75
+  ],
+  "name": "FASTENER_W1_washer_2"
+ },
+ {
+  "thread_d_mm": 2.0,
+  "length_under_head_mm": 6,
+  "head_dia_mm": 3.8,
+  "head_height_mm": 1.4,
+  "recess": "Phillips recess not modelled",
+  "bearing_point_mm": [
+   22.0,
+   -9.0,
+   26.0
+  ],
+  "axis": [
+   1.0,
+   0.0,
+   0.0
+  ],
+  "tip_mm": 1.2,
+  "role": "press arm -> SG90 horn",
+  "taobao_item": "https://detail.tmall.com/item.htm?id=15858629599",
+  "taobao_sku": "M2*6(200粒)304",
+  "head_dims_source": "assumed, measure on delivery",
+  "name": "FASTENER_F4_arm_to_horn_1"
+ },
+ {
+  "thread_d_mm": 2.0,
+  "length_under_head_mm": 6,
+  "head_dia_mm": 3.8,
+  "head_height_mm": 1.4,
+  "recess": "Phillips recess not modelled",
+  "bearing_point_mm": [
+   22.0,
+   9.0,
+   26.0
+  ],
+  "axis": [
+   1.0,
+   0.0,
+   0.0
+  ],
+  "tip_mm": 1.2,
+  "role": "press arm -> SG90 horn",
+  "taobao_item": "https://detail.tmall.com/item.htm?id=15858629599",
+  "taobao_sku": "M2*6(200粒)304",
+  "head_dims_source": "assumed, measure on delivery",
+  "name": "FASTENER_F4_arm_to_horn_2"
+ }
+]
