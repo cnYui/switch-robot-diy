@@ -1,0 +1,106 @@
+{
+ "date": "2026-11-12",
+ "erc": "no errors, no warnings ([])",
+ "drc": {
+  "passed": true,
+  "details": [],
+  "rule_set": "JLCPCB Capability(Two Layers Board)"
+ },
+ "pad_net_mismatches_vs_design_intent": 0,
+ "components": 33,
+ "tracks": 359,
+ "vias": {
+  "total": 111,
+  "gnd": 84
+ },
+ "track_widths_mm": {
+  "3V3": [
+   0.5004
+  ],
+  "BOOT": [
+   0.3048
+  ],
+  "BTN1_A": [
+   0.3048
+  ],
+  "BTN1_B": [
+   0.3048
+  ],
+  "BTN2_A": [
+   0.3048
+  ],
+  "BTN2_B": [
+   0.3048
+  ],
+  "CC1": [
+   0.3002,
+   0.3048
+  ],
+  "CC2": [
+   0.3048
+  ],
+  "EN": [
+   0.3048
+  ],
+  "GND": [
+   0.2991,
+   0.3988
+  ],
+  "IO2_STRAP": [
+   0.3048
+  ],
+  "IO8_STRAP": [
+   0.3048
+  ],
+  "KEY1": [
+   0.3048
+  ],
+  "KEY2": [
+   0.3048
+  ],
+  "LED1": [
+   0.3048
+  ],
+  "LED2": [
+   0.3048
+  ],
+  "PWM_IN": [
+   0.3048
+  ],
+  "SERVO_SIG": [
+   0.3048
+  ],
+  "UART_RX": [
+   0.3048
+  ],
+  "UART_TX": [
+   0.2286,
+   0.3048
+  ],
+  "USB_DN": [
+   0.2286,
+   0.3002,
+   0.3048
+  ],
+  "USB_DP": [
+   0.3048
+  ],
+  "V5_SERVO": [
+   0.6,
+   0.8001
+  ],
+  "VBUS": [
+   0.3372,
+   0.4496
+  ],
+  "VIN5": [
+   0.6,
+   0.8001
+  ]
+ },
+ "gnd_pour_regions": 2,
+ "native_project_files": [
+  "Switch Robot Carrier V0.5"
+ ],
+ "gerber_sha256": "130cb6d6b065c850191919082b5af9b275a43324c111645d4e3948b16040f144"
+}

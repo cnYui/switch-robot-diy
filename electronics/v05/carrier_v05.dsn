@@ -1,0 +1,637 @@
+(PCB "PCB1"
+  (parser
+    (host_cad "EasyEDA Pro")
+    (host_version "4.1.78")
+  )
+  (resolution mil 1000)
+  (structure
+    (boundary(path signal 0 0 0 0 1574.8 2362.2 1574.8 2362.2 0 0 0 )
+    )
+    (via via0 via1
+    )
+    (grid via   0.25)
+    (grid wire   0.25)
+    (grid place   0.25)
+    (rule(clear 6.03))
+    (rule(clear 6.03 (type default_smd)))
+    (rule(clear 6.03 (type smd_smd)))
+    (rule(width 10.05))
+    (layer TopLayer
+      (type signal)
+    )
+    (layer BottomLayer
+      (type signal)
+    )
+  )
+
+  (placement
+    (component u1
+      (place u1 0 0 front 0
+      )
+    )
+  )
+  (library
+    (image u1
+      (pin pc571a930547fc3f c571a930547fc3f 157.48 157.48)
+      (pin pc571a930547fc3f 99d1f1e34720a36 2204.72 157.48)
+      (pin pc571a930547fc3f f830506641f5ec1 2204.72 1417.32)
+      (pin pc571a930547fc3f 1a3f308b1299ff2 157.48 1417.32)
+      (pin p07b307235c9abb5a13 07b307235c9abb5a13 492.13 846.46)
+      (pin p07b307235c9abb5a13 07b307235c9abb5a14 295.28 846.46)
+      (pin p25bc1777bc541e5e14 25bc1777bc541e5e14 133.86 1208.66)
+      (pin p25bc1777bc541e5e14 25bc1777bc541e5e15 133.86 1153.54)
+      (pin p86bc084a1d151d9815 86bc084a1d151d9815 1480.32 748.03)
+      (pin p86bc084a1d151d9815 86bc084a1d151d9816 1480.32 669.29)
+      (pin p86bc084a1d151d9815 5adc0d28d211d59e15 960.63 677.17)
+      (pin p86bc084a1d151d9815 5adc0d28d211d59e16 960.63 598.43)
+      (pin p81b6965dadc26dc315 81b6965dadc26dc315 787.4 968.5)
+      (pin p81b6965dadc26dc315 81b6965dadc26dc316 708.66 968.5)
+      (pin p25bc1777bc541e5e14 84813397db07edee14 834.65 1169.29)
+      (pin p25bc1777bc541e5e14 84813397db07edee15 834.65 1114.17)
+      (pin p61716977f65a0c5514 61716977f65a0c5514 870.08 724.41)
+      (pin p61716977f65a0c5514 61716977f65a0c5515 814.96 724.41)
+      (pin p3c808d94d2b4e06e12 3c808d94d2b4e06e12 913.38 255.91)
+      (pin p3c808d94d2b4e06e12 3c808d94d2b4e06e13 740.16 255.91)
+      (pin p3c9266d2575a9cb77 3c9266d2575a9cb77 669.29 411.81)
+      (pin p3c9266d2575a9cb77 3c9266d2575a9cb78 669.29 611.81)
+      (pin p248f6e2dc729917e10 248f6e2dc729917e10 354.33 422.44)
+      (pin p248f6e2dc729917e11 248f6e2dc729917e11 354.33 522.44)
+      (pin p06e49ff9eb3f31ae11 06e49ff9eb3f31ae11 354.33 1120.47)
+      (pin p06e49ff9eb3f31ae12 06e49ff9eb3f31ae12 354.33 1220.47)
+      (pin p06e49ff9eb3f31ae12 06e49ff9eb3f31ae13 354.33 1320.47)
+      (pin p248f6e2dc729917e10 cb9e2fe2dd1fbb2e10 2165.35 402.76)
+      (pin p248f6e2dc729917e11 cb9e2fe2dd1fbb2e11 2165.35 502.76)
+      (pin p248f6e2dc729917e10 a6c01b2bfc3f21ce10 2165.35 776.77)
+      (pin p248f6e2dc729917e11 a6c01b2bfc3f21ce11 2165.35 876.77)
+      (pin p0b8859237916769e13 0b8859237916769e13 1700.39 1220.47)
+      (pin p06e49ff9eb3f31ae12 0b8859237916769e14 1800.39 1220.47)
+      (pin p06e49ff9eb3f31ae12 0b8859237916769e15 1900.39 1220.47)
+      (pin p06e49ff9eb3f31ae12 0b8859237916769e16 2000.39 1220.47)
+      (pin p0a25d9abd53f830e7 0a25d9abd53f830e7 1746.2 539.37)
+      (pin p0a25d9abd53f830e7 0a25d9abd53f830e8 1686.88 539.37)
+      (pin p0a25d9abd53f830e7 bb0d2a58d95d308e7 1746.2 929.13)
+      (pin p0a25d9abd53f830e7 bb0d2a58d95d308e8 1686.88 929.13)
+      (pin p0a25d9abd53f830e7 13345dffe159c1ee7 1903.68 539.37)
+      (pin p0a25d9abd53f830e7 13345dffe159c1ee8 1844.36 539.37)
+      (pin p0a25d9abd53f830e7 57aa21a43d2a3fde7 1903.68 929.13)
+      (pin p0a25d9abd53f830e7 57aa21a43d2a3fde8 1844.36 929.13)
+      (pin pac7d466474fd36ee7 ac7d466474fd36ee7 468.5 1230.45)
+      (pin pac7d466474fd36ee7 ac7d466474fd36ee8 468.5 1171.13)
+      (pin pac7d466474fd36ee7 0d6365045b1545f67 468.5 1391.86)
+      (pin pac7d466474fd36ee7 0d6365045b1545f68 468.5 1332.54)
+      (pin p0a25d9abd53f830e7 6c67c661a41fdb0e7 1037.53 417.32)
+      (pin p0a25d9abd53f830e7 6c67c661a41fdb0e8 978.21 417.32)
+      (pin p0a25d9abd53f830e7 b7fa894f91ddc4fe7 1383.99 417.32)
+      (pin p0a25d9abd53f830e7 b7fa894f91ddc4fe8 1324.67 417.32)
+      (pin p0a25d9abd53f830e7 c4d6c7c512269a737 777.69 850.39)
+      (pin p0a25d9abd53f830e7 c4d6c7c512269a738 718.37 850.39)
+      (pin p0a25d9abd53f830e7 79cc516665b1c9637 1462.73 850.39)
+      (pin p0a25d9abd53f830e7 79cc516665b1c9638 1403.41 850.39)
+      (pin pac7d466474fd36ee7 0b75f5d32488189e7 834.65 1328.87)
+      (pin pac7d466474fd36ee7 0b75f5d32488189e8 834.65 1269.55)
+      (pin p0a25d9abd53f830e7 8a1f0850cff69efe7 1328.87 850.39)
+      (pin p0a25d9abd53f830e7 8a1f0850cff69efe8 1269.55 850.39)
+      (pin p5720f05da9fb25b420 5720f05da9fb25b420 535.43 1269.68)
+      (pin p5720f05da9fb25b420 5720f05da9fb25b421 771.65 1269.68)
+      (pin p5720f05da9fb25b420 5720f05da9fb25b422 535.43 1124.02)
+      (pin p5720f05da9fb25b420 5720f05da9fb25b423 771.65 1124.02)
+      (pin p5720f05da9fb25b420 5d11a73d321d14ab20 535.43 1521.65)
+      (pin p5720f05da9fb25b420 5d11a73d321d14ab21 771.65 1521.65)
+      (pin p5720f05da9fb25b420 5d11a73d321d14ab22 535.43 1375.99)
+      (pin p5720f05da9fb25b420 5d11a73d321d14ab23 771.65 1375.99)
+      (pin p8bfa049a0f3a7a3e4 8bfa049a0f3a7a3e4 1649.61 396.46)
+      (pin p8bfa049a0f3a7a3e4 8bfa049a0f3a7a3e5 1649.61 296.46)
+      (pin p8bfa049a0f3a7a3e4 8bfa049a0f3a7a3e6 2051.18 296.46)
+      (pin p8bfa049a0f3a7a3e4 8bfa049a0f3a7a3e7 2051.18 396.46)
+      (pin p8bfa049a0f3a7a3e4 593518c156b239554 1649.61 778.35)
+      (pin p8bfa049a0f3a7a3e4 593518c156b239555 1649.61 678.35)
+      (pin p8bfa049a0f3a7a3e4 593518c156b239556 2051.18 678.35)
+      (pin p8bfa049a0f3a7a3e4 593518c156b239557 2051.18 778.35)
+      (pin p2c44d64adc7fb68113 2c44d64adc7fb68113 948.82 1299.21)
+      (pin p2c44d64adc7fb68113 2c44d64adc7fb68114 948.82 1267.71)
+      (pin p2c44d64adc7fb68113 2c44d64adc7fb68115 948.82 1236.22)
+      (pin p2c44d64adc7fb68113 2c44d64adc7fb68116 948.82 1204.72)
+      (pin p2c44d64adc7fb68113 2c44d64adc7fb68117 948.82 1173.23)
+      (pin p2c44d64adc7fb68113 2c44d64adc7fb68118 948.82 1141.73)
+      (pin p2c44d64adc7fb68113 2c44d64adc7fb68119 948.82 1110.23)
+      (pin p2c44d64adc7fb68113 2c44d64adc7fb68120 948.82 1078.74)
+      (pin p2c44d64adc7fb68113 2c44d64adc7fb68121 948.82 1047.24)
+      (pin p2c44d64adc7fb68113 2c44d64adc7fb68122 948.82 1015.75)
+      (pin p2c44d64adc7fb68113 2c44d64adc7fb68123 948.82 984.25)
+      (pin p2c44d64adc7fb68124 2c44d64adc7fb68124 992.12 948.82)
+      (pin p2c44d64adc7fb68124 2c44d64adc7fb68125 1023.62 948.82)
+      (pin p2c44d64adc7fb68124 2c44d64adc7fb68126 1055.12 948.82)
+      (pin p2c44d64adc7fb68124 2c44d64adc7fb68127 1086.61 948.82)
+      (pin p2c44d64adc7fb68124 2c44d64adc7fb68128 1118.11 948.82)
+      (pin p2c44d64adc7fb68124 2c44d64adc7fb68129 1149.6 948.82)
+      (pin p2c44d64adc7fb68124 2c44d64adc7fb68130 1181.1 948.82)
+      (pin p2c44d64adc7fb68124 2c44d64adc7fb68131 1212.6 948.82)
+      (pin p2c44d64adc7fb68124 2c44d64adc7fb68132 1244.09 948.82)
+      (pin p2c44d64adc7fb68124 2c44d64adc7fb68133 1275.59 948.82)
+      (pin p2c44d64adc7fb68124 2c44d64adc7fb68134 1307.08 948.82)
+      (pin p2c44d64adc7fb68124 2c44d64adc7fb68135 1338.58 948.82)
+      (pin p2c44d64adc7fb68124 2c44d64adc7fb68136 1370.08 948.82)
+      (pin p2c44d64adc7fb68137 2c44d64adc7fb68137 1413.38 984.25)
+      (pin p2c44d64adc7fb68137 2c44d64adc7fb68138 1413.38 1015.75)
+      (pin p2c44d64adc7fb68137 2c44d64adc7fb68139 1413.38 1047.24)
+      (pin p2c44d64adc7fb68137 2c44d64adc7fb68140 1413.38 1078.74)
+      (pin p2c44d64adc7fb68137 2c44d64adc7fb68141 1413.38 1110.23)
+      (pin p2c44d64adc7fb68137 2c44d64adc7fb68142 1413.38 1141.73)
+      (pin p2c44d64adc7fb68137 2c44d64adc7fb68143 1413.38 1173.23)
+      (pin p2c44d64adc7fb68137 2c44d64adc7fb68144 1413.38 1204.72)
+      (pin p2c44d64adc7fb68137 2c44d64adc7fb68145 1413.38 1236.22)
+      (pin p2c44d64adc7fb68137 2c44d64adc7fb68146 1413.38 1267.71)
+      (pin p2c44d64adc7fb68137 2c44d64adc7fb68147 1413.38 1299.21)
+      (pin p2c44d64adc7fb68148 2c44d64adc7fb68148 1370.08 1334.64)
+      (pin p2c44d64adc7fb68148 2c44d64adc7fb68149 1338.58 1334.64)
+      (pin p2c44d64adc7fb68148 2c44d64adc7fb68150 1307.08 1334.64)
+      (pin p2c44d64adc7fb68148 2c44d64adc7fb68151 1275.59 1334.64)
+      (pin p2c44d64adc7fb68148 2c44d64adc7fb68152 1244.09 1334.64)
+      (pin p2c44d64adc7fb68148 2c44d64adc7fb68153 1212.6 1334.64)
+      (pin p2c44d64adc7fb68148 2c44d64adc7fb68154 1181.1 1334.64)
+      (pin p2c44d64adc7fb68148 2c44d64adc7fb68155 1149.6 1334.64)
+      (pin p2c44d64adc7fb68148 2c44d64adc7fb68156 1118.11 1334.64)
+      (pin p2c44d64adc7fb68148 2c44d64adc7fb68157 1086.61 1334.64)
+      (pin p2c44d64adc7fb68148 2c44d64adc7fb68158 1055.12 1334.64)
+      (pin p2c44d64adc7fb68148 2c44d64adc7fb68159 1023.62 1334.64)
+      (pin p2c44d64adc7fb68148 2c44d64adc7fb68160 992.12 1334.64)
+      (pin p2c44d64adc7fb68161 2c44d64adc7fb68161 1415.35 1336.61)
+      (pin p2c44d64adc7fb68161 2c44d64adc7fb68162 1415.35 946.85)
+      (pin p2c44d64adc7fb68161 2c44d64adc7fb68163 946.85 946.85)
+      (pin p2c44d64adc7fb68161 2c44d64adc7fb68164 946.85 1336.61)
+      (pin p2c44d64adc7fb68165 2c44d64adc7fb68165 1103.34 1219.49)
+      (pin p2c44d64adc7fb68166 2c44d64adc7fb68166 1258.85 1063.97)
+      (pin p2c44d64adc7fb68166 2c44d64adc7fb68167 1181.1 1063.97)
+      (pin p2c44d64adc7fb68166 2c44d64adc7fb68168 1103.34 1063.97)
+      (pin p2c44d64adc7fb68166 2c44d64adc7fb68169 1103.34 1141.73)
+      (pin p2c44d64adc7fb68166 2c44d64adc7fb68170 1181.1 1219.48)
+      (pin p2c44d64adc7fb68166 2c44d64adc7fb68171 1258.85 1219.48)
+      (pin p2c44d64adc7fb68166 2c44d64adc7fb68172 1258.85 1141.73)
+      (pin p2c44d64adc7fb68166 2c44d64adc7fb68173 1181.1 1141.73)
+      (pin p38d98f913c2f067e8 38d98f913c2f067e8 1298.03 547.25)
+      (pin p38d98f913c2f067e8 38d98f913c2f067e9 1298.03 637.8)
+      (pin p38d98f913c2f067e8 38d98f913c2f067e10 1298.03 728.35)
+      (pin p38d98f913c2f067e11 38d98f913c2f067e11 1064.17 637.8)
+      (pin p281a9c163c48ef8e27 281a9c163c48ef8e27 1112.2 290.32)
+      (pin p281a9c163c48ef8e27 281a9c163c48ef8e28 1131.89 290.32)
+      (pin p281a9c163c48ef8e27 281a9c163c48ef8e29 1151.57 290.32)
+      (pin p281a9c163c48ef8e27 281a9c163c48ef8e30 1171.26 290.32)
+      (pin p281a9c163c48ef8e27 281a9c163c48ef8e31 1190.94 290.32)
+      (pin p281a9c163c48ef8e27 281a9c163c48ef8e32 1210.63 290.32)
+      (pin p281a9c163c48ef8e27 281a9c163c48ef8e33 1230.3 290.32)
+      (pin p281a9c163c48ef8e27 281a9c163c48ef8e34 1250 290.32)
+      (pin p281a9c163c48ef8e35 281a9c163c48ef8e35 1055.12 290.32)
+      (pin p281a9c163c48ef8e36 281a9c163c48ef8e36 1307.09 290.32)
+      (pin p281a9c163c48ef8e37 281a9c163c48ef8e37 1275.6 290.32)
+      (pin p281a9c163c48ef8e38 281a9c163c48ef8e38 1086.61 290.32)
+      (pin p281a9c163c48ef8e57 281a9c163c48ef8e57 1351.38 95.51)
+      (pin p281a9c163c48ef8e58 281a9c163c48ef8e58 1351.38 260.07)
+      (pin p281a9c163c48ef8e58 281a9c163c48ef8e59 1010.82 260.07)
+      (pin p281a9c163c48ef8e57 281a9c163c48ef8e60 1010.82 95.51)
+      (pin p281a9c163c48ef8e55 281a9c163c48ef8e55 1066.93 240.38)
+      (pin p281a9c163c48ef8e55 281a9c163c48ef8e56 1295.27 240.38)
+      (pin p92672188e4934ca 92672188e4934ca 1181.1 1472.44)
+    )
+
+    (padstack via0
+      (shape(circle TopLayer 24))
+      (shape(circle BottomLayer 24))
+    )
+    (padstack via1
+      (shape(circle TopLayer 23.6))
+      (shape(circle BottomLayer 23.6))
+    )
+
+    (padstack pc571a930547fc3f
+      (shape(circle TopLayer 125.98 0 0))
+      (shape(circle BottomLayer 125.98 0 0))
+    )
+    (padstack p07b307235c9abb5a13
+      (shape(circle TopLayer 62.99 0 0))
+      (shape(circle BottomLayer 62.99 0 0))
+    )
+    (padstack p25bc1777bc541e5e14
+      (shape(polygon TopLayer 0.1 17.72 -15.75 -17.72 -15.75 -17.72 -15.75 -17.72 15.75 -17.72 15.75 17.72 15.75 17.72 15.75 17.72 -15.75))
+    )
+    (padstack p86bc084a1d151d9815
+      (shape(polygon TopLayer 0.1 26.58 -27.76 -26.57 -27.76 -26.57 -27.76 -26.57 27.76 -26.57 27.76 26.58 27.76 26.58 27.76 26.58 -27.76))
+    )
+    (padstack p81b6965dadc26dc315
+      (shape(polygon TopLayer 0.1 -27.76 -26.57 -27.76 26.58 -27.76 26.58 27.76 26.58 27.76 26.58 27.76 -26.57 27.76 -26.57 -27.76 -26.57))
+    )
+    (padstack p61716977f65a0c5514
+      (shape(polygon TopLayer 0.1 -15.75 -17.72 -15.75 17.72 -15.75 17.72 15.75 17.72 15.75 17.72 15.75 -17.72 15.75 -17.72 -15.75 -17.72))
+    )
+    (padstack p3c808d94d2b4e06e12
+      (shape(polygon TopLayer 0.1 39.37 39.37 39.37 -39.37 39.37 -39.37 -39.37 -39.37 -39.37 -39.37 -39.37 39.37 -39.37 39.37 39.37 39.37))
+    )
+    (padstack p3c9266d2575a9cb77
+      (shape(circle TopLayer 70.87 0 0))
+      (shape(circle BottomLayer 70.87 0 0))
+    )
+    (padstack p248f6e2dc729917e10
+      (shape(polygon TopLayer 0.1 39.37 -39.37 -39.37 -39.37 -39.37 -39.37 -39.37 39.37 -39.37 39.37 39.37 39.37 39.37 39.37 39.37 -39.37))
+      (shape(polygon BottomLayer 0.1 39.37 -39.37 -39.37 -39.37 -39.37 -39.37 -39.37 39.37 -39.37 39.37 39.37 39.37 39.37 39.37 39.37 -39.37))
+    )
+    (padstack p248f6e2dc729917e11
+      (shape(circle TopLayer 78.74 0 0))
+      (shape(circle BottomLayer 78.74 0 0))
+    )
+    (padstack p06e49ff9eb3f31ae11
+      (shape(polygon TopLayer 0.1 33.46 -33.46 -33.46 -33.46 -33.46 -33.46 -33.46 33.46 -33.46 33.46 33.46 33.46 33.46 33.46 33.46 -33.46))
+      (shape(polygon BottomLayer 0.1 33.46 -33.46 -33.46 -33.46 -33.46 -33.46 -33.46 33.46 -33.46 33.46 33.46 33.46 33.46 33.46 33.46 -33.46))
+    )
+    (padstack p06e49ff9eb3f31ae12
+      (shape(circle TopLayer 66.93 0 0))
+      (shape(circle BottomLayer 66.93 0 0))
+    )
+    (padstack p0b8859237916769e13
+      (shape(polygon TopLayer 0.1 -33.46 -33.46 -33.46 33.46 -33.46 33.46 33.46 33.46 33.46 33.46 33.46 -33.46 33.46 -33.46 -33.46 -33.46))
+      (shape(polygon BottomLayer 0.1 -33.46 -33.46 -33.46 33.46 -33.46 33.46 33.46 33.46 33.46 33.46 33.46 -33.46 33.46 -33.46 -33.46 -33.46))
+    )
+    (padstack p0a25d9abd53f830e7
+      (shape(polygon TopLayer 0.1 -15.88 -17.01 -15.88 17.01 -15.88 17.01 15.88 17.01 15.88 17.01 15.88 -17.01 15.88 -17.01 -15.88 -17.01))
+    )
+    (padstack pac7d466474fd36ee7
+      (shape(polygon TopLayer 0.1 17.01 -15.88 -17.01 -15.88 -17.01 -15.88 -17.01 15.88 -17.01 15.88 17.01 15.88 17.01 15.88 17.01 -15.88))
+    )
+    (padstack p5720f05da9fb25b420
+      (shape(polygon TopLayer 0.1 -19.68 -14.76 -19.68 14.76 -19.68 14.76 19.69 14.76 19.69 14.76 19.69 -14.76 19.69 -14.76 -19.68 -14.76))
+    )
+    (padstack p8bfa049a0f3a7a3e4
+      (shape(polygon TopLayer 0.1 -39.37 35.43 39.37 35.43 39.37 35.43 39.37 -35.43 39.37 -35.43 -39.37 -35.43 -39.37 -35.43 -39.37 35.43))
+    )
+    (padstack p2c44d64adc7fb68113
+      (shape(polygon TopLayer 0.1 15.75 -7.87 -15.75 -7.87 -15.75 -7.87 -15.75 7.87 -15.75 7.87 15.75 7.87 15.75 7.87 15.75 -7.87))
+    )
+    (padstack p2c44d64adc7fb68124
+      (shape(polygon TopLayer 0.1 7.87 15.75 7.87 -15.75 7.87 -15.75 -7.87 -15.75 -7.87 -15.75 -7.87 15.75 -7.87 15.75 7.87 15.75))
+    )
+    (padstack p2c44d64adc7fb68137
+      (shape(polygon TopLayer 0.1 -15.75 7.87 15.75 7.87 15.75 7.87 15.75 -7.87 15.75 -7.87 -15.75 -7.87 -15.75 -7.87 -15.75 7.87))
+    )
+    (padstack p2c44d64adc7fb68148
+      (shape(polygon TopLayer 0.1 -7.87 -15.75 -7.87 15.75 -7.87 15.75 7.87 15.75 7.87 15.75 7.87 -15.75 7.87 -15.75 -7.87 -15.75))
+    )
+    (padstack p2c44d64adc7fb68161
+      (shape(polygon TopLayer 0.1 -13.78 -13.78 -13.78 13.78 -13.78 13.78 13.78 13.78 13.78 13.78 13.78 -13.78 13.78 -13.78 -13.78 -13.78))
+    )
+    (padstack p2c44d64adc7fb68165
+      (shape(polygon TopLayer 0.1 -28.54 4.92 -4.92 28.54 -4.92 28.54 28.54 28.54 28.54 28.54 28.54 -28.55 28.54 -28.55 -28.54 -28.55 -28.54 -28.55 -28.54 4.92))
+    )
+    (padstack p2c44d64adc7fb68166
+      (shape(polygon TopLayer 0.1 -28.54 -28.54 -28.54 28.54 -28.54 28.54 28.54 28.54 28.54 28.54 28.54 -28.54 28.54 -28.54 -28.54 -28.54))
+    )
+    (padstack p38d98f913c2f067e8
+      (shape(polygon TopLayer 0.1 -49.21 -21.65 -49.21 21.65 -49.21 21.65 49.21 21.65 49.21 21.65 49.21 -21.65 49.21 -21.65 -49.21 -21.65))
+    )
+    (padstack p38d98f913c2f067e11
+      (shape(polygon TopLayer 0.1 -46.06 -70.87 -46.06 70.87 -46.06 70.87 46.06 70.87 46.06 70.87 46.06 -70.87 46.06 -70.87 -46.06 -70.87))
+    )
+    (padstack p281a9c163c48ef8e27
+      (shape(polygon TopLayer 0.1 -5.91 -25.59 -5.91 25.59 -5.91 25.59 5.91 25.59 5.91 25.59 5.91 -25.59 5.91 -25.59 -5.91 -25.59))
+    )
+    (padstack p281a9c163c48ef8e35
+      (shape(polygon TopLayer 0.1 11.81 -25.59 0 -25.59 0 -25.59 0 -25.59 0 -25.59 -11.81 -25.59 -11.81 -25.59 -11.81 25.59 -11.81 25.59 0 25.59 0 25.59 0 25.59 0 25.59 11.81 25.59 11.81 25.59 11.81 -25.59))
+    )
+    (padstack p281a9c163c48ef8e36
+      (shape(polygon TopLayer 0.1 -11.82 25.59 -0.01 25.59 -0.01 25.59 0 25.59 0 25.59 11.81 25.59 11.81 25.59 11.81 -25.59 11.81 -25.59 0 -25.59 0 -25.59 -0.01 -25.59 -0.01 -25.59 -11.82 -25.59 -11.82 -25.59 -11.82 25.59))
+    )
+    (padstack p281a9c163c48ef8e37
+      (shape(polygon TopLayer 0.1 11.81 -25.59 0 -25.59 0 -25.59 -0.01 -25.59 -0.01 -25.59 -11.82 -25.59 -11.82 -25.59 -11.82 25.59 -11.82 25.59 -0.01 25.59 -0.01 25.59 0 25.59 0 25.59 11.81 25.59 11.81 25.59 11.81 -25.59))
+    )
+    (padstack p281a9c163c48ef8e38
+      (shape(polygon TopLayer 0.1 11.81 -25.59 0.01 -25.59 0.01 -25.59 0.01 -25.59 0.01 -25.59 -11.81 -25.59 -11.81 -25.59 -11.81 25.59 -11.81 25.59 0 25.59 0 25.59 0 25.59 0 25.59 11.81 25.59 11.81 25.59 11.81 -25.59))
+    )
+    (padstack p281a9c163c48ef8e57
+      (shape(polygon TopLayer 0.1 23.62 -11.81 23.26 -15.91 22.2 -19.89 20.46 -23.62 18.1 -26.99 15.18 -29.91 11.81 -32.27 8.08 -34.01 4.1 -35.07 0 -35.43 -4.1 -35.07 -8.08 -34.01 -11.81 -32.27 -15.18 -29.91 -18.1 -26.99 -20.46 -23.62 -22.2 -19.89 -23.26 -15.91 -23.62 -11.81 -23.62 -11.81 -23.62 11.81 -23.62 11.81 -23.26 15.91 -22.2 19.89 -20.46 23.62 -18.1 26.99 -15.18 29.91 -11.81 32.27 -8.08 34.01 -4.1 35.07 0 35.43 4.1 35.07 8.08 34.01 11.81 32.27 15.18 29.91 18.1 26.99 20.46 23.62 22.2 19.89 23.26 15.91 23.62 11.81 23.62 11.81 23.62 -11.81))
+      (shape(polygon BottomLayer 0.1 23.62 -11.81 23.26 -15.91 22.2 -19.89 20.46 -23.62 18.1 -26.99 15.18 -29.91 11.81 -32.27 8.08 -34.01 4.1 -35.07 0 -35.43 -4.1 -35.07 -8.08 -34.01 -11.81 -32.27 -15.18 -29.91 -18.1 -26.99 -20.46 -23.62 -22.2 -19.89 -23.26 -15.91 -23.62 -11.81 -23.62 -11.81 -23.62 11.81 -23.62 11.81 -23.26 15.91 -22.2 19.89 -20.46 23.62 -18.1 26.99 -15.18 29.91 -11.81 32.27 -8.08 34.01 -4.1 35.07 0 35.43 4.1 35.07 8.08 34.01 11.81 32.27 15.18 29.91 18.1 26.99 20.46 23.62 22.2 19.89 23.26 15.91 23.62 11.81 23.62 11.81 23.62 -11.81))
+    )
+    (padstack p281a9c163c48ef8e58
+      (shape(polygon TopLayer 0.1 23.62 -15.75 23.26 -19.85 22.2 -23.83 20.46 -27.56 18.1 -30.93 15.18 -33.84 11.81 -36.21 8.08 -37.95 4.1 -39.01 0 -39.37 -4.1 -39.01 -8.08 -37.95 -11.81 -36.21 -15.18 -33.84 -18.1 -30.93 -20.46 -27.56 -22.2 -23.83 -23.26 -19.85 -23.62 -15.75 -23.62 -15.75 -23.62 15.75 -23.62 15.75 -23.26 19.85 -22.2 23.83 -20.46 27.56 -18.1 30.93 -15.18 33.84 -11.81 36.21 -8.08 37.95 -4.1 39.01 0 39.37 4.1 39.01 8.08 37.95 11.81 36.21 15.18 33.84 18.1 30.93 20.46 27.56 22.2 23.83 23.26 19.85 23.62 15.75 23.62 15.75 23.62 -15.75))
+      (shape(polygon BottomLayer 0.1 23.62 -15.75 23.26 -19.85 22.2 -23.83 20.46 -27.56 18.1 -30.93 15.18 -33.84 11.81 -36.21 8.08 -37.95 4.1 -39.01 0 -39.37 -4.1 -39.01 -8.08 -37.95 -11.81 -36.21 -15.18 -33.84 -18.1 -30.93 -20.46 -27.56 -22.2 -23.83 -23.26 -19.85 -23.62 -15.75 -23.62 -15.75 -23.62 15.75 -23.62 15.75 -23.26 19.85 -22.2 23.83 -20.46 27.56 -18.1 30.93 -15.18 33.84 -11.81 36.21 -8.08 37.95 -4.1 39.01 0 39.37 4.1 39.01 8.08 37.95 11.81 36.21 15.18 33.84 18.1 30.93 20.46 27.56 22.2 23.83 23.26 19.85 23.62 15.75 23.62 15.75 23.62 -15.75))
+    )
+    (padstack p281a9c163c48ef8e55
+      (shape(circle TopLayer 23.62 0 0))
+      (shape(circle BottomLayer 23.62 0 0))
+    )
+    (padstack p92672188e4934ca
+      (shape(polygon TopLayer 0.1 -334.65 -102.36 -334.65 102.36 -334.65 102.36 334.65 102.36 334.65 102.36 334.65 -102.36 334.65 -102.36 -334.65 -102.36))
+      (shape(polygon BottomLayer 0.1 -334.65 -102.36 -334.65 102.36 -334.65 102.36 334.65 102.36 334.65 102.36 334.65 -102.36 334.65 -102.36 -334.65 -102.36))
+    )
+  )
+  (network
+    (net GND
+      (pins u1-07b307235c9abb5a13 u1-25bc1777bc541e5e14 u1-86bc084a1d151d9815 u1-5adc0d28d211d59e15 u1-81b6965dadc26dc315 u1-84813397db07edee14 u1-61716977f65a0c5514 u1-248f6e2dc729917e11 u1-06e49ff9eb3f31ae11 u1-0b8859237916769e14 u1-13345dffe159c1ee7 u1-57aa21a43d2a3fde7 u1-0d6365045b1545f67 u1-6c67c661a41fdb0e7 u1-b7fa894f91ddc4fe7 u1-5720f05da9fb25b422 u1-5720f05da9fb25b423 u1-5d11a73d321d14ab22 u1-5d11a73d321d14ab23 u1-8bfa049a0f3a7a3e5 u1-593518c156b239555 u1-2c44d64adc7fb68113 u1-2c44d64adc7fb68114 u1-2c44d64adc7fb68123 u1-2c44d64adc7fb68126 u1-2c44d64adc7fb68148 u1-2c44d64adc7fb68149 u1-2c44d64adc7fb68150 u1-2c44d64adc7fb68151 u1-2c44d64adc7fb68152 u1-2c44d64adc7fb68153 u1-2c44d64adc7fb68154 u1-2c44d64adc7fb68155 u1-2c44d64adc7fb68156 u1-2c44d64adc7fb68157 u1-2c44d64adc7fb68158 u1-2c44d64adc7fb68159 u1-2c44d64adc7fb68160 u1-2c44d64adc7fb68161 u1-2c44d64adc7fb68162 u1-2c44d64adc7fb68163 u1-2c44d64adc7fb68164 u1-2c44d64adc7fb68165 u1-2c44d64adc7fb68166 u1-2c44d64adc7fb68167 u1-2c44d64adc7fb68168 u1-2c44d64adc7fb68169 u1-2c44d64adc7fb68170 u1-2c44d64adc7fb68171 u1-2c44d64adc7fb68172 u1-2c44d64adc7fb68173 u1-38d98f913c2f067e8 u1-281a9c163c48ef8e35 u1-281a9c163c48ef8e36 u1-281a9c163c48ef8e57 u1-281a9c163c48ef8e58 u1-281a9c163c48ef8e59 u1-281a9c163c48ef8e60)
+    )
+    (net V5_SERVO
+      (pins u1-07b307235c9abb5a14 u1-25bc1777bc541e5e15 u1-3c9266d2575a9cb78 u1-06e49ff9eb3f31ae12)
+    )
+    (net VIN5
+      (pins u1-86bc084a1d151d9816 u1-3c808d94d2b4e06e13 u1-3c9266d2575a9cb77 u1-248f6e2dc729917e10 u1-38d98f913c2f067e10)
+    )
+    (net 3V3
+      (pins u1-5adc0d28d211d59e16 u1-81b6965dadc26dc316 u1-84813397db07edee15 u1-0b8859237916769e13 u1-c4d6c7c512269a738 u1-79cc516665b1c9638 u1-0b75f5d32488189e8 u1-8a1f0850cff69efe8 u1-2c44d64adc7fb68115 u1-38d98f913c2f067e9 u1-38d98f913c2f067e11)
+    )
+    (net EN
+      (pins u1-61716977f65a0c5515 u1-c4d6c7c512269a737 u1-5720f05da9fb25b420 u1-5720f05da9fb25b421 u1-2c44d64adc7fb68120)
+    )
+    (net VBUS
+      (pins u1-3c808d94d2b4e06e12 u1-281a9c163c48ef8e37 u1-281a9c163c48ef8e38)
+    )
+    (net SERVO_SIG
+      (pins u1-06e49ff9eb3f31ae13 u1-ac7d466474fd36ee7)
+    )
+    (net BTN1_A
+      (pins u1-cb9e2fe2dd1fbb2e10 u1-8bfa049a0f3a7a3e7)
+    )
+    (net BTN1_B
+      (pins u1-cb9e2fe2dd1fbb2e11 u1-8bfa049a0f3a7a3e6)
+    )
+    (net BTN2_A
+      (pins u1-a6c01b2bfc3f21ce10 u1-593518c156b239557)
+    )
+    (net BTN2_B
+      (pins u1-a6c01b2bfc3f21ce11 u1-593518c156b239556)
+    )
+    (net UART_TX
+      (pins u1-0b8859237916769e15 u1-2c44d64adc7fb68143)
+    )
+    (net UART_RX
+      (pins u1-0b8859237916769e16 u1-2c44d64adc7fb68142)
+    )
+    (net LED1
+      (pins u1-0a25d9abd53f830e7 u1-8bfa049a0f3a7a3e4)
+    )
+    (net KEY1
+      (pins u1-0a25d9abd53f830e8 u1-13345dffe159c1ee8 u1-2c44d64adc7fb68131)
+    )
+    (net LED2
+      (pins u1-bb0d2a58d95d308e7 u1-593518c156b239554)
+    )
+    (net KEY2
+      (pins u1-bb0d2a58d95d308e8 u1-57aa21a43d2a3fde8 u1-2c44d64adc7fb68132)
+    )
+    (net PWM_IN
+      (pins u1-ac7d466474fd36ee8 u1-0d6365045b1545f68 u1-2c44d64adc7fb68130)
+    )
+    (net CC1
+      (pins u1-6c67c661a41fdb0e8 u1-281a9c163c48ef8e28)
+    )
+    (net CC2
+      (pins u1-b7fa894f91ddc4fe8 u1-281a9c163c48ef8e34)
+    )
+    (net BOOT
+      (pins u1-79cc516665b1c9637 u1-5d11a73d321d14ab20 u1-5d11a73d321d14ab21 u1-2c44d64adc7fb68135)
+    )
+    (net IO2_STRAP
+      (pins u1-0b75f5d32488189e7 u1-2c44d64adc7fb68117)
+    )
+    (net IO8_STRAP
+      (pins u1-8a1f0850cff69efe7 u1-2c44d64adc7fb68134)
+    )
+    (net USB_DN
+      (pins u1-2c44d64adc7fb68138 u1-281a9c163c48ef8e29 u1-281a9c163c48ef8e31)
+    )
+    (net USB_DP
+      (pins u1-2c44d64adc7fb68139 u1-281a9c163c48ef8e30 u1-281a9c163c48ef8e32)
+    )
+    (class  ''
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class GND 'GND'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class V5_SERVO 'V5_SERVO'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class VIN5 'VIN5'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class 3V3 '3V3'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class EN 'EN'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class VBUS 'VBUS'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class SERVO_SIG 'SERVO_SIG'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class BTN1_A 'BTN1_A'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class BTN1_B 'BTN1_B'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class BTN2_A 'BTN2_A'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class BTN2_B 'BTN2_B'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class UART_TX 'UART_TX'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class UART_RX 'UART_RX'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class LED1 'LED1'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class KEY1 'KEY1'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class LED2 'LED2'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class KEY2 'KEY2'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class PWM_IN 'PWM_IN'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class CC1 'CC1'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class CC2 'CC2'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class BOOT 'BOOT'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class IO2_STRAP 'IO2_STRAP'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class IO8_STRAP 'IO8_STRAP'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class USB_DN 'USB_DN'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+    (class USB_DP 'USB_DP'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 10)
+        (clearance 4.02)
+      )
+    )
+  )
+
+  (wiring
+  )
+)
