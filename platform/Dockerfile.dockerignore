@@ -1,0 +1,10 @@
+**/runs/
+**/build/
+dist/
+tools/
+.venv/
+qemu/src/
+qemu/out/
+**/__pycache__/
+**/*.egg-info/
+.git/

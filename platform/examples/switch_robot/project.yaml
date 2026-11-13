@@ -1,0 +1,206 @@
+emcosim: '0.1'
+name: switch_robot
+mcu:
+  type: esp32
+  backend: qemu
+  step_ms: 1
+  icount_shift: 3
+  supply: ldo3v3
+  current:
+    run_a: 0.05
+    reset_a: 0.02
+  brownout:
+    v_trip: 2.43
+    v_release: 2.53
+    note: ESP32 brown-out level 0 (CONFIG_ESP_BROWNOUT_DET_LVL_SEL_0)
+  firmware:
+    flash: firmware/switch_robot.bin
+    size_bytes: 266240
+    params: {}
+power:
+  nodes:
+    vin5:
+      c_f: 3.0e-05
+      net: VIN5
+      note: C3 + C4 (10 uF) + USB-C VBUS decoupling
+    v5_servo:
+      c_f: 0.0004701
+      net: V5_SERVO
+      note: C1 470 uF + C2 100 nF
+  sources:
+    charger:
+      node: vin5
+      v: 4.75
+      r_ohm: 0.3
+      i_limit_a: 2.0
+      note: 'assumed: 5.1 V 2 A USB charger, 1 m USB-C cable (0.2 ohm round trip), SS34 drop modelled
+        as a fixed 0.35 V + 0.1 ohm (forward bias only; it blocks back-feed into USB)'
+  branches:
+    f1:
+      from: vin5
+      to: v5_servo
+      r_ohm: 0.1729
+      note: RUEF110 cold resistance 0.15 ohm (assumed) + PCB copper 0.0229 ohm
+  regulators:
+    ldo3v3:
+      type: ldo
+      input: vin5
+      v_out: 3.3
+      dropout_v: 1.1
+      c_out_f: 2.0e-05
+      i_q_a: 0.005
+      note: U4 AMS1117-3.3, C5 10 uF + module decoupling
+mechanics:
+  timestep_s: 0.000125
+  parts: {}
+  # names the 建模 page shows for the parts of the MJCF (geom name prefix -> name); geoms that share
+  # a name are one part there. `print` links a part to its entry under printing.parts.
+  # test fixtures: what the robot is tested on (the wall, the existing wall switch, the socket).
+  # They are simulated and shown on the 仿真 page, not on the 建模 page.
+  fixtures: [wall, plate, rocker, socket_plate, socket_slot]
+  part_labels:
+    wall: 墙
+    plate: 开关面板
+    frame: {label: 86 盒框, print: frame}
+    cradle: {label: 舵机支架, print: servo_cradle}
+    servo: 舵机
+    shaft: 舵机输出轴
+    arm: {label: 按压臂, print: press_arm}
+    rocker: 开关翘板
+    servo_lead: 舵机线
+    j3_plug: 舵机线
+    socket_plate: 插座
+    socket_slot: 插座
+    charger: 充电头
+    charger_usb: 充电头
+    usb_cable: USB 线
+    usb_plug: USB 线
+    case: {label: 网关盒, print: gateway_case}
+    lid: {label: 网关盒盖, print: gateway_lid}
+  joints:
+    servo_axis:
+      body: press_arm
+      type: hinge
+      axis:
+      - 1
+      - 0
+      - 0
+      range_deg:
+      - -40
+      - 40
+    rocker_axis:
+      body: rocker
+      type: hinge
+      axis:
+      - 1
+      - 0
+      - 0
+      range_deg:
+      - -3.92
+      - 3.92
+  elements:
+    rocker_detent:
+      type: bistable
+      joint: rocker_axis
+      stable_deg: 3.5
+      peak_force_n: 3.0
+      lever_m: 0.024
+      note: assumed, same as simulation/parameters.json
+  probes:
+    press:
+      type: contact
+      geoms_a: arm_collision
+      geoms_b: rocker_collision
+  mjcf: mechanics/switch_robot.xml
+  initial_deg:
+    rocker_axis: 3.5
+actuators:
+  servo1:
+    type: servo
+    joint: servo_axis
+    node: v5_servo
+    preset: sg90
+    note: 'V0.5: J3 pin 2 (5 V after F1). The bench wiring (servo on the dev board 5V pin) is reproduced
+      by the stall_brownout scenario overrides'
+inputs:
+  button1:
+    type: button
+    active: low
+bindings:
+- pin: GPIO18
+  net: PWM_IN
+  to: servo1
+- pin: GPIO0
+  from: button1
+pcb:
+  file: pcb/carrier_v04.kicad_pcb
+  summary: pcb/carrier_v04.import.yaml
+printing:
+  parts:
+    press_arm:
+      file: print/PRINT_03_double_press_arm.stl
+      label: 按压臂
+      material: PETG
+      strength: strength/press_arm.yaml
+      settings:
+        layer_height: 0.16
+        wall_loops: 4
+        sparse_infill_density: 40%
+      note: bar flat on the bed, fingers up, no supports (mechanical/README.md); settings are suggestions
+        pending the strength check
+    frame:
+      file: print/PRINT_01_86_adjustable_frame.stl
+      label: 86 盒框
+      material: PLA
+      settings:
+        layer_height: 0.2
+        wall_loops: 3
+        sparse_infill_density: 20%
+    servo_cradle:
+      file: print/PRINT_02_strap_servo_cradle.stl
+      label: 舵机支架
+      material: PETG
+      settings:
+        layer_height: 0.2
+        wall_loops: 3
+        sparse_infill_density: 25%
+    gateway_case:
+      file: print/PRINT_04_gateway_case.stl
+      label: 网关盒
+      material: PLA
+      settings:
+        layer_height: 0.2
+        wall_loops: 2
+        sparse_infill_density: 15%
+    gateway_lid:
+      file: print/PRINT_05_gateway_lid.stl
+      label: 网关盒盖
+      material: PLA
+      settings:
+        layer_height: 0.2
+        wall_loops: 2
+        sparse_infill_density: 15%
+board:
+  kicad_pcb: pcb/v05/carrier_v05.kicad_pcb
+  netlist: pcb/v05/source/carrier_v05.net
+  source: pcb/v05/source/Switch_Robot_Carrier_V05.epro
+  rules: JLCPCB 2-layer (kicad_dru)
+circuit:
+  netlist: pcb/v05/source/carrier_v05.net
+  supply:
+    net: VBUS
+    v: 5.1
+    r_ohm: 0.2
+    note: 'assumed: 5.1 V USB charger, 1 m USB-C cable'
+  loads:
+    servo:
+      net: V5_SERVO
+      signal: act.servo1.i_supply
+    mcu:
+      net: 3V3
+      a: 0.05
+      note: ESP32-C3 average draw, same as mcu.current.run_a (assumed)
+  compare:
+    VIN5: node.vin5.v
+    V5_SERVO: node.v5_servo.v
+    3V3: mcu.rail_v
