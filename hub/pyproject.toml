@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "homehub"
+version = "0.1.0"
+description = "Local home hub on your own computer: MQTT recorder, SQLite, LAN control page"
+requires-python = ">=3.11"
+dependencies = ["paho-mqtt>=2.0", "pyserial>=3.5"]
+
+[project.optional-dependencies]
+xiaomi = ["xiaomi-ble", "home-assistant-bluetooth"]
+test = ["pytest"]
+
+[project.scripts]
+homehub = "homehub.__main__:main"
+
+[tool.setuptools]
+packages = ["homehub"]
+
+[tool.setuptools.package-data]
+homehub = ["static/*.html"]
