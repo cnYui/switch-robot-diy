@@ -1,5 +1,15 @@
 # 86 开关机器人与 Wi-Fi 遥控桥接器：V0.1 设计草稿
 
+## 用自己的电脑当家庭中枢（2026-11-14）
+
+开关（V0.5 板，ESP32-C3）通过家里 Wi-Fi 直连电脑，不需要单独的网关板：电脑上的 HomeHub 带一个 Mosquitto，把所有消息存进电脑里的 SQLite，提供局域网控制页面和手机快捷指令接口，电脑自带蓝牙顺便收体重秤广播。三部分：
+
+- `hub/`：电脑端中枢，安装和使用见 hub/README.md，消息格式见 hub/PROTOCOL.md。
+- `firmware/switch_mqtt/`：开关固件，release/ 里有可以直接用 esptool 烧的镜像。
+- `enclosure/`：控制盒 V0.4，在 V0.3 盒上补了对准 V0.5 USB-C 的开口。
+
+固件还没在实物板上跑过；中枢用模拟开关和真实 Mosquitto 跑通过整条链路。
+
 ## 仓库说明
 
 内容：Blender 机械件（mechanical/、fit-check/、demo/）、嘉立创 EDA 控制板（electronics/）、MuJoCo 仿真（simulation/）。全部是仿真与设计稿，没有实物验证，不能直接投产。
