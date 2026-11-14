@@ -17,7 +17,7 @@ test = ["pytest"]
 homehub = "homehub.__main__:main"
 
 [tool.setuptools]
-packages = ["homehub"]
+packages = ["homehub", "homehub.static"]
 
 [tool.setuptools.package-data]
-homehub = ["static/*.html"]
+"homehub.static" = ["*.html"]
