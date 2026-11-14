@@ -1,0 +1,45 @@
+{
+ "v03_rebuild_volume_mm3": 24329.0,
+ "v03_blender_stl_volume_mm3": 24329.0,
+ "v04_volume_mm3": 24365.0,
+ "pcb_case_overlap_mm3": 0.0,
+ "receptacle_case_overlap_mm3": 0.0,
+ "plug_overmold_case_overlap_mm3": 0.0,
+ "plug_overmold_case_overlap_v03_mm3": 133.79,
+ "opening_mm": {
+  "width": 14.0,
+  "height": 9.0,
+  "centre_x_from_box_centre": 0,
+  "z_from_box_bottom": [
+   5.63,
+   14.63
+  ],
+  "wall": "-y long wall"
+ },
+ "receptacle_face_to_outer_wall_mm": 7.5,
+ "assumptions": {
+  "pcb_bottom_z": 11.9,
+  "usb_body_mm": [
+   8.94,
+   7.35,
+   3.26
+  ],
+  "plug_overmold_mm": [
+   12.5,
+   6.5
+  ]
+ },
+ "v04_watertight": true,
+ "v04_bounds_mm": [
+  [
+   76.0,
+   -42.0,
+   5.0
+  ],
+  [
+   152.0,
+   14.0,
+   35.0
+  ]
+ ]
+}

@@ -1,0 +1,79 @@
+menu "Switch Robot"
+
+    choice SWROBOT_MODE
+        prompt "Actuator mode"
+        default SWROBOT_MODE_SERVO
+        help
+            SERVO: self-built robot, a servo with a double press arm rocks the 86 switch (J3).
+            PHOTOMOS: retrofit route, U1/U2 PhotoMOS short the ON/OFF buttons of an
+            existing remote (J4 = ON button, J5 = OFF button).
+
+        config SWROBOT_MODE_SERVO
+            bool "Servo press arm (J3)"
+        config SWROBOT_MODE_PHOTOMOS
+            bool "PhotoMOS remote buttons (J4/J5)"
+    endchoice
+
+    config SWROBOT_SERVO_GPIO
+        int "Servo PWM GPIO (V0.5: GPIO4 -> R5 -> J3)"
+        default 4
+
+    config SWROBOT_KEY_ON_GPIO
+        int "ON button GPIO (V0.5: GPIO5 = KEY1 -> U1 -> J4)"
+        default 5
+
+    config SWROBOT_KEY_OFF_GPIO
+        int "OFF button GPIO (V0.5: GPIO6 = KEY2 -> U2 -> J5)"
+        default 6
+
+    config SWROBOT_BUTTON_GPIO
+        int "Local button GPIO (V0.5: GPIO9 = BOOT/SW2). Short press toggles, hold 5 s clears Wi-Fi/MQTT"
+        default 9
+
+    config SWROBOT_SERVO_NEUTRAL_US
+        int "Default servo neutral pulse (us); changeable later from the hub"
+        default 1500
+        range 500 2500
+
+    config SWROBOT_SERVO_PRESS_DEG
+        int "Default press angle from neutral (deg); simulated value, calibrate on the real switch"
+        default 17
+        range 1 60
+
+    config SWROBOT_SERVO_US_PER_DEG_X10
+        int "Pulse width per degree (tenths of us); SG90 class ~11.1 us/deg"
+        default 111
+
+    config SWROBOT_PRESS_HOLD_MS
+        int "Default press hold time (ms)"
+        default 400
+        range 50 3000
+
+    config SWROBOT_SERVO_RELEASE_PWM
+        bool "Stop PWM after returning to neutral (needs the return spring)"
+        default n
+        help
+            Cuts servo hum at rest, but without the return spring the arm can drift
+            onto the rocker. The spring is not in the CAD yet, so this is off.
+
+endmenu
+
+menu "Home hub defaults"
+
+    config HOME_WIFI_SSID
+        string "Wi-Fi SSID baked into the firmware (optional, usually set over USB)"
+        default ""
+
+    config HOME_WIFI_PASSWORD
+        string "Wi-Fi password baked into the firmware (optional)"
+        default ""
+
+    config HOME_MQTT_URI
+        string "MQTT broker URI baked into the firmware (optional; empty = ask the LAN)"
+        default ""
+
+    config HOME_DISCOVERY_PORT
+        int "UDP port the hub answers \"HOMEHUB?\" on"
+        default 8781
+
+endmenu

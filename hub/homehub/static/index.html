@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>家庭中枢</title>
+<style>
+:root{--bg:#f5f5f7;--card:#fff;--text:#1d1d1f;--muted:#6e6e73;--line:#d2d2d7;--accent:#0071e3;--ok:#1a7f37;--bad:#c9341c;--chip:#e8e8ed}
+@media (prefers-color-scheme:dark){:root{--bg:#000;--card:#1c1c1e;--text:#f5f5f7;--muted:#a1a1a6;--line:#38383a;--accent:#2997ff;--ok:#32d74b;--bad:#ff6961;--chip:#2c2c2e}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}
+header{display:flex;align-items:center;gap:12px;padding:16px;max-width:960px;margin:0 auto}
+header h1{font-size:22px;margin:0;flex:1}
+.pill{font-size:12px;padding:3px 10px;border-radius:99px;background:var(--chip);color:var(--muted)}
+.pill.ok{color:var(--ok)}.pill.bad{color:var(--bad)}
+main{max-width:960px;margin:0 auto;padding:0 16px 32px}
+h2{font-size:13px;color:var(--muted);font-weight:600;margin:20px 4px 8px;letter-spacing:.02em}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.card{background:var(--card);border-radius:14px;padding:14px;border:1px solid var(--line)}
+.row{display:flex;align-items:center;gap:8px}
+.name{font-weight:600;font-size:16px;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:text}
+.sub{color:var(--muted);font-size:12px;margin-top:2px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--muted)}.dot.on{background:var(--ok)}
+.big{font-size:28px;font-weight:600;margin:8px 0 2px}
+button{font:inherit;border:0;border-radius:10px;padding:9px 14px;background:var(--chip);color:var(--text);cursor:pointer}
+button.primary{background:var(--accent);color:#fff}
+button:disabled{opacity:.45;cursor:default}
+.btns{display:flex;gap:8px;margin-top:10px}.btns button{flex:1}
+details{margin-top:10px}summary{cursor:pointer;color:var(--accent);font-size:13px}
+label{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:13px;margin-top:8px}
+input[type=number],input[type=password],input[type=text]{width:110px;font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--text)}
+.log{font:12px/1.5 ui-monospace,Consolas,monospace;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px;max-height:280px;overflow:auto;white-space:pre-wrap;word-break:break-all}
+.empty{color:var(--muted);padding:12px 4px}
+#login{max-width:360px;margin:15vh auto;padding:0 16px}
+#login input{width:100%;margin:10px 0}
+footer{color:var(--muted);font-size:12px;text-align:center;padding:12px}
+</style>
+</head>
+<body>
+<div id="login" hidden>
+  <h1 style="font-size:22px">家庭中枢</h1>
+  <p class="sub">输入口令。在电脑上运行 <code>python -m homehub info</code> 可以看到。</p>
+  <input id="tok" type="password" placeholder="口令" autocomplete="current-password">
+  <button class="primary" id="go" style="width:100%">进入</button>
+  <p id="loginErr" class="sub" style="color:var(--bad)"></p>
+</div>
+<div id="app" hidden>
+<header><h1>家庭中枢</h1><span id="mq" class="pill">MQTT</span></header>
+<main>
+  <div id="scenesWrap" hidden><h2>场景</h2><div id="scenes" class="row" style="flex-wrap:wrap"></div></div>
+  <h2>开关</h2><div id="switches" class="grid"></div>
+  <h2>网关</h2><div id="gateways" class="grid"></div>
+  <h2>蓝牙设备（经网关）</h2><div id="ble" class="grid"></div>
+  <h2>实时消息</h2><div id="log" class="log"></div>
+</main>
+<footer id="foot"></footer>
+</div>
+<script>
+const $ = s => document.querySelector(s);
+let TOKEN = '';
+try { TOKEN = localStorage.getItem('homehub_token') || ''; } catch (e) {}
+const api = async (path, body) => {
+  const r = await fetch(path, {method: body ? 'POST' : 'GET',
+    headers: {'Authorization': 'Bearer ' + TOKEN, 'Content-Type': 'application/json'},
+    body: body ? JSON.stringify(body) : undefined});
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok) throw Object.assign(new Error(j.error || r.status), {status: r.status});
+  return j;
+};
+const ago = ts => { if (!ts) return '—'; const s = Date.now()/1000 - ts;
+  return s < 60 ? '刚刚' : s < 3600 ? Math.floor(s/60)+' 分钟前' : s < 86400 ? Math.floor(s/3600)+' 小时前' : Math.floor(s/86400)+' 天前'; };
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const LABELS = {weight_kg:'体重 kg', impedance_ohm:'阻抗 Ω', temperature:'温度 °C', humidity:'湿度 %'};
+
+function switchCard(d) {
+  const on = d.status === 'online', st = (d.state && d.state.power) || '—', info = d.info || {}, cfg = info.config || {};
+  return `<div class="card" data-id="${esc(d.id)}">
+    <div class="row"><span class="dot ${on?'on':''}"></span><span class="name" data-rename>${esc(d.name || info.name || d.id)}</span></div>
+    <div class="sub">${esc(d.id)} · ${on?'在线':'离线'} · ${ago(d.last_seen)}${info.ip?' · '+esc(info.ip):''}</div>
+    <div class="big">${st==='ON'?'开':st==='OFF'?'关':'—'}</div>
+    <div class="sub">记录的状态（开环，手动拨过开关会不一致）</div>
+    <div class="btns"><button class="primary" data-cmd="ON" ${on?'':'disabled'}>开</button>
+      <button data-cmd="OFF" ${on?'':'disabled'}>关</button></div>
+    <details><summary>校准按压</summary>
+      <label>按压角度（度）<input type="number" name="press_deg" min="1" max="60" value="${cfg.press_deg ?? 17}"></label>
+      <label>保持时间（毫秒）<input type="number" name="hold_ms" min="50" max="3000" value="${cfg.hold_ms ?? 400}"></label>
+      <label>中立脉宽（微秒）<input type="number" name="neutral_us" min="500" max="2500" value="${cfg.neutral_us ?? 1500}"></label>
+      <label>方向反了<input type="checkbox" name="invert" ${cfg.invert?'checked':''}></label>
+      <div class="btns"><button data-save>保存到开关</button></div>
+    </details></div>`;
+}
+function gatewayCard(d) {
+  const on = d.status === 'online', info = d.info || {};
+  return `<div class="card" data-id="${esc(d.id)}">
+    <div class="row"><span class="dot ${on?'on':''}"></span><span class="name" data-rename>${esc(d.name || info.name || d.id)}</span></div>
+    <div class="sub">${esc(d.id)} · ${on?'在线':'离线'} · ${ago(d.last_seen)}${info.ip?' · '+esc(info.ip):''}</div>
+    <div class="sub" style="margin-top:8px">固件 ${esc(info.fw || '—')} · ${esc(info.chip || '')}</div></div>`;
+}
+function bleCard(d) {
+  const vals = d.state || {}, info = d.info || {};
+  const rows = Object.entries(vals).map(([k,v]) => `<div class="row"><span class="sub" style="flex:1">${esc(LABELS[k]||k)}</span><b>${esc(v)}</b></div>`).join('');
+  return `<div class="card" data-id="${esc(d.id)}">
+    <div class="row"><span class="dot on"></span><span class="name" data-rename>${esc(d.name || info.mac || d.id)}</span></div>
+    <div class="sub">${esc(info.mac || '')} · 经 ${esc(info.via || '')} · ${ago(d.last_seen)}</div>
+    <div style="margin-top:8px">${rows || '<span class="sub">还没有解出数值</span>'}</div></div>`;
+}
+async function refresh() {
+  const j = await api('/api/devices');
+  const mq = $('#mq'); mq.textContent = j.mqtt_connected ? 'MQTT 已连接' : 'MQTT 未连接'; mq.className = 'pill ' + (j.mqtt_connected ? 'ok' : 'bad');
+  const by = k => j.devices.filter(d => (d.kind || (d.info && d.info.kind)) === k);
+  $('#switches').innerHTML = by('switch').map(switchCard).join('') || '<div class="empty">还没有开关。用 USB 连上开关，运行 python -m homehub provision。</div>';
+  $('#gateways').innerHTML = by('gateway').map(gatewayCard).join('') || '<div class="empty">还没有网关。</div>';
+  $('#ble').innerHTML = by('ble').map(bleCard).join('') || '<div class="empty">网关转发来的蓝牙数据会出现在这里。</div>';
+  $('#scenesWrap').hidden = !j.scenes.length;
+  $('#scenes').innerHTML = j.scenes.map(s => `<button data-scene="${esc(s)}">${esc(s)}</button>`).join('');
+  const st = await api('/api/stats');
+  $('#foot').textContent = `数据都在这台电脑：${st.db} · ${st.messages} 条消息 · ${(st.bytes/1048576).toFixed(1)} MB`;
+}
+function logLine(ev) {
+  const t = new Date(ev.ts*1000).toLocaleTimeString();
+  const el = $('#log'); el.textContent = `${t}  ${ev.topic}  ${typeof ev.payload === 'string' ? ev.payload : JSON.stringify(ev.payload)}\n` + el.textContent.slice(0, 20000);
+}
+let timer;
+function live() {
+  const es = new EventSource('/api/stream?token=' + encodeURIComponent(TOKEN));
+  es.onmessage = m => { const ev = JSON.parse(m.data); logLine(ev); clearTimeout(timer); timer = setTimeout(refresh, 300); };
+  es.onerror = () => { es.close(); setTimeout(live, 3000); };
+}
+document.addEventListener('click', async e => {
+  const card = e.target.closest('[data-id]'); const id = card && card.dataset.id;
+  try {
+    if (e.target.dataset.cmd) { e.target.disabled = true; await api(`/api/devices/${id}/command`, {cmd: e.target.dataset.cmd, source: 'page'}); }
+    else if (e.target.hasAttribute('data-save')) {
+      const v = n => card.querySelector(`[name=${n}]`);
+      await api(`/api/devices/${id}/config`, {press_deg: +v('press_deg').value, hold_ms: +v('hold_ms').value,
+        neutral_us: +v('neutral_us').value, invert: v('invert').checked, source: 'page'});
+      e.target.textContent = '已发送';
+    } else if (e.target.dataset.scene) { const r = await api(`/api/scenes/${e.target.dataset.scene}`, {source: 'page'}); logLine({ts: Date.now()/1000, topic: 'scene', payload: r}); }
+    else if (e.target.hasAttribute('data-rename')) {
+      const name = prompt('名字', e.target.textContent); if (name) { await api(`/api/devices/${id}/name`, {name}); refresh(); }
+    }
+  } catch (err) { alert(err.message); } finally { setTimeout(refresh, 800); }
+});
+async function start() {
+  try { await refresh(); $('#login').hidden = true; $('#app').hidden = false; live(); }
+  catch (err) { $('#app').hidden = true; $('#login').hidden = false; if (err.status !== 401) $('#loginErr').textContent = err.message; }
+}
+$('#go').onclick = () => { TOKEN = $('#tok').value.trim(); try { localStorage.setItem('homehub_token', TOKEN); } catch (e) {} start(); };
+$('#tok').addEventListener('keydown', e => { if (e.key === 'Enter') $('#go').click(); });
+start();
+</script>
+</body>
+</html>
